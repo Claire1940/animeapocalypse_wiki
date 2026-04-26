@@ -47,16 +47,35 @@ const LoadingPlaceholder = ({ height = 'h-64' }: { height?: string }) => (
   <div className={`${height} bg-muted/40 border border-border rounded-xl animate-pulse`} />
 )
 
+type ModuleLinkMap = Record<string, { url: string; title: string } | null>
+
 interface HomePageClientProps {
   latestArticles: ContentItemWithType[]
+  moduleLinkMap: ModuleLinkMap
   locale: string
   featuredVideo: FeaturedVideo
 }
 
-export default function HomePageClient({ latestArticles, locale, featuredVideo }: HomePageClientProps) {
+export default function HomePageClient({ latestArticles, moduleLinkMap, locale, featuredVideo }: HomePageClientProps) {
   const rawMessages = useMessages() as any
   const t = rawMessages?.hero?.title?.includes('Anime Apocalypse') ? rawMessages : enMessages
   const [copiedCode, setCopiedCode] = useState<string | null>(null)
+
+  const renderModuleTitle = (moduleKey: string, title: string) => {
+    const link = moduleLinkMap[moduleKey]
+    if (!link) return title
+
+    const href = locale === 'en' ? link.url : `/${locale}${link.url}`
+    return (
+      <a
+        href={href}
+        title={link.title}
+        className="inline-flex items-center justify-center gap-2 hover:text-[hsl(var(--nav-theme-light))] transition-colors"
+      >
+        {title}
+      </a>
+    )
+  }
 
   const copyCode = async (code: string) => {
     await navigator.clipboard.writeText(code)
@@ -467,7 +486,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Gift className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {codeModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{codeModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseCodes', codeModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{codeModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{codeModule.intro}</p>
           </div>
@@ -563,7 +582,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <BookOpen className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {beginnerModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{beginnerModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseBeginnerGuide', beginnerModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{beginnerModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{beginnerModule.intro}</p>
           </div>
@@ -620,7 +639,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Trophy className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {tierModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{tierModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseAbilityTierList', tierModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{tierModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{tierModule.intro}</p>
           </div>
@@ -675,7 +694,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Zap className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {abilitiesModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{abilitiesModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseAbilitiesGuide', abilitiesModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{abilitiesModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{abilitiesModule.intro}</p>
           </div>
@@ -766,7 +785,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {gadgetsModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gadgetsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseGadgetsGuide', gadgetsModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{gadgetsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{gadgetsModule.intro}</p>
           </div>
@@ -810,7 +829,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {gadgetTierModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gadgetTierModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseGadgetTierList', gadgetTierModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{gadgetTierModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{gadgetTierModule.intro}</p>
           </div>
@@ -872,7 +891,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {traitsModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{traitsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseTraitsGuide', traitsModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{traitsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{traitsModule.intro}</p>
           </div>
@@ -924,7 +943,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {cardsModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{cardsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseCardsGuide', cardsModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{cardsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{cardsModule.intro}</p>
           </div>
@@ -967,7 +986,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {infiniteModeModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{infiniteModeModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseInfiniteModeGuide', infiniteModeModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{infiniteModeModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{infiniteModeModule.intro}</p>
           </div>
@@ -1017,7 +1036,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <HeartPulse className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {survivalModeModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{survivalModeModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseSurvivalModeGuide', survivalModeModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{survivalModeModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{survivalModeModule.intro}</p>
           </div>
@@ -1057,7 +1076,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {mapsModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{mapsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseMapsGuide', mapsModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{mapsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{mapsModule.intro}</p>
           </div>
@@ -1095,7 +1114,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <MapPin className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {shibuyaModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{shibuyaModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseShibuyaGuide', shibuyaModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{shibuyaModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{shibuyaModule.intro}</p>
           </div>
@@ -1133,7 +1152,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {impelDownModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{impelDownModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseImpelDownGuide', impelDownModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{impelDownModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{impelDownModule.intro}</p>
           </div>
@@ -1197,7 +1216,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {farmingModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{farmingModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseFarmingGuide', farmingModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{farmingModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{farmingModule.intro}</p>
           </div>
@@ -1299,7 +1318,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <HeartPulse className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {petsTitlesCosmeticsModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{petsTitlesCosmeticsModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypsePetsTitlesCosmeticsGuide', petsTitlesCosmeticsModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{petsTitlesCosmeticsModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{petsTitlesCosmeticsModule.intro}</p>
           </div>
@@ -1350,7 +1369,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
               {controlsMovementModule.eyebrow}
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">{controlsMovementModule.title}</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{renderModuleTitle('animeApocalypseControlsMovementGuide', controlsMovementModule.title)}</h2>
             <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{controlsMovementModule.subtitle}</p>
             <p className="text-muted-foreground max-w-4xl mx-auto">{controlsMovementModule.intro}</p>
           </div>

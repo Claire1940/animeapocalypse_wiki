@@ -14,46 +14,46 @@ interface ArticleWithType extends ContentItem {
 
 // Module sub-field mapping: moduleKey -> { field, nameKey }
 const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
-  lucidBlocksBeginnerGuide: { field: 'steps', nameKey: 'title' },
-  lucidBlocksApotheosisCrafting: { field: 'cards', nameKey: 'name' },
-  lucidBlocksToolsAndWeapons: { field: 'items', nameKey: 'name' },
-  lucidBlocksStorageAndInventory: { field: 'solutions', nameKey: 'name' },
-  lucidBlocksQualiaAndBaseBuilding: { field: 'cards', nameKey: 'name' },
-  lucidBlocksWorldRegions: { field: 'regions', nameKey: 'name' },
-  lucidBlocksCreaturesAndEnemies: { field: 'creatures', nameKey: 'name' },
-  lucidBlocksMobilityGear: { field: 'items', nameKey: 'name' },
-  lucidBlocksFarmingAndGrowth: { field: 'sections', nameKey: 'name' },
-  lucidBlocksBestEarlyUnlocks: { field: 'priorities', nameKey: 'name' },
-  lucidBlocksAchievementTracker: { field: 'groups', nameKey: 'name' },
-  lucidBlocksSingleplayerAndPlatformFAQ: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSteamDeckAndController: { field: 'faqs', nameKey: 'question' },
-  lucidBlocksSettingsAndAccessibility: { field: 'settings', nameKey: 'name' },
-  lucidBlocksUpdatesAndPatchNotes: { field: 'entries', nameKey: 'title' },
-  lucidBlocksCrashFixAndTroubleshooting: { field: 'steps', nameKey: 'title' },
+  animeApocalypseCodes: { field: 'items', nameKey: 'code' },
+  animeApocalypseBeginnerGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseAbilityTierList: { field: 'items', nameKey: 'label' },
+  animeApocalypseAbilitiesGuide: { field: 'items', nameKey: 'name' },
+  animeApocalypseGadgetsGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseGadgetTierList: { field: 'items', nameKey: 'label' },
+  animeApocalypseTraitsGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseCardsGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseInfiniteModeGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseSurvivalModeGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseMapsGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseShibuyaGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseImpelDownGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseFarmingGuide: { field: 'items', nameKey: 'resource' },
+  animeApocalypsePetsTitlesCosmeticsGuide: { field: 'items', nameKey: 'title' },
+  animeApocalypseControlsMovementGuide: { field: 'items', nameKey: 'title' },
 }
 
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  animeApocalypseCodes: ['codes', 'redeem', 'rewards', 'spins', 'trait rerolls'],
+  animeApocalypseBeginnerGuide: ['beginner', 'noob to pro', 'progression', 'gameplay', 'farming'],
+  animeApocalypseAbilityTierList: ['best abilities', 'tier list', 'powers', 'ranks', 'Shadow Monarch'],
+  animeApocalypseAbilitiesGuide: ['abilities', 'ability spins', 'gacha', 'awakening', 'lucky spins'],
+  animeApocalypseGadgetsGuide: ['gadgets', 'gadget spins', 'Black Hole', 'Infinity', 'Time Stop'],
+  animeApocalypseGadgetTierList: ['best gadgets', 'gadget tier', 'Black Hole', 'Infinity', 'Time Stop'],
+  animeApocalypseTraitsGuide: ['trait rerolls', 'traits', 'reroll tokens', 'damage', 'cooldown'],
+  animeApocalypseCardsGuide: ['cards', 'best cards', 'cooldown reduction', 'wealth', 'extra lives'],
+  animeApocalypseInfiniteModeGuide: ['infinite mode', 'wave farming', 'survival', 'cooldown', 'enemy grouping'],
+  animeApocalypseSurvivalModeGuide: ['survival guide', 'zombie waves', 'boss rooms', 'movement', 'dungeon'],
+  animeApocalypseMapsGuide: ['maps', 'Shibuya', 'Impel Down', 'dungeon', 'layout'],
+  animeApocalypseShibuyaGuide: ['Shibuya', 'farming methods', 'beginner', 'infinite mode', 'enemy grouping'],
+  animeApocalypseImpelDownGuide: ['Impel Down', 'prison', 'lava', 'wall running', 'boss rooms'],
+  animeApocalypseFarmingGuide: ['farming', 'coins', 'drops', 'raid tickets', 'spins'],
+  animeApocalypsePetsTitlesCosmeticsGuide: ['pets', 'titles', 'cosmetics', 'weapon skins', 'crafting'],
+  animeApocalypseControlsMovementGuide: ['controls', 'movement', 'dash', 'slide', 'wall run'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['anime', 'apocalypse', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title after stripping the site theme.
+  const strippedQuery = normalizedQuery.replace(/anime apocalypse\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/anime apocalypse\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
@@ -164,7 +164,7 @@ export async function buildModuleLinkMap(locale: Language): Promise<ModuleLinkMa
     if (Array.isArray(subItems)) {
       for (let i = 0; i < subItems.length; i++) {
         const itemName = subItems[i]?.[fieldConfig.nameKey] as string
-        if (itemName) {
+        if (typeof itemName === 'string' && itemName) {
           const key = `${moduleKey}::${fieldConfig.field}::${i}`
           linkMap[key] = findBestMatch(itemName, allArticles)
         }

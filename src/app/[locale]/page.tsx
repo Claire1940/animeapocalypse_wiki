@@ -2,6 +2,7 @@ import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Locale } from '@/i18n/routing'
 import {
   EXTERNAL_LINKS,
@@ -56,6 +57,7 @@ export default async function HomePage({ params }: PageProps) {
 
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
+  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
   const heroImageUrl = new URL('/images/hero.webp', SITE_URL).toString()
   const homeStructuredData = {
     '@context': 'https://schema.org',
@@ -136,6 +138,7 @@ export default async function HomePage({ params }: PageProps) {
       />
       <HomePageClient
         latestArticles={latestArticles}
+        moduleLinkMap={moduleLinkMap}
         locale={locale}
         featuredVideo={FEATURED_VIDEO}
       />
