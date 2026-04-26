@@ -1,12 +1,17 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Anime Apocalypse Wiki - Codes, Tier List & Beginner Guide",
+  "short_name": "Anime Apoc",
+  "description": "Anime Apocalypse Wiki covers latest codes, abilities, gadgets, weapons, bosses, farming routes, tier lists, maps, controls, and beginner tips for Roblox.",
+  "id": "/",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en",
+  "dir": "ltr",
+  "theme_color": "#e52e58",
+  "background_color": "#110f1a",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
