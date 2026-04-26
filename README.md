@@ -1,7 +1,7 @@
 # Game Wiki Template
 
 A production-ready, multilingual game wiki template built with Next.js 15.
-Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
+Powers 63+ game wiki sites with SEO optimization, MDX content, and Docker deployment.
 
 ## Features
 
@@ -14,55 +14,71 @@ Powers 47+ game wiki sites with SEO optimization, MDX content, and Docker deploy
 
 ## Sites Powered by This Template
 
-| Wiki | URL |
-|------|-----|
-| Anime Overload Wiki | https://www.animeoverloadwiki.wiki |
-| Anime Overlord Wiki | https://www.animeoverlord.wiki |
-| Arcane Lineage Wiki | https://www.arcanelineage.wiki |
-| Arena Zero Movie Wiki | https://www.arenazeromovie.wiki |
-| Be A Lucky Block Wiki | https://www.bealuckyblockwiki.wiki |
-| Bite by Night Wiki | https://www.bitebynight.wiki |
-| Bridger Western Wiki | https://www.bridgerwestern.wiki |
-| Car Mechanic Simulator 2026 Wiki | https://www.carmechanicsimulator2026.wiki |
-| Cookie Run Oven Smash Wiki | https://www.cookierunovensmash.wiki |
-| Crime Scene Cleaner Wiki | https://www.crimescenecleaner.wiki |
-| Crimson Desert Wiki | https://www.crimsondesertwiki.wiki |
-| Cursed Gear Wiki | https://www.cursedgear.wiki |
-| Dissidia Duellum Final Fantasy Wiki | https://www.dissidiaduellumfinalfantasy.wiki |
-| Doom by Fate Wiki | https://www.doombyfate.wiki |
-| Drag Drive Simulator Wiki | https://www.dragdrivesimulator.wiki |
-| Exoria Wiki | https://www.exoria.wiki |
-| Gemma 4 Wiki | https://www.gemma4.wiki |
-| Gray Zone Warfare Wiki | https://www.grayzonewarfarewiki.wiki |
-| Hozy Wiki | https://www.hozywiki.wiki |
-| Idols of Ash Wiki | https://www.idols-of-ash.wiki |
-| Last Epoch Wiki | https://www.lastepoch.wiki |
-| Life is Strange Reunion Wiki | https://www.lifeisstrangereunion.wiki |
-| Morbid Metal Wiki | https://www.morbid-metal.wiki |
-| Poppy Playtime Chapter 6 Wiki | https://www.poppyplaytimechapter6.wiki |
-| Pragmata Wiki | https://www.pragmata.wiki |
-| Ragnarok Origin Classic Wiki | https://www.ragnarokoriginclassic.wiki |
-| Reawakened Wiki | https://www.reawakened.wiki |
-| Retro Rewind Video Store Simulator Wiki | https://www.retrorewindvideostoresimulator.wiki |
-| Road to Vostok Wiki | https://www.road-to-vostok.wiki |
-| Star Savior Wiki | https://www.starsavior.wiki |
-| Super Meat Boy 3D Wiki | https://www.supermeatboy3d.wiki |
-| Superstar Baseball Wiki | https://www.superstar-baseball.wiki |
-| Superstar Baseball Wiki | https://www.superstarbaseballwiki.wiki |
-| Tensura Incremental Wiki | https://www.tensuraincremental.wiki |
-| The Division Resurgence Wiki | https://www.thedivisionresurgence.wiki |
-| The Occultist Wiki | https://www.theoccultist.wiki |
-| Tomodachi Life Wiki | https://www.tomodachilife.wiki |
-| Tomodachi Life: Living the Dream Wiki | https://www.tomodachilifelivingthedream.wiki |
-| Unwell Winter Games Wiki | https://www.unwellwintergames.wiki |
-| Pokemon Champions Wiki | https://www.pokemonchampions.wiki |
-| Borderlands Mobile Wiki | https://www.borderlandsmobile.wiki |
-| Summon Heroes Wiki | https://www.summonheroeswiki.wiki |
-| Anime Reversal Wiki | https://www.animereversal.wiki |
-| Clover Origins Wiki | https://www.cloverorigins.wiki |
-| Pilgrimmed Wiki | https://www.pilgrammedwiki.wiki |
-| Sol Cesto Wiki | https://www.sol-cesto.wiki |
-| Metro 2039 Wiki | https://www.metro2039.wiki |
+| Domain | URL | Keywords |
+|--------|-----|----------|
+| animeoverloadwiki.wiki | https://www.animeoverloadwiki.wiki | anime overload |
+| animeoverlord.wiki | https://www.animeoverlord.wiki | animeoverlord |
+| arcanelineage.wiki | https://www.arcanelineage.wiki | arcanelineage |
+| arenazeromovie.wiki | https://www.arenazeromovie.wiki | arenazeromovie |
+| bealuckyblockwiki.wiki | https://www.bealuckyblockwiki.wiki | be a lucky block |
+| bitebynight.wiki | https://www.bitebynight.wiki | bite by night |
+| bridgerwestern.wiki | https://www.bridgerwestern.wiki | bridger western |
+| carmechanicsimulator2026.wiki | https://www.carmechanicsimulator2026.wiki | carmechanicsimulator2026 |
+| cookierunovensmash.wiki | https://www.cookierunovensmash.wiki | cookie run oven smash |
+| crimescenecleaner.wiki | https://www.crimescenecleaner.wiki | crimescenecleaner |
+| crimsondesertwiki.wiki | https://www.crimsondesertwiki.wiki | crimson desert |
+| cursedgear.wiki | https://www.cursedgear.wiki | cursed gear |
+| dissidiaduellumfinalfantasy.wiki | https://www.dissidiaduellumfinalfantasy.wiki | dissidia duellum final fantasy |
+| doombyfate.wiki | https://www.doombyfate.wiki | doombyfate |
+| dragdrivesimulator.wiki | https://www.dragdrivesimulator.wiki | drag drive simulator |
+| exoria.wiki | https://www.exoria.wiki | exoria |
+| gemma4.wiki | https://www.gemma4.wiki | gemma4 |
+| grayzonewarfarewiki.wiki | https://www.grayzonewarfarewiki.wiki | grayzonewarfarewiki |
+| hozywiki.wiki | https://www.hozywiki.wiki | hozywiki |
+| idols-of-ash.wiki | https://www.idols-of-ash.wiki | idols of ash |
+| lastepoch.wiki | https://www.lastepoch.wiki | last epoch |
+| lifeisstrangereunion.wiki | https://www.lifeisstrangereunion.wiki | life is strange reunion |
+| morbid-metal.wiki | https://www.morbid-metal.wiki | morbid metal |
+| poppyplaytimechapter6.wiki | https://www.poppyplaytimechapter6.wiki | poppyplaytimechapter6 |
+| pragmata.wiki | https://www.pragmata.wiki | pragmata |
+| ragnarokoriginclassic.wiki | https://www.ragnarokoriginclassic.wiki | ragnarok origin classic |
+| reawakened.wiki | https://www.reawakened.wiki | reawakened |
+| retrorewindvideostoresimulator.wiki | https://www.retrorewindvideostoresimulator.wiki | retro rewind video store simulator |
+| road-to-vostok.wiki | https://www.road-to-vostok.wiki | road to vostok |
+| starsavior.wiki | https://www.starsavior.wiki | star savior |
+| supermeatboy3d.wiki | https://www.supermeatboy3d.wiki | supermeatboy3d |
+| superstar-baseball.wiki | https://www.superstar-baseball.wiki | superstar baseball |
+| superstarbaseballwiki.wiki | https://www.superstarbaseballwiki.wiki | superstarbaseballwiki |
+| tensuraincremental.wiki | https://www.tensuraincremental.wiki | tensuraincremental |
+| thedivisionresurgence.wiki | https://www.thedivisionresurgence.wiki | thedivisionresurgence |
+| theoccultist.wiki | https://www.theoccultist.wiki | theoccultist |
+| tomodachilife.wiki | https://www.tomodachilife.wiki | tomodachilife |
+| tomodachilifelivingthedream.wiki | https://www.tomodachilifelivingthedream.wiki | tomodachi life living the dream |
+| unwellwintergames.wiki | https://www.unwellwintergames.wiki | unwellwintergames |
+| pokemonchampions.wiki | https://www.pokemonchampions.wiki | pokemonchampions |
+| borderlandsmobile.wiki | https://www.borderlandsmobile.wiki | borderlands mobile |
+| summonheroeswiki.wiki | https://www.summonheroeswiki.wiki | summonheroeswiki |
+| animereversal.wiki | https://www.animereversal.wiki | animereversal |
+| cloverorigins.wiki | https://www.cloverorigins.wiki | cloverorigins |
+| pilgrammedwiki.wiki | https://www.pilgrammedwiki.wiki | pilgrammedwiki |
+| sol-cesto.wiki | https://www.sol-cesto.wiki | sol cesto |
+| metro2039.wiki | https://www.metro2039.wiki | metro2039 |
+| mongilstardive.wiki | https://www.mongilstardive.wiki | mongilstardive |
+| treeshateyou.wiki | https://www.treeshateyou.wiki | treeshateyou |
+| 67speed.wiki | https://www.67speed.wiki | 67speed |
+| brainrotevolution.wiki | https://www.brainrotevolution.wiki | brainrotevolution |
+| windrosewiki.wiki | https://www.windrosewiki.wiki | windrosewiki |
+| locked2.wiki | https://www.locked2.wiki | locked2 |
+| saros.wiki | https://www.saros.wiki | saros |
+| vampire-crawlers.wiki | https://www.vampire-crawlers.wiki | vampire crawlers |
+| slimeseaswiki.wiki | https://www.slimeseaswiki.wiki | slimeseaswiki |
+| dragonquestsmashgrow.wiki | https://www.dragonquestsmashgrow.wiki | dragonquestsmashgrow |
+| splatoonraiders.wiki | https://www.splatoonraiders.wiki | splatoonraiders |
+| marvelrivalsbloodhunt.wiki | https://www.marvelrivalsbloodhunt.wiki | marvelrivalsbloodhunt |
+| robloxcreatorshowdown2026.wiki | https://www.robloxcreatorshowdown2026.wiki | robloxcreatorshowdown2026 |
+| worldfighters.wiki | https://www.worldfighters.wiki | worldfighters |
+| block-tales.wiki | https://www.block-tales.wiki | block tales |
+| animeapocalypse.wiki | https://www.animeapocalypse.wiki | anime apocalypse |
 
 ## Tech Stack
 

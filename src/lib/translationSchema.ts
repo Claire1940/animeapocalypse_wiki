@@ -127,7 +127,7 @@ export const TranslationsSchema = z.object({
     home: z.object({
       title: z.string(),
       description: z.string(),
-      keywords: z.string(),
+      keywords: z.string().optional(),
       ogTitle: z.string(),
       ogDescription: z.string(),
       twitterTitle: z.string(),

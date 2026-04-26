@@ -1,7 +1,8 @@
 'use client'
 
 import { Button } from '@/components/ui/button'
-import { Users } from 'lucide-react'
+import { Gamepad2, Users } from 'lucide-react'
+import { EXTERNAL_LINKS } from '@/lib/site'
 
 interface CTASectionProps {
   title: string
@@ -22,7 +23,7 @@ export default function CTASection({ title, description, joinCommunity, joinGame
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild className="bg-[hsl(var(--nav-theme))] hover:bg-[hsl(var(--nav-theme)/0.9)] text-white px-8 py-6 text-lg">
               <a
-                href="https://discord.com/invite/lucidblocks"
+                href={EXTERNAL_LINKS.discord}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -31,11 +32,12 @@ export default function CTASection({ title, description, joinCommunity, joinGame
               </a>
             </Button>
             <a
-              href="https://store.steampowered.com/app/3495730/Lucid_Blocks/"
+              href={EXTERNAL_LINKS.robloxGame}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium border border-border hover:bg-white/10 px-8 py-6 text-lg transition-colors"
             >
+              <Gamepad2 className="w-5 h-5" />
               {joinGame}
             </a>
           </div>

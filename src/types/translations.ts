@@ -125,7 +125,7 @@ export interface Translations {
     home: {
       title: string
       description: string
-      keywords: string
+      keywords?: string
       ogTitle: string
       ogDescription: string
       twitterTitle: string

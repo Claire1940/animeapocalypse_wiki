@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
 import { NextIntlClientProvider } from 'next-intl'
-import { getMessages, getTranslations } from 'next-intl/server'
+import { getMessages } from 'next-intl/server'
 import { notFound } from 'next/navigation'
 import { routing, type Locale } from '@/i18n/routing'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { getNavPreviewData } from '@/lib/nav-preview'
 import type { Language } from '@/lib/content'
 import { getWikiLinks } from '@/lib/wiki-links'
+import { HOME_SEO, SITE_NAME, SITE_URL } from '@/lib/site'
 import { Geist, Geist_Mono } from 'next/font/google'
 import Script from 'next/script'
 import ClientBody from '../ClientBody'
@@ -36,14 +37,13 @@ export function generateStaticParams() {
 // 生成元数据
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
 	const { locale } = await params
-	const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.lucidblocks.wiki'
-
-	// 获取 SEO 翻译
-	const t = await getTranslations('seo.home')
+	const heroImageUrl = new URL('/images/hero.webp', SITE_URL).toString()
 
 	return {
-		title: t('title'),
-		description: t('description'),
+		// Metadata for Anime Apocalypse Wiki is centralized in src/lib/site.ts.
+		metadataBase: new URL(SITE_URL),
+		title: HOME_SEO.title,
+		description: HOME_SEO.description,
 		robots: {
 			index: true,
 			follow: true,
@@ -58,25 +58,24 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 		openGraph: {
 			type: 'website',
 			locale: locale,
-			url: locale === 'en' ? siteUrl : `${siteUrl}/${locale}`,
-			siteName: 'Lucid Blocks Wiki',
-			title: t('ogTitle'),
-			description: t('ogDescription'),
+			url: locale === 'en' ? SITE_URL : `${SITE_URL}/${locale}`,
+			siteName: SITE_NAME,
+			title: HOME_SEO.title,
+			description: HOME_SEO.ogDescription,
 			images: [
 				{
-					url: `${siteUrl}/images/hero.webp`,
-					width: 1920,
-					height: 1080,
-					alt: 'Lucid Blocks - Surreal Voxel Sandbox',
+					url: heroImageUrl,
+					width: 1280,
+					height: 720,
+					alt: SITE_NAME,
 				},
 			],
 		},
 		twitter: {
 			card: 'summary_large_image',
-			title: t('twitterTitle'),
-			description: t('twitterDescription'),
-			images: [`${siteUrl}/images/hero.webp`],
-			creator: '@lucidblocks',
+			title: HOME_SEO.title,
+			description: HOME_SEO.twitterDescription,
+			images: [heroImageUrl],
 		},
 		icons: {
 			icon: [
@@ -89,7 +88,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 			],
 		},
 		manifest: '/manifest.json',
-		alternates: buildLanguageAlternates('/', locale as Locale, siteUrl),
+		alternates: buildLanguageAlternates('/', locale as Locale, SITE_URL),
 	}
 }
 

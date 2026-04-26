@@ -56,25 +56,31 @@ function addResult(type, category, message, details = null) {
 function checkRobotsAndSitemap() {
   log('\n📋 检查 robots.txt 和 sitemap.xml...', 'cyan')
 
-  // 检查 robots.txt
-  const robotsPath = path.join(projectRoot, 'public', 'robots.txt')
-  if (fs.existsSync(robotsPath)) {
-    const content = fs.readFileSync(robotsPath, 'utf-8')
-    if (content.includes('Sitemap:')) {
-      addResult('passed', 'Robots', '✓ robots.txt 存在且包含 Sitemap 引用')
+  const staticRobotsPath = path.join(projectRoot, 'public', 'robots.txt')
+  const dynamicRobotsPath = path.join(projectRoot, 'src', 'app', 'robots.ts')
+  if (!fs.existsSync(staticRobotsPath) && fs.existsSync(dynamicRobotsPath)) {
+    const content = fs.readFileSync(dynamicRobotsPath, 'utf-8')
+    if (content.includes('NEXT_PUBLIC_SITE_URL')) {
+      addResult('passed', 'Robots', '✓ 使用 src/app/robots.ts 动态生成并读取 NEXT_PUBLIC_SITE_URL')
     } else {
-      addResult('warnings', 'Robots', '⚠ robots.txt 缺少 Sitemap 引用')
+      addResult('warnings', 'Robots', '⚠ robots.ts 未直接读取 NEXT_PUBLIC_SITE_URL')
     }
+  } else if (fs.existsSync(staticRobotsPath)) {
+    addResult('errors', 'Robots', '✗ public/robots.txt 静态文件应删除，改用动态 robots.ts')
   } else {
-    addResult('errors', 'Robots', '✗ robots.txt 不存在')
+    addResult('errors', 'Robots', '✗ 未找到动态 robots.ts')
   }
 
-  // 检查 sitemap.xml
-  const sitemapPath = path.join(projectRoot, 'public', 'sitemap.xml')
+  const sitemapPath = path.join(projectRoot, 'src', 'app', 'sitemap.ts')
   if (fs.existsSync(sitemapPath)) {
-    addResult('passed', 'Sitemap', '✓ sitemap.xml 存在')
+    const content = fs.readFileSync(sitemapPath, 'utf-8')
+    if (content.includes('NEXT_PUBLIC_SITE_URL')) {
+      addResult('passed', 'Sitemap', '✓ 使用 src/app/sitemap.ts 动态生成并读取 NEXT_PUBLIC_SITE_URL')
+    } else {
+      addResult('warnings', 'Sitemap', '⚠ sitemap.ts 未直接读取 NEXT_PUBLIC_SITE_URL')
+    }
   } else {
-    addResult('warnings', 'Sitemap', '⚠ sitemap.xml 不存在（Next.js 可能动态生成）')
+    addResult('errors', 'Sitemap', '✗ 未找到动态 sitemap.ts')
   }
 }
 
@@ -128,18 +134,11 @@ function checkSEOMetadata() {
     addResult('errors', 'Description', '✗ 缺少 Description')
   }
 
-  // 检查 Keywords
+  // 检查 Keywords：Google 已不读取 meta keywords，本模板不应配置。
   if (seo.keywords) {
-    const keywords = seo.keywords.split(',').map(k => k.trim()).filter(k => k)
-    if (keywords.length >= 5 && keywords.length <= 10) {
-      addResult('passed', 'Keywords', `✓ Keywords 数量合适 (${keywords.length} 个)`)
-    } else if (keywords.length < 5) {
-      addResult('warnings', 'Keywords', `⚠ Keywords 过少 (${keywords.length} 个，建议 5-10)`)
-    } else {
-      addResult('warnings', 'Keywords', `⚠ Keywords 过多 (${keywords.length} 个，建议 5-10)`)
-    }
+    addResult('warnings', 'Keywords', '⚠ seo.home.keywords 应移除，避免暴露关键词策略')
   } else {
-    addResult('warnings', 'Keywords', '⚠ 缺少 Keywords（非必须，但建议添加）')
+    addResult('passed', 'Keywords', '✓ 未配置 meta keywords')
   }
 
   // 检查 Open Graph
@@ -165,14 +164,14 @@ function checkImages() {
 
   const publicDir = path.join(projectRoot, 'public')
 
-  // 检查 OG Image
-  const ogImagePath = path.join(publicDir, 'og-image.jpg')
-  if (fs.existsSync(ogImagePath)) {
-    const stats = fs.statSync(ogImagePath)
+  // 检查 Hero / OG Image
+  const heroImagePath = path.join(publicDir, 'images', 'hero.webp')
+  if (fs.existsSync(heroImagePath)) {
+    const stats = fs.statSync(heroImagePath)
     const sizeKB = (stats.size / 1024).toFixed(2)
-    addResult('passed', 'Images', `✓ og-image.jpg 存在 (${sizeKB} KB)`)
+    addResult('passed', 'Images', `✓ public/images/hero.webp 存在 (${sizeKB} KB)`)
   } else {
-    addResult('errors', 'Images', '✗ og-image.jpg 不存在')
+    addResult('errors', 'Images', '✗ public/images/hero.webp 不存在')
   }
 
   // 检查 Favicon
@@ -217,15 +216,22 @@ function checkStructuredData() {
   log('\n📊 检查结构化数据...', 'cyan')
 
   // 检查是否有 JSON-LD 配置
-  const layoutPath = path.join(projectRoot, 'src', 'app', '[locale]', 'layout.tsx')
-  if (fs.existsSync(layoutPath)) {
-    const content = fs.readFileSync(layoutPath, 'utf-8')
+  const pagePath = path.join(projectRoot, 'src', 'app', '[locale]', 'page.tsx')
+  if (fs.existsSync(pagePath)) {
+    const content = fs.readFileSync(pagePath, 'utf-8')
 
     // 检查是否有 Organization schema
-    if (content.includes('Organization') || content.includes('WebSite')) {
-      addResult('passed', 'Structured', '✓ 包含结构化数据配置')
+    if (
+      content.includes('Organization') &&
+      content.includes('WebSite') &&
+      content.includes('logo') &&
+      content.includes('image') &&
+      content.includes('url') &&
+      content.includes('name')
+    ) {
+      addResult('passed', 'Structured', '✓ 首页包含 WebSite / Organization JSON-LD 必填字段')
     } else {
-      addResult('warnings', 'Structured', '⚠ 未找到结构化数据（建议添加 Organization/WebSite schema）')
+      addResult('warnings', 'Structured', '⚠ 首页结构化数据缺少 Organization/WebSite 必填字段')
     }
   }
 }
@@ -251,15 +257,15 @@ function checkPageStructure() {
   }
 
   // 检查 FAQ
-  if (translations.faq?.items && translations.faq.items.length > 0) {
-    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.items.length} 个问题`)
+  if (translations.faq?.questions && translations.faq.questions.length > 0) {
+    addResult('passed', 'Content', `✓ FAQ 包含 ${translations.faq.questions.length} 个问题`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少 FAQ 内容')
   }
 
   // 检查工具/资源
-  if (translations.tools?.items && translations.tools.items.length > 0) {
-    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.items.length} 个项目`)
+  if (translations.tools?.cards && translations.tools.cards.length > 0) {
+    addResult('passed', 'Content', `✓ 工具/资源包含 ${translations.tools.cards.length} 个项目`)
   } else {
     addResult('warnings', 'Content', '⚠ 缺少工具/资源内容')
   }
@@ -271,8 +277,8 @@ function checkPageStructure() {
 function checkConfigFiles() {
   log('\n⚙️  检查配置文件...', 'cyan')
 
-  // 检查 next.config.js
-  const nextConfigPath = path.join(projectRoot, 'next.config.ts')
+  // 检查 next.config.mjs
+  const nextConfigPath = path.join(projectRoot, 'next.config.mjs')
   if (fs.existsSync(nextConfigPath)) {
     const content = fs.readFileSync(nextConfigPath, 'utf-8')
 
