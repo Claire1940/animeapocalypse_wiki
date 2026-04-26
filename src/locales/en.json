@@ -9,14 +9,7 @@
       "twitterDescription": "Anime Apocalypse Wiki covers Roblox codes, abilities, gadgets, bosses, tier lists, maps, and beginner tips."
     }
   },
-  "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
-  },
+  "nav": {},
   "common": {
     "home": "Home",
     "more": "More",
