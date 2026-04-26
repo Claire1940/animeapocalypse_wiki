@@ -82,8 +82,16 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
   const survivalModeModule = t.modules.animeApocalypseSurvivalModeGuide
   const mapsModule = t.modules.animeApocalypseMapsGuide
   const shibuyaModule = t.modules.animeApocalypseShibuyaGuide
+  const impelDownModule = t.modules.animeApocalypseImpelDownGuide
+  const farmingModule = t.modules.animeApocalypseFarmingGuide
+  const petsTitlesCosmeticsModule = t.modules.animeApocalypsePetsTitlesCosmeticsGuide
+  const controlsMovementModule = t.modules.animeApocalypseControlsMovementGuide
   const mapGuideIcons = [MapPin, MapIcon, Target, Activity, TrendingUp, Swords]
   const shibuyaGuideIcons = [BookOpen, TrendingUp, Activity, Target, Package, Shield]
+  const impelDownGuideIcons = [MapPin, Shield, Activity, TrendingUp, Target, Swords]
+  const farmingResourceIcons = [Gift, Package, RotateCcw, Sparkles, Gamepad2, Shield, Ticket, Trophy, Star, Settings]
+  const accountSystemIcons = [HeartPulse, Trophy, Package, Sparkles, Settings, Star, Zap]
+  const controlsMovementIcons = [MapPin, Activity, Shield, TrendingUp, Swords, Sparkles, Gamepad2, Trophy, Target, MapIcon]
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -192,7 +200,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
       {/* 广告位 3: 标准横幅 728×90 */}
       <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
-      {/* Tools Grid - 12 Navigation Cards */}
+      {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-20 bg-muted/20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -383,6 +391,66 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               </div>
               <h3 className="font-semibold mb-2">{toolCards[11].title}</h3>
               <p className="text-sm text-muted-foreground">{toolCards[11].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-impel-down-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-impel-down-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[12].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[12].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[12].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-farming-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-farming-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[13].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[13].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[13].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-pets-titles-cosmetics-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-pets-titles-cosmetics-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[14].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[14].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[14].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-controls-movement-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-controls-movement-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[15].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[15].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[15].description}</p>
             </a>
           </div>
         </div>
@@ -1050,6 +1118,270 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
                     </div>
                   </div>
                   <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 13: Anime Apocalypse Impel Down Guide */}
+      <section id="anime-apocalypse-impel-down-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {impelDownModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{impelDownModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{impelDownModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{impelDownModule.intro}</p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6">
+            <div className="scroll-reveal space-y-4">
+              {impelDownModule.items.map((step: any, index: number) => {
+                const Icon = impelDownGuideIcons[index % impelDownGuideIcons.length]
+
+                return (
+                  <div key={step.step} className="grid grid-cols-[56px_1fr] gap-4 p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                    <div className="w-12 h-12 rounded-xl bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] flex items-center justify-center font-bold">
+                      {step.step}
+                    </div>
+                    <div>
+                      <div className="flex items-start justify-between gap-3 mb-3">
+                        <h3 className="text-xl font-bold">{step.title}</h3>
+                        <Icon className="hidden sm:block w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                      </div>
+                      <p className="text-sm text-muted-foreground mb-4">{step.description}</p>
+                      <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm text-muted-foreground">
+                        <span className="font-semibold text-foreground">{impelDownModule.playerGoalLabel}: </span>
+                        {step.playerGoal}
+                      </div>
+                    </div>
+                  </div>
+                )
+              })}
+            </div>
+
+            <aside className="scroll-reveal lg:sticky lg:top-24 h-fit rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.06)] p-6">
+              <div className="flex items-center gap-3 mb-5">
+                <Shield className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="text-xl font-bold">{impelDownModule.title}</h3>
+              </div>
+              <div className="space-y-4">
+                {[impelDownModule.items[1], impelDownModule.items[2], impelDownModule.items[5]].map((note: any, index: number) => {
+                  const Icon = [Target, Activity, Trophy][index]
+
+                  return (
+                    <div key={note.title} className="rounded-lg border border-border bg-background/70 p-4">
+                      <div className="flex items-center gap-2 mb-2">
+                        <Icon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                        <h4 className="font-semibold">{note.title}</h4>
+                      </div>
+                      <p className="text-sm text-muted-foreground">{note.playerGoal}</p>
+                    </div>
+                  )
+                })}
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 14: Anime Apocalypse Farming Guide */}
+      <section id="anime-apocalypse-farming-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {farmingModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{farmingModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{farmingModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{farmingModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal hidden lg:block overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-muted/50">
+                <tr>
+                  <th className="px-4 py-3 text-left font-semibold">{farmingModule.resourceLabel}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{farmingModule.bestSourcesLabel}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{farmingModule.bestUseLabel}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{farmingModule.priorityLabel}</th>
+                  <th className="px-4 py-3 text-left font-semibold">{farmingModule.farmingTipLabel}</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {farmingModule.items.map((item: any, index: number) => {
+                  const Icon = farmingResourceIcons[index % farmingResourceIcons.length]
+
+                  return (
+                    <tr key={item.resource} className="align-top">
+                      <td className="px-4 py-4">
+                        <div className="flex items-center gap-3">
+                          <div className="w-9 h-9 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                            <Icon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+                          </div>
+                          <span className="font-semibold text-[hsl(var(--nav-theme-light))]">{item.resource}</span>
+                        </div>
+                      </td>
+                      <td className="px-4 py-4 text-muted-foreground">
+                        <ul className="space-y-1">
+                          {item.bestSources.map((source: string) => (
+                            <li key={source} className="flex items-start gap-2">
+                              <Check className="w-3.5 h-3.5 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                              {source}
+                            </li>
+                          ))}
+                        </ul>
+                      </td>
+                      <td className="px-4 py-4 text-muted-foreground">{item.bestUse}</td>
+                      <td className="px-4 py-4">
+                        <span className="inline-flex px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))]">
+                          {item.priority}
+                        </span>
+                      </td>
+                      <td className="px-4 py-4 text-muted-foreground">{item.farmingTip}</td>
+                    </tr>
+                  )
+                })}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal lg:hidden space-y-4">
+            {farmingModule.items.map((item: any, index: number) => {
+              const Icon = farmingResourceIcons[index % farmingResourceIcons.length]
+
+              return (
+                <details key={item.resource} className="group rounded-xl border border-border bg-card p-5">
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
+                    <div className="flex items-start gap-3">
+                      <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-bold">{item.resource}</h3>
+                        <p className="text-xs text-[hsl(var(--nav-theme-light))]">{item.priority}</p>
+                      </div>
+                    </div>
+                    <ArrowRight className="w-5 h-5 text-muted-foreground transition-transform group-open:rotate-90" />
+                  </summary>
+                  <div className="mt-5 space-y-4 text-sm text-muted-foreground">
+                    <div>
+                      <p className="font-semibold text-foreground mb-2">{farmingModule.bestSourcesLabel}</p>
+                      <ul className="space-y-2">
+                        {item.bestSources.map((source: string) => (
+                          <li key={source} className="flex items-start gap-2">
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            {source}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    <p><span className="font-semibold text-foreground">{farmingModule.bestUseLabel}: </span>{item.bestUse}</p>
+                    <p><span className="font-semibold text-foreground">{farmingModule.farmingTipLabel}: </span>{item.farmingTip}</p>
+                  </div>
+                </details>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 15: Anime Apocalypse Pets, Titles, and Cosmetics Guide */}
+      <section id="anime-apocalypse-pets-titles-cosmetics-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <HeartPulse className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {petsTitlesCosmeticsModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{petsTitlesCosmeticsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{petsTitlesCosmeticsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{petsTitlesCosmeticsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {petsTitlesCosmeticsModule.items.map((item: any, index: number) => {
+              const Icon = accountSystemIcons[index % accountSystemIcons.length]
+
+              return (
+                <details key={item.title} className="group rounded-xl border border-border bg-card p-6 hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors" open={index === 0}>
+                  <summary className="flex cursor-pointer list-none items-start justify-between gap-4">
+                    <div className="flex items-start gap-4">
+                      <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                        <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold mb-2">{item.title}</h3>
+                        <p className="text-sm text-muted-foreground">{item.summary}</p>
+                      </div>
+                    </div>
+                    <ArrowRight className="w-5 h-5 text-muted-foreground transition-transform group-open:rotate-90 flex-shrink-0" />
+                  </summary>
+                  <div className="mt-5 border-t border-border pt-5">
+                    <p className="text-sm text-muted-foreground mb-4">{item.content}</p>
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                      <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm">
+                        <p className="font-semibold mb-1">{petsTitlesCosmeticsModule.statImpactLabel}</p>
+                        <p className="text-muted-foreground">{item.statImpact}</p>
+                      </div>
+                      <div className="rounded-lg border border-border bg-background/60 p-3 text-sm">
+                        <p className="font-semibold mb-1">{petsTitlesCosmeticsModule.bestForLabel}</p>
+                        <p className="text-muted-foreground">{item.bestFor}</p>
+                      </div>
+                    </div>
+                  </div>
+                </details>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 16: Anime Apocalypse Controls and Movement Guide */}
+      <section id="anime-apocalypse-controls-movement-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {controlsMovementModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{controlsMovementModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{controlsMovementModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{controlsMovementModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {controlsMovementModule.items.map((item: any, index: number) => {
+              const Icon = controlsMovementIcons[index % controlsMovementIcons.length]
+
+              return (
+                <div key={item.step} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <div className="flex items-start justify-between gap-4 mb-4">
+                    <div className="flex items-start gap-4">
+                      <div className="w-12 h-12 rounded-xl bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] flex items-center justify-center text-lg font-bold flex-shrink-0">
+                        {item.step}
+                      </div>
+                      <div>
+                        <h3 className="text-xl font-bold">{item.title}</h3>
+                        <p className="mt-2 inline-flex px-2 py-1 rounded-full bg-muted/50 border border-border text-xs text-muted-foreground">
+                          {controlsMovementModule.inputLabel}: {item.input}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                  <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm text-muted-foreground">
+                    <span className="font-semibold text-foreground">{controlsMovementModule.comboTipLabel}: </span>
+                    {item.comboTip}
+                  </div>
                 </div>
               )
             })}

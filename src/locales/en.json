@@ -57,7 +57,7 @@
   "tools": {
     "title": "Anime Apocalypse Resources",
     "titleHighlight": "Anime Apocalypse Resources",
-    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, abilities, gadgets, traits, cards, Infinite mode, Survival mode, maps, and Shibuya routes.",
+    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, abilities, gadgets, traits, cards, Infinite mode, Survival mode, maps, Shibuya routes, Impel Down, farming, account systems, and controls.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -118,6 +118,26 @@
         "icon": "MapPin",
         "title": "Anime Apocalypse Shibuya Guide",
         "description": "Beginner-friendly Shibuya routes, AoE setup, cards, gadgets, and practice plans"
+      },
+      {
+        "icon": "Clock",
+        "title": "Anime Apocalypse Impel Down Guide",
+        "description": "Prison route pacing, traversal, hazards, room clears, and boss-room safety"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Anime Apocalypse Farming Guide",
+        "description": "Coins, drops, spins, raid tickets, mastery, pass progress, and upgrade priorities"
+      },
+      {
+        "icon": "Users",
+        "title": "Anime Apocalypse Pets, Titles, and Cosmetics Guide",
+        "description": "Pets, titles, traits, items, cosmetics, crafting, and long-term account power"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Anime Apocalypse Controls and Movement Guide",
+        "description": "Attack inputs, skills, gadgets, ultimate, dash, slide, air dash, and wall run"
       }
     ]
   },
@@ -1060,6 +1080,318 @@
           "title": "Anime Apocalypse Shibuya Gadget Priority",
           "label": "Control And Defense",
           "description": "Black Hole is excellent for pulling enemies into one kill zone, while Infinity gives a defensive window when the screen becomes crowded. These two gadgets fit Shibuya's fast, open-wave style especially well."
+        }
+      ]
+    },
+    "animeApocalypseImpelDownGuide": {
+      "title": "Anime Apocalypse Impel Down Guide",
+      "eyebrow": "Map Guide",
+      "subtitle": "Learn how to move through Anime Apocalypse Impel Down prison rooms, underground sections, lava visuals, and demanding dungeon routes without losing tempo.",
+      "intro": "Anime Apocalypse Impel Down is a darker prison-themed dungeon with underground sections, lava-floor visuals, and more demanding traversal than the open Shibuya layout. The key to clearing it smoothly is to use movement tools aggressively while slowing down near boss rooms, hazards, and confusing exits.",
+      "playerGoalLabel": "Player goal",
+      "items": [
+        {
+          "step": 1,
+          "title": "Enter Anime Apocalypse Impel Down after learning core movement",
+          "description": "Start with easier rooms or Shibuya-style routes until double jump, dash, slide, and wall run feel natural. Anime Apocalypse Impel Down is better when you can reposition during zombie waves instead of fighting every group in place.",
+          "playerGoal": "Reach rooms faster, avoid getting boxed in, and keep enough space to cycle skills."
+        },
+        {
+          "step": 2,
+          "title": "Read the Anime Apocalypse prison layout before committing",
+          "description": "Anime Apocalypse Impel Down uses prison-inspired routes with underground sections and tighter room flow. Before using long cooldown skills, check enemy positions, nearby walls, corners, and the visible exit direction so your damage lands from a useful angle.",
+          "playerGoal": "Use the room shape to group zombies instead of letting enemies surround you."
+        },
+        {
+          "step": 3,
+          "title": "Handle Anime Apocalypse lava visuals with steady movement",
+          "description": "Some lava visuals in Anime Apocalypse Impel Down are part of the environment and can be crossed or used for traversal. Treat lava areas as movement checks: test safe paths, keep momentum, and use wall-running surfaces when the route supports it.",
+          "playerGoal": "Move through visual hazard zones without stopping your clear speed."
+        },
+        {
+          "step": 4,
+          "title": "Use Anime Apocalypse wall running to fix awkward routes",
+          "description": "Vertical surfaces can be used for wall running, letting you reach elevated spots, cross parts of a room, or recover from a bad position. This is especially useful in prison-style rooms where the ground path is crowded by zombies.",
+          "playerGoal": "Escape pressure, skip slow floor routes, and reposition before enemies catch up."
+        },
+        {
+          "step": 5,
+          "title": "Clear Anime Apocalypse Impel Down rooms with cooldown cycling",
+          "description": "Open with a grouping tool or high-area skill, then rotate normal attacks, dash movement, and lower-cooldown skills while waiting for your strongest abilities. Cooldown reduction cards and upgrades make Anime Apocalypse Impel Down smoother because they reduce dead time between waves.",
+          "playerGoal": "Keep damage uptime high while avoiding face-tanking large groups."
+        },
+        {
+          "step": 6,
+          "title": "Approach Anime Apocalypse boss rooms carefully",
+          "description": "Dying in dungeon content can force a restart from the beginning, so avoid rushing boss-room entrances when your cooldowns, gadget, or ultimate are unavailable. Enter with space, save a defensive tool when possible, and use dash or wall movement before committing to long animations.",
+          "playerGoal": "Finish the dungeon without losing the whole run to one bad room."
+        }
+      ]
+    },
+    "animeApocalypseFarmingGuide": {
+      "title": "Anime Apocalypse Farming Guide",
+      "eyebrow": "Progression",
+      "subtitle": "Compare Anime Apocalypse coins, drops, spins, raid tickets, mastery progress, and battle pass rewards before pushing harder dungeons or Infinite mode.",
+      "intro": "Anime Apocalypse progression is built around repeat runs, card choices, codes, quests, spins, upgrades, and long-term account systems. The fastest early progression comes from stacking economy rewards first, then converting those rewards into better abilities, gadgets, traits, cooldown upgrades, and stronger run consistency.",
+      "resourceLabel": "Resource",
+      "bestSourcesLabel": "Best sources",
+      "bestUseLabel": "Best use",
+      "priorityLabel": "Priority",
+      "farmingTipLabel": "Anime Apocalypse farming tip",
+      "items": [
+        {
+          "resource": "Coins",
+          "bestSources": [
+            "Wealth cards during runs",
+            "Coin rewards from active codes",
+            "Dungeon clearing",
+            "Quest rewards"
+          ],
+          "bestUse": "Spend coins on core Anime Apocalypse upgrades first, especially cooldown speed and walk speed, before chasing luxury rolls.",
+          "priority": "Very High",
+          "farmingTip": "Pick Wealth early in a run when your damage is stable, then switch toward cooldown or survival cards once your economy is rolling."
+        },
+        {
+          "resource": "Drops",
+          "bestSources": [
+            "Zombie drops",
+            "Drop chance cards",
+            "x2 Drops code boosts",
+            "Dungeon and wave clearing"
+          ],
+          "bestUse": "Use drops as the backbone for Anime Apocalypse item collection and cosmetic crafting.",
+          "priority": "High",
+          "farmingTip": "Run content while drop boosts are active and avoid skipping glowing ground pickups, because drops can be easy to miss during fast movement."
+        },
+        {
+          "resource": "Normal Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Daily login rewards",
+            "Quests",
+            "In-game currency"
+          ],
+          "bestUse": "Roll for usable Anime Apocalypse abilities before investing heavily into mastery or trait rerolls.",
+          "priority": "High",
+          "farmingTip": "Use normal spins to build a playable ability base, then save higher-value resources for chasing rare upgrades."
+        },
+        {
+          "resource": "Lucky Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Daily rewards",
+            "Quests",
+            "Occasional zombie drops"
+          ],
+          "bestUse": "Use Lucky Ability Spins when you are actively chasing higher-rarity Anime Apocalypse abilities such as Mythic or Supreme-tier options.",
+          "priority": "High",
+          "farmingTip": "Redeem spin-heavy codes before long play sessions so the rewards immediately improve your farming setup."
+        },
+        {
+          "resource": "Normal Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Quest rewards",
+            "Progression rewards"
+          ],
+          "bestUse": "Roll for a practical Anime Apocalypse gadget that supports wave clearing, grouping, or defense.",
+          "priority": "Medium",
+          "farmingTip": "A strong gadget can stabilize runs even before your ability roster is perfect, so do not ignore gadget spins."
+        },
+        {
+          "resource": "Lucky Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Progression rewards",
+            "Limited reward drops"
+          ],
+          "bestUse": "Chase high-impact Anime Apocalypse gadgets such as Black Hole or Infinity for better crowd control and survival.",
+          "priority": "High",
+          "farmingTip": "Use Lucky Gadget Spins when your current ability is already serviceable and your main weakness is wave control or safety."
+        },
+        {
+          "resource": "Raid Tickets",
+          "bestSources": [
+            "Ticket-granting codes",
+            "Event and reward tracking"
+          ],
+          "bestUse": "Save raid tickets for Anime Apocalypse attempts where your ability, gadget, and upgrades are already strong enough to get value from the run.",
+          "priority": "Medium",
+          "farmingTip": "The SORRYFORDELAY release reward includes 20 Raid Tickets, making code redemption an important first step before raid-focused play."
+        },
+        {
+          "resource": "Mastery Experience",
+          "bestSources": [
+            "Repeated runs with the same ability",
+            "Dungeon clearing",
+            "Infinite mode wave farming",
+            "Higher-difficulty grinding"
+          ],
+          "bestUse": "Build mastery on Anime Apocalypse abilities you actually plan to use, since mastery progression can unlock additional ability value.",
+          "priority": "Medium",
+          "farmingTip": "Do not spread mastery across too many abilities early; focus on one reliable farming ability until your core build is stable."
+        },
+        {
+          "resource": "Battle Pass Progress",
+          "bestSources": [
+            "Leveling through regular play",
+            "Dungeon runs",
+            "Infinite mode sessions",
+            "Seasonal progression"
+          ],
+          "bestUse": "Claim Anime Apocalypse seasonal rewards such as spins, gold, and the Fire Fighter battle pass weapon when available.",
+          "priority": "Medium",
+          "farmingTip": "Treat battle pass progress as a bonus layered on top of normal farming, because your seasonal level contributes to pass rewards."
+        },
+        {
+          "resource": "Trait Rerolls",
+          "bestSources": [
+            "Code rewards",
+            "Progression rewards",
+            "Event rewards"
+          ],
+          "bestUse": "Apply trait rerolls to Anime Apocalypse abilities you are likely to keep instead of rerolling weak temporary weapons.",
+          "priority": "Medium",
+          "farmingTip": "Save rerolls until you have a strong ability base, then chase traits that improve damage, speed, or run consistency."
+        }
+      ]
+    },
+    "animeApocalypsePetsTitlesCosmeticsGuide": {
+      "title": "Anime Apocalypse Pets, Titles, and Cosmetics Guide",
+      "eyebrow": "Account Systems",
+      "subtitle": "Understand the Anime Apocalypse systems outside your main ability and gadget, including pets, titles, items, cosmetics, traits, and crafting.",
+      "intro": "Anime Apocalypse is not only about rolling a strong ability. The game also includes pets, titles, traits, items, cosmetics, quests, and reward systems that add stat bonuses, crafting goals, and long-term reasons to keep clearing zombies.",
+      "statImpactLabel": "Stat impact",
+      "bestForLabel": "Best for",
+      "items": [
+        {
+          "title": "Anime Apocalypse Pets",
+          "summary": "Pets follow your character and grant bonus stats.",
+          "content": "Anime Apocalypse pets are part of the long-term progression loop and are worth farming because they add account power beyond your active ability. Since the gameplay loop lets you earn loot and currency from maps, pets should be treated as a parallel upgrade path while you continue improving abilities and gadgets.",
+          "statImpact": "Stat bonus",
+          "bestFor": "Players who want passive power while farming dungeons or Infinite mode."
+        },
+        {
+          "title": "Anime Apocalypse Titles",
+          "summary": "Titles are equipable progression rewards that provide additional stat buffs.",
+          "content": "Anime Apocalypse titles are useful because they let players add extra stats without changing their core ability or gadget setup. Equip a title that matches your current weakness, such as survivability, speed, or damage-focused progression.",
+          "statImpact": "Stat buff",
+          "bestFor": "Players optimizing their build after basic ability and gadget choices are already working."
+        },
+        {
+          "title": "Anime Apocalypse Items",
+          "summary": "Items can be obtained from defeated zombies and feed into the crafting loop.",
+          "content": "Anime Apocalypse zombie drops are important because items connect regular combat to cosmetic crafting. Pick up glowing ground drops during fast clears so that dungeon and wave farming also builds your item inventory over time.",
+          "statImpact": "Crafting material",
+          "bestFor": "Players farming repeated dungeon runs and collecting materials while progressing."
+        },
+        {
+          "title": "Anime Apocalypse Cosmetics",
+          "summary": "Cosmetics are equipment pieces that can grant additional stats.",
+          "content": "Anime Apocalypse cosmetics are not just visual collection goals. They are listed as equipment with stat value, so players should treat cosmetic crafting as part of account progression rather than a purely decorative system.",
+          "statImpact": "Equipment stats",
+          "bestFor": "Players who want extra stat layers after improving abilities, gadgets, pets, and titles."
+        },
+        {
+          "title": "Anime Apocalypse Cosmetic Crafting",
+          "summary": "Crafting connects zombie drops, items, and cosmetic progression.",
+          "content": "Defeating Anime Apocalypse zombies produces items that can be used for cosmetic crafting. The best approach is to farm content you can clear consistently, collect drops every run, and craft cosmetics once your inventory supports the target piece.",
+          "statImpact": "Item-to-equipment progression",
+          "bestFor": "Players who farm repeated rooms and want long-term goals beyond spins."
+        },
+        {
+          "title": "Anime Apocalypse Weapon Skins",
+          "summary": "Weapon skins can change the visual effects of a weapon.",
+          "content": "Anime Apocalypse weapon skins are part of the cosmetic layer and can make a favorite ability feel more distinctive. They are best treated as style upgrades after your combat foundation is already stable.",
+          "statImpact": "Visual customization",
+          "bestFor": "Players who want a cleaner look or stronger anime-style presentation for their main weapon."
+        },
+        {
+          "title": "Anime Apocalypse Traits",
+          "summary": "Traits are passive modifiers that make abilities stronger.",
+          "content": "Anime Apocalypse traits are rolled onto abilities and should be used carefully because trait rerolls are valuable. Save rerolls for abilities you plan to keep, then use traits to reinforce your preferred farming or survival style.",
+          "statImpact": "Passive ability modifier",
+          "bestFor": "Players who already have a strong ability and want to optimize it further."
+        }
+      ]
+    },
+    "animeApocalypseControlsMovementGuide": {
+      "title": "Anime Apocalypse Controls and Movement Guide",
+      "eyebrow": "Controls",
+      "subtitle": "Master Anime Apocalypse attacking, skills, gadgets, ultimate usage, dodging, sliding, double jumping, air dashing, and wall running.",
+      "intro": "Anime Apocalypse plays faster than a standard wave-defense Roblox game because combat is built around constant repositioning. Learning the controls early makes every system easier: you clear rooms faster, pick up drops more reliably, avoid boss pressure, and survive longer in endless zombie waves.",
+      "inputLabel": "Input",
+      "comboTipLabel": "Combo tip",
+      "items": [
+        {
+          "step": 1,
+          "title": "Anime Apocalypse Basic Movement",
+          "input": "W, A, S, D",
+          "description": "Use standard Roblox movement to circle enemies, kite zombie groups, and stay out of corners. Never stand still after starting a wave because enemy pressure scales quickly in crowded rooms.",
+          "comboTip": "Move sideways while attacking so zombies group in front of you instead of surrounding you."
+        },
+        {
+          "step": 2,
+          "title": "Anime Apocalypse Jump and Double Jump",
+          "input": "Space",
+          "description": "Jump is the base of the movement chain, and Anime Apocalypse supports double-jump style mobility. Use jumping to cross room gaps, reset your position, and prepare for air dash or wall-running routes.",
+          "comboTip": "Jump before dashing when you need distance instead of a short ground dodge."
+        },
+        {
+          "step": 3,
+          "title": "Anime Apocalypse Dash and Dodge",
+          "input": "Q",
+          "description": "Dash is your main escape and repositioning tool. Use it to dodge attacks, leave crowded enemy clusters, and create space before cycling your next skill.",
+          "comboTip": "Dash after a skill animation to avoid being punished while cooldowns recover."
+        },
+        {
+          "step": 4,
+          "title": "Anime Apocalypse Slide",
+          "input": "Ctrl",
+          "description": "Slide gives another movement option for quick repositioning on the ground. It is useful when you need to slip out of pressure without spending a bigger combat action.",
+          "comboTip": "Slide through open lanes, then turn and use an area skill once enemies have grouped behind you."
+        },
+        {
+          "step": 5,
+          "title": "Anime Apocalypse Basic Attack",
+          "input": "Left Mouse Button",
+          "description": "Basic attack fills the gaps between ability cooldowns. It is not just filler; it keeps damage moving while you wait for skills, gadget, or ultimate to come back.",
+          "comboTip": "Use basic attacks while kiting instead of waiting passively for cooldowns."
+        },
+        {
+          "step": 6,
+          "title": "Anime Apocalypse Ability Skills",
+          "input": "Z, X, C, V",
+          "description": "Ability skills are your main damage buttons and define your combat style. Rotate them instead of using everything at once, especially in demanding rooms where cooldown timing matters.",
+          "comboTip": "Open with a wide or grouping skill, then save one skill for enemies that spawn behind you."
+        },
+        {
+          "step": 7,
+          "title": "Anime Apocalypse Gadget",
+          "input": "E",
+          "description": "Gadgets are secondary active tools that support your ability. Use offensive gadgets to group or clear zombies, and defensive gadgets when you need time to reset positioning.",
+          "comboTip": "Use a crowd-control gadget before your strongest area skill for cleaner wave clears."
+        },
+        {
+          "step": 8,
+          "title": "Anime Apocalypse Ultimate",
+          "input": "G",
+          "description": "Ultimate skills are high-impact abilities best saved for boss pressure, large zombie waves, or emergency clears. Do not waste an ultimate on a nearly finished room unless it prevents a death.",
+          "comboTip": "Enter harder rooms with ultimate ready when possible, especially on Impel Down or higher difficulty runs."
+        },
+        {
+          "step": 9,
+          "title": "Anime Apocalypse Air Dash",
+          "input": "Jump chain plus dash movement",
+          "description": "Air dash lets you rapidly reposition after jumping and is one of the fastest ways to escape enemy pressure. It also helps you cross larger room sections and maintain speed during farming routes.",
+          "comboTip": "Double jump into air dash when a ground route is blocked by zombies."
+        },
+        {
+          "step": 10,
+          "title": "Anime Apocalypse Wall Run",
+          "input": "Use vertical surfaces during movement",
+          "description": "Wall running lets you move along vertical surfaces, reach elevated routes, and skip awkward parts of a room. This is especially valuable in maps with tighter paths or environmental hazards.",
+          "comboTip": "Wall run to escape crowded floors, then drop back into a better attack angle."
         }
       ]
     }
