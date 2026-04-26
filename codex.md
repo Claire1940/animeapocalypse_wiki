@@ -406,7 +406,7 @@ python3 -c "import json; en=json.load(open('src/locales/en.json')); lang=json.lo
 ```json
 {
   "protected_terms": {
-    "game_names": ["Burglin' Gnomes"],
+    "game_names": ["Anime Apocalypse"],
     "character_names": [],
     "technical_terms": ["PvP", "PvE", "HP", "XP", "DPS"]
   }

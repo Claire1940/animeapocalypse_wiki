@@ -1,11 +1,1603 @@
 {
+  "seo": {
+    "home": {
+      "title": "Anime Apocalypse Wiki - Codes, Tier List & Guia para Iniciantes",
+      "description": "A Anime Apocalypse Wiki cobre os Codes mais recentes, Abilities, Gadgets, armas, chefes, rotas de farming, Tier Lists, mapas, controles e dicas para iniciantes no Roblox.",
+      "ogTitle": "Anime Apocalypse Wiki - Codes, Tier List & Guia para Iniciantes",
+      "ogDescription": "A Anime Apocalypse Wiki cobre Roblox Codes, Abilities, Gadgets, chefes, rotas de farming, mapas, Tier Lists, controles e dicas para iniciantes.",
+      "twitterTitle": "Anime Apocalypse Wiki - Codes, Tier List & Guia para Iniciantes",
+      "twitterDescription": "A Anime Apocalypse Wiki cobre Roblox Codes, Abilities, Gadgets, chefes, Tier Lists, mapas e dicas para iniciantes."
+    }
+  },
   "nav": {
     "codes": "Codes",
-    "guide": "Guide",
+    "guide": "Guia",
     "tier": "Tier",
-    "weapons": "Weapons",
+    "weapons": "Armas",
     "raids": "Raids",
     "abilities": "Abilities",
     "gadgets": "Gadgets"
+  },
+  "common": {
+    "home": "Início",
+    "more": "Mais",
+    "playNow": "Jogar no Roblox",
+    "switchLanguage": "Alterar Idioma",
+    "switchTheme": "Alterar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Escuro",
+    "notFound": "Página Não Encontrada",
+    "notFoundDescription": "A página que você está procurando não existe.",
+    "backToHome": "Voltar para o Início",
+    "relatedArticles": "Artigos Relacionados",
+    "readMore": "Ler Mais"
+  },
+  "hero": {
+    "badge": "Sobrevivência Roguelike de Zumbis de Anime",
+    "title": "Anime Apocalypse Wiki",
+    "description": "Sobreviva a ondas de zumbis em mapas inspirados em animes, desbloqueie Abilities e Gadgets, escolha Cards de vantagens, farme Coins e Spins, e use Codes para progredir mais rápido.",
+    "getFreeCodesCTA": "Join Discord",
+    "playOnRobloxCTA": "Jogar no Roblox",
+    "playOnSteamCTA": "Jogar no Roblox",
+    "stats": {
+      "stat1": {
+        "value": "102K+",
+        "label": "Total de Visitas"
+      },
+      "stat2": {
+        "value": "97%",
+        "label": "Taxa de Aprovação"
+      },
+      "stat3": {
+        "value": "2.8K+",
+        "label": "Membros no Discord"
+      },
+      "stat4": {
+        "value": "30",
+        "label": "Tamanho do Servidor"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jogabilidade de Anime Apocalypse",
+    "description": "Vença ondas de zumbis no Roblox, consiga Abilities e Gadgets, escolha Cards de vantagens, farme Coins e Spins, e crie runs mais fortes no Anime Apocalypse."
+  },
+  "tools": {
+    "title": "Recursos de Anime Apocalypse",
+    "titleHighlight": "Recursos de Anime Apocalypse",
+    "subtitle": "Vá direto para os Anime Apocalypse Codes, progressão para iniciantes, rankings de Abilities, Abilities, Gadgets, traits, Cards, modo Infinito, modo Sobrevivência, mapas, rotas de Shibuya, Impel Down, farming, sistemas de conta e controles.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Anime Apocalypse Codes",
+        "description": "Codes ativos, Codes expirados, recompensas e passos para resgate"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guia para Iniciantes de Anime Apocalypse",
+        "description": "Rota da primeira run, controles, Cards, Spins e melhorias"
+      },
+      {
+        "icon": "Star",
+        "title": "Anime Apocalypse Ability Tier List",
+        "description": "Melhores Abilities para farming, chefes, modo Infinito e limpeza de ondas"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Guia de Abilities de Anime Apocalypse",
+        "description": "Habilidades de Ability, regras de gacha, taxas de raridade, pity e notas do elenco"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guia de Gadgets de Anime Apocalypse",
+        "description": "Spins de Gadget, habilidades secundárias, Black Hole, Infinity e funções de suporte"
+      },
+      {
+        "icon": "Shield",
+        "title": "Anime Apocalypse Gadget Tier List",
+        "description": "Melhores Gadgets para o modo Dungeon, modo Infinito, defesa e velocidade de farming"
+      },
+      {
+        "icon": "Settings",
+        "title": "Guia de Traits de Anime Apocalypse",
+        "description": "Rerolls de traits, bônus passivos, conselhos sobre o que manter e planejamento de reroll"
+      },
+      {
+        "icon": "Package",
+        "title": "Guia de Cards de Anime Apocalypse",
+        "description": "Cards de riqueza, cooldown, vidas extras, drops, Coins e estratégia de run"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Guia do Modo Infinito de Anime Apocalypse",
+        "description": "Rotas de ondas infinitas, ciclo de cooldown, escolhas defensivas e controle de runs longas"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Guia do Modo Sobrevivência de Anime Apocalypse",
+        "description": "Preparação no lobby, escolha de mapa, limpeza de ondas, Cards, chefes e progressão segura"
+      },
+      {
+        "icon": "Map",
+        "title": "Guia de Mapas de Anime Apocalypse",
+        "description": "Shibuya, Impel Down, impacto do layout, rotas de movimento e escolhas de modo"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Guia de Shibuya de Anime Apocalypse",
+        "description": "Rotas de Shibuya amigáveis para iniciantes, setup de AoE, Cards, Gadgets e planos de prática"
+      },
+      {
+        "icon": "Clock",
+        "title": "Guia de Impel Down de Anime Apocalypse",
+        "description": "Ritmo da rota da prisão, travessia, perigos, limpeza de salas e segurança na sala do chefe"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Guia de Farming de Anime Apocalypse",
+        "description": "Coins, drops, Spins, Raid Tickets, maestria, progresso do passe e prioridades de upgrade"
+      },
+      {
+        "icon": "Users",
+        "title": "Guia de Pets, Títulos e Cosméticos de Anime Apocalypse",
+        "description": "Pets, títulos, traits, itens, cosméticos, crafting e poder de conta a longo prazo"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Guia de Controles e Movimentação de Anime Apocalypse",
+        "description": "Comandos de ataque, habilidades, Gadgets, ultimate, dash, slide, air dash e wall run"
+      }
+    ]
+  },
+  "modules": {
+    "animeApocalypseCodes": {
+      "title": "Anime Apocalypse Codes",
+      "eyebrow": "Recompensas Gratuitas",
+      "subtitle": "Resgate Anime Apocalypse Codes ativos para Coins, Spins de Ability, Spins de Gadget, timers de boost, Raid Tickets e rerolls de trait. Use essas recompensas antes de gastar muito no início do jogo para que suas primeiras runs comecem com Abilities e Gadgets mais fortes.",
+      "intro": "Este módulo de Anime Apocalypse Codes foi criado para jogadores que desejam Codes de recompensa atuais e um fluxo de resgate claro. Os Codes ativos são listados primeiro, seguidos pelos Codes expirados que os jogadores costumam procurar após o lançamento e marcos de teste.",
+      "activeTitle": "Anime Apocalypse Codes Ativos",
+      "expiredTitle": "Anime Apocalypse Codes Expirados",
+      "redeemTitle": "Como Resgatar Anime Apocalypse Codes",
+      "copyLabel": "Copiar",
+      "copiedLabel": "Copiado",
+      "redeemSteps": [
+        "Inicie o Anime Apocalypse no Roblox.",
+        "Clique no ícone de Codes no lado direito da tela.",
+        "Paste o code na caixa de texto.",
+        "Pressione Confirmar para resgatar as recompensas."
+      ],
+      "items": [
+        {
+          "code": "THANKSFOR5K",
+          "status": "Active",
+          "rewardSummary": "Coins e Spins",
+          "rewards": [
+            "Coins",
+            "Spins"
+          ],
+          "bestUse": "Resgate este Anime Apocalypse code em um servidor novo ou privado antes de gastar seus Spins iniciais, para que as recompensas de marco de lançamento possam ajudar nos seus primeiros rolls de Ability e Gadget."
+        },
+        {
+          "code": "THXFORPLAYING",
+          "status": "Active",
+          "rewardSummary": "10k Coins, 5 Spins de Ability Normais, 3 Spins de Gadget Normais, 4 Spins de Ability da Sorte, 4 Spins de Gadget da Sorte e x2 Coins por 1800 minutos",
+          "rewards": [
+            "10,000 Coins",
+            "5 Spins de Ability Normais",
+            "3 Spins de Gadget Normais",
+            "4 Spins de Ability da Sorte",
+            "4 Spins de Gadget da Sorte",
+            "x2 Coins por 1800 minutos"
+          ],
+          "bestUse": "Use este Anime Apocalypse code antes de uma longa sessão de farming para que o boost de Coins funcione enquanto você limpa ondas e acumula moeda para upgrades."
+        },
+        {
+          "code": "RELEASE!",
+          "status": "Active",
+          "rewardSummary": "10k Coins, 5 Spins de Ability Normais, 3 Spins de Gadget Normais, 4 Spins de Ability da Sorte, 4 Spins de Gadget da Sorte e x2 Drops por 900 minutos",
+          "rewards": [
+            "10,000 Coins",
+            "5 Spins de Ability Normais",
+            "3 Spins de Gadget Normais",
+            "4 Spins de Ability da Sorte",
+            "4 Spins de Gadget da Sorte",
+            "x2 Drops por 900 minutos"
+          ],
+          "bestUse": "Resgate este Anime Apocalypse code antes de runs em dungeons ou farming de itens iniciais, pois o boost de drop funciona melhor quando você está limpando salas ativamente."
+        },
+        {
+          "code": "SORRYFORDELAY",
+          "status": "Active",
+          "rewardSummary": "15k Coins, 20 Raid Tickets, 5 Spins de Ability Normais, 4 Spins de Gadget Normais, 4 Spins de Ability da Sorte, 4 Spins de Gadget da Sorte, x2 Drops por 1200 minutos e x2 Coins por 1200 minutos",
+          "rewards": [
+            "15,000 Coins",
+            "20 Raid Tickets",
+            "5 Spins de Ability Normais",
+            "4 Spins de Gadget Normais",
+            "4 Spins de Ability da Sorte",
+            "4 Spins de Gadget da Sorte",
+            "x2 Drops por 1200 minutos",
+            "x2 Coins por 1200 minutos"
+          ],
+          "bestUse": "Guarde este pacote de Anime Apocalypse para um bloco de progressão focada, pois ele combina moeda, acesso a raids, Spins e ambos os principais boosts de farming."
+        },
+        {
+          "code": "RELEASEONSATURDAY",
+          "status": "Expired",
+          "rewardSummary": "3 Spins de Gadget da Sorte e 10 Spins de Gadget Normais",
+          "rewards": [
+            "3 Spins de Gadget da Sorte",
+            "10 Spins de Gadget Normais"
+          ],
+          "bestUse": "Code de lançamento de Anime Apocalypse arquivado para jogadores que estão verificando recompensas de lançamento antigas."
+        },
+        {
+          "code": "TESTING!",
+          "status": "Expired",
+          "rewardSummary": "8 Spins de Ability da Sorte e 5 Spins de Ability Normais",
+          "rewards": [
+            "8 Spins de Ability da Sorte",
+            "5 Spins de Ability Normais"
+          ],
+          "bestUse": "Code de teste de Anime Apocalypse arquivado para jogadores que estão verificando listas de recompensas de pré-lançamento ou da semana de lançamento."
+        },
+        {
+          "code": "LIKETHEGAME!",
+          "status": "Expired",
+          "rewardSummary": "30k Coins e 10 Rerolls de Trait",
+          "rewards": [
+            "30,000 Coins",
+            "10 Rerolls de Trait"
+          ],
+          "bestUse": "Code de marco de Anime Apocalypse arquivado para jogadores que procuram recompensas de reroll de trait."
+        }
+      ]
+    },
+    "animeApocalypseBeginnerGuide": {
+      "title": "Guia do Iniciante de Anime Apocalypse",
+      "eyebrow": "Rota Inicial",
+      "subtitle": "Comece pelo lobby, limpe ondas de zumbis, escolha Cards úteis e gaste suas primeiras recompensas nos sistemas que mais importam. Este guia de Anime Apocalypse transforma as primeiras partidas em um caminho simples de progressão.",
+      "intro": "Anime Apocalypse é um RPG de ação no Roblox onde os jogadores lutam contra ondas de zumbis em mapas inspirados em animes, ganham saques, rolam para obter Abilities e Gadgets, e fortalecem suas partidas com Cards, traits, pets, cosméticos e melhorias. O melhor caminho inicial é aprender a movimentação, limpar salas acessíveis, usar Codes para Spins e focar em velocidade de cooldown, economia e limpeza consistente de ondas.",
+      "tipLabel": "Dica de Anime Apocalypse",
+      "items": [
+        {
+          "step": 1,
+          "title": "Nasça no lobby de Anime Apocalypse e abra a área de jogo",
+          "goal": "Entenda o fluxo básico de Anime Apocalypse antes de gastar Spins ou moedas.",
+          "details": "Você começa no lobby de Anime Apocalypse com uma Ability inicial, depois entra na área de jogo para selecionar um mapa e começar a limpar níveis cheios de zumbis.",
+          "actions": [
+            "Verifique a área de jogo.",
+            "Escolha um mapa inicial em vez de pular direto para o conteúdo difícil.",
+            "Comece uma partida para aprender o fluxo das salas e o ritmo dos inimigos."
+          ],
+          "beginnerTip": "Use a primeira partida de Anime Apocalypse para aprender onde os inimigos aparecem e como as saídas se abrem após as salas serem limpas."
+        },
+        {
+          "step": 2,
+          "title": "Aprenda os controles principais de Anime Apocalypse",
+          "goal": "Faça o combate e a movimentação de Anime Apocalypse parecerem automáticos antes das ondas mais difíceis.",
+          "details": "O ataque básico é feito com o LMB, as habilidades ativas são mapeadas para Z, X, C e V, Gadgets usam E, a ultimate usa G, o dash usa Q e o slide usa Ctrl.",
+          "actions": [
+            "Pratique o tempo do dash com Q.",
+            "Encadeie o pulo duplo e o dash aéreo para reposicionamento.",
+            "Use as habilidades em rotação em vez de guardar todos os cooldowns para os chefes."
+          ],
+          "beginnerTip": "Movimentação rápida é uma grande vantagem em Anime Apocalypse porque muitas salas recompensam o reposicionamento ágil e a limpeza rápida de ondas."
+        },
+        {
+          "step": 3,
+          "title": "Escolha um modo e mapa amigáveis para iniciantes em Anime Apocalypse",
+          "goal": "Limpe as partidas de Anime Apocalypse consistentemente antes de buscar recompensas mais difíceis.",
+          "details": "Partidas de masmorra no estilo sobrevivência são o principal caminho de aprendizado inicial, enquanto o modo Infinito se torna melhor quando você entende a movimentação, Cards e ciclos de cooldown. Shibuya é o mapa de lançamento mais fácil, enquanto Impel Down adiciona layouts de sala mais exigentes e perigos visuais.",
+          "actions": [
+            "Comece com Shibuya para um fluxo de sala mais limpo.",
+            "Vá para Impel Down depois que estiver confortável com o dash e a movimentação na parede.",
+            "Use o modo Infinito quando quiser praticar ondas e farmar em sessões longas."
+          ],
+          "beginnerTip": "Não entre em pânico nas seções de estilo lava em Anime Apocalypse Impel Down; algumas seções são atravessáveis e fazem parte do fluxo do mapa."
+        },
+        {
+          "step": 4,
+          "title": "Limpe as ondas de Anime Apocalypse e escolha as Cards certas",
+          "goal": "Transforme cada partida de Anime Apocalypse em uma build mais forte em vez de depender apenas da sua Ability base.",
+          "details": "Após marcos de chefes ou ondas, Anime Apocalypse pode oferecer Cards que mudam a partida com bônus como riqueza, vidas extras, redução de cooldown e aumento de chance de drop.",
+          "actions": [
+            "Escolha Wealth (Riqueza) cedo quando precisar de mais economia.",
+            "Mude para redução de cooldown assim que seu fluxo de moedas estiver estável.",
+            "Use vidas extras para segurança em partidas mais longas e no modo Infinito."
+          ],
+          "beginnerTip": "Cards de cooldown tornam-se mais valiosas quando sua rotação de Ability em Anime Apocalypse é forte o suficiente para limpar salas rapidamente."
+        },
+        {
+          "step": 5,
+          "title": "Gaste as recompensas iniciais de Anime Apocalypse em Spins e melhorias",
+          "goal": "Melhore sua build de Anime Apocalypse antes de tentar forçar o conteúdo mais difícil.",
+          "details": "Coins, Spins, Gadgets, traits, pets e cosméticos alimentam a progressão, mas jogadores iniciantes devem focar no acesso a Ability e Gadget, além de melhorias que ajudem na limpeza de salas.",
+          "actions": [
+            "Resgate Codes ativos de Anime Apocalypse antes de fazer muitos rolls.",
+            "Use Spins de Ability Normais e da Sorte para expandir suas opções de Ability.",
+            "Priorize melhorias de velocidade de cooldown, depois suporte de movimentação e economia."
+          ],
+          "beginnerTip": "Velocidade de cooldown é uma melhoria de alta prioridade em Anime Apocalypse porque o ciclo mais rápido de habilidades melhora tanto a limpeza de ondas quanto a pressão nos chefes."
+        },
+        {
+          "step": 6,
+          "title": "Construa em torno de uma Ability de Anime Apocalypse confiável primeiro",
+          "goal": "Evite desperdiçar recursos de Anime Apocalypse trocando constantemente antes que sua primeira build estável esteja pronta.",
+          "details": "Abilities são o sistema de combate primário, enquanto Gadgets adicionam uma ferramenta ativa separada. Jogadores iniciantes devem manter uma Ability consistente por tempo suficiente para aprender seu alcance, cooldowns, padrão de dano, tempo de ultimate e tempo de despertar (awakening).",
+          "actions": [
+            "Use Z, X, C e V como sua rotação principal.",
+            "Guarde o G para momentos de ultimate de alto valor.",
+            "Combine Gadgets de controle de grupo com Abilities que precisam de inimigos agrupados."
+          ],
+          "beginnerTip": "Uma Ability de Anime Apocalypse consistente com uso limpo de cooldown é mais forte do que um drop raro que você ainda não entende."
+        }
+      ]
+    },
+    "animeApocalypseAbilityTierList": {
+      "title": "Anime Apocalypse Ability Tier List",
+      "eyebrow": "Melhores Abilities",
+      "subtitle": "Compare as melhores Abilities de Anime Apocalypse para farming inicial, salas de chefes, modo Infinito e limpeza de fim de jogo. As classificações focam no desempenho, valor de invocação, mobilidade, eficiência de cooldown e quão prática cada Ability é de usar.",
+      "intro": "Abilities são a principal ferramenta de combate em Anime Apocalypse, e cada Ability usa um conjunto de habilidades construído em torno de habilidades ativas, tempo de ultimate e valor de despertar. As escolhas iniciais mais fortes são limpadores de ondas consistentes, enquanto a busca de longo prazo mais forte é a rara opção de tier Supreme.",
+      "items": [
+        {
+          "tier": "S+",
+          "label": "Melhor no Geral",
+          "abilities": [
+            {
+              "name": "Saiyan",
+              "role": "Ability de busca Supreme",
+              "bestFor": [
+                "Limpeza de fim de jogo",
+                "Pressão em chefes",
+                "Farming rápido"
+              ],
+              "rankingReason": "Saiyan é a Ability de Anime Apocalypse de tier Supreme mais rara e tem o desempenho bruto mais forte, combinando grande valor de velocidade de caminhada com alta produção de dano.",
+              "tradeoff": "A taxa de drop Supreme de 0,1% torna o Saiyan um alvo de longo prazo em Anime Apocalypse, em vez da Ability que a maioria dos jogadores deve planejar no primeiro dia."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Principais Escolhas Práticas",
+          "abilities": [
+            {
+              "name": "Shadow Monarch",
+              "role": "Limpador de ondas baseado em invocação",
+              "bestFor": [
+                "Farming inicial",
+                "Limpeza de salas",
+                "Dano sustentado"
+              ],
+              "rankingReason": "Shadow Monarch é uma escolha inicial popular em Anime Apocalypse porque sua mecânica de invocação estilo Arise cria pressão enquanto o jogador se move pelas ondas de zumbis.",
+              "tradeoff": "Shadow Monarch obtém o maior valor em Anime Apocalypse quando você mantém os inimigos sob controle e deixa as invocações contribuírem por toda a sala."
+            },
+            {
+              "name": "Coyote",
+              "role": "Invocador de ataque suave",
+              "bestFor": [
+                "Farming inicial",
+                "Modo Infinito",
+                "Combate móvel"
+              ],
+              "rankingReason": "Coyote é uma das escolhas iniciais mais populares de Anime Apocalypse graças à produção consistente de dano, invocações do tipo lobo e animações de movimento suaves.",
+              "tradeoff": "Coyote recompensa a movimentação ativa em Anime Apocalypse e a rotação limpa de habilidades mais do que o jogo passivo."
+            },
+            {
+              "name": "Stark",
+              "role": "Dano em área estilo arma",
+              "bestFor": [
+                "Salas de chefes",
+                "Ondas agrupadas",
+                "Explosão de ultimate"
+              ],
+              "rankingReason": "Stark traz um conjunto de movimentos de Anime Apocalypse do tipo arma com uma forte ultimate de área de efeito, tornando-o valioso quando os inimigos estão agrupados ou quando uma sala precisa de dano explosivo.",
+              "tradeoff": "Stark obtém seu melhor valor em Anime Apocalypse ao cronometrar a ultimate em grupos densos de inimigos em vez de usá-la em alvos espalhados."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Opções Fortes de Gacha",
+          "abilities": [
+            {
+              "name": "King of Curses",
+              "role": "Ability de gacha de dano principal",
+              "bestFor": [
+                "Limpeza geral",
+                "Pressão em chefes",
+                "Prática de rotação de habilidades"
+              ],
+              "rankingReason": "King of Curses pertence ao elenco de Abilities de Anime Apocalypse e funciona como uma forte opção de combate principal quando os jogadores querem um kit ofensivo completo antes de buscar os drops mais raros.",
+              "tradeoff": "O desempenho de King of Curses depende de aprender a sequência completa de habilidades de Anime Apocalypse, o tempo da ultimate e o uso do despertar."
+            },
+            {
+              "name": "Sosuke",
+              "role": "Ability ofensiva de gacha",
+              "bestFor": [
+                "Progressão geral",
+                "Limpeza de salas",
+                "Farming de início a meio de jogo"
+              ],
+              "rankingReason": "Sosuke faz parte do pool de Abilities de gacha de Anime Apocalypse e se encaixa para jogadores que querem uma Ability primária para partidas regulares enquanto constroem para opções de maior valor.",
+              "tradeoff": "Sosuke deve ser avaliado pelo fluxo de cooldown de Anime Apocalypse e pela consistência na limpeza de salas, em vez de apenas pelo nome."
+            },
+            {
+              "name": "Nen Prodigy",
+              "role": "Ability de gacha flexível",
+              "bestFor": [
+                "Aprender rotações",
+                "Progressão de início a meio de jogo",
+                "Lutas de ondas mistas"
+              ],
+              "rankingReason": "Nen Prodigy oferece aos jogadores de Anime Apocalypse outra rota de Ability listada para construir um kit estável antes de comprometer Spins premium em alvos mais raros.",
+              "tradeoff": "Nen Prodigy é melhor usada como uma Ability principal aprendida de Anime Apocalypse, não como um roll temporário que é substituído antes do desenvolvimento da maestria."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Escolhas Iniciais e de Coleção",
+          "abilities": [
+            {
+              "name": "Zorro",
+              "role": "Ability inicial",
+              "bestFor": [
+                "Primeiras partidas",
+                "Aprender os controles",
+                "Limpeza básica de ondas"
+              ],
+              "rankingReason": "Zorro é a arma inicial padrão de Anime Apocalypse disponível para os jogadores, tornando-a a primeira opção natural para aprender movimentação, mira e tempo de habilidade.",
+              "tradeoff": "Mude assim que conseguir uma Ability de Anime Apocalypse mais forte, suave ou mais especializada."
+            },
+            {
+              "name": "Fire Fighter",
+              "role": "Ability de Passe de Batalha",
+              "bestFor": [
+                "Coleção",
+                "Ultimate visual",
+                "Progressão do Passe de Batalha"
+              ],
+              "rankingReason": "Fire Fighter está ligado à progressão do Passe de Batalha de Anime Apocalypse e tem uma ultimate chamativa, mas limpa masmorras mais lentamente do que outras escolhas práticas mais fortes.",
+              "tradeoff": "Use Fire Fighter quando quiser a experiência de arma do Passe de Batalha de Anime Apocalypse, não quando precisar da velocidade de limpeza mais rápida."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseAbilitiesGuide": {
+      "title": "Guia de Abilities de Anime Apocalypse",
+      "eyebrow": "Sistema de Abilities",
+      "subtitle": "Saiba como as Abilities de Anime Apocalypse funcionam, como girá-las, a diferença entre Normal e Lucky Spins e quais abilities conhecidas fazem parte do elenco de lançamento. Use isso antes de gastar recompensas de Codes ou pacotes de Spins premium.",
+      "intro": "Abilities são a principal forma de lutar contra ondas de zumbis em Anime Apocalypse. Cada ability possui três habilidades regulares, além de uma habilidade Ultimate e uma habilidade Awakening, enquanto o Gacha de Abilities usa Normal Spins e Lucky Spins nas categorias de raridade Rare, Epic, Legendary, Mythic e Supreme.",
+      "systemTitle": "Sistema de Abilities de Anime Apocalypse",
+      "rosterTitle": "Elenco de Abilities de Anime Apocalypse",
+      "items": [
+        {
+          "type": "system",
+          "name": "Estrutura de Skills de Abilities de Anime Apocalypse",
+          "category": "Básico do Combate",
+          "details": "Cada ability de Anime Apocalypse é construída em torno de três habilidades regulares, uma habilidade Ultimate e uma habilidade Awakening.",
+          "controls": [
+            "Z: Habilidade 1",
+            "X: Habilidade 2",
+            "C: Habilidade 3",
+            "G: Ultimate",
+            "V: Awakening"
+          ],
+          "playerUse": "Alterne as habilidades regulares para limpar ondas em Anime Apocalypse, reserve a Ultimate para salas de chefes ou grupos densos de inimigos e use o Awakening quando a luta precisar de um pico de poder."
+        },
+        {
+          "type": "system",
+          "name": "Gacha de Abilities de Anime Apocalypse",
+          "category": "Como Obter",
+          "details": "As abilities de Anime Apocalypse são obtidas abrindo o menu do Gacha de Abilities com E e girando com Normal Spins ou Lucky Spins.",
+          "controls": [
+            "Gacha de Abilities no Lobby: pressione E para abrir o menu de giros"
+          ],
+          "playerUse": "Use Normal Spins para giros iniciais amplos em Anime Apocalypse e Lucky Spins quando quiser uma chance melhor de obter abilities de raridade mais alta."
+        },
+        {
+          "type": "system",
+          "name": "Taxas de Raridade de Anime Apocalypse",
+          "category": "Taxas de Drop",
+          "details": "As raridades das abilities de Anime Apocalypse são listadas como Rare 62,1%, Epic 32%, Legendary 5%, Mythic 0,8% e Supreme 0,1%.",
+          "rates": [
+            {
+              "rarity": "Rare",
+              "chance": "62,1%"
+            },
+            {
+              "rarity": "Epic",
+              "chance": "32%"
+            },
+            {
+              "rarity": "Legendary",
+              "chance": "5%"
+            },
+            {
+              "rarity": "Mythic",
+              "chance": "0,8%"
+            },
+            {
+              "rarity": "Supreme",
+              "chance": "0,1%"
+            }
+          ],
+          "playerUse": "Trate as abilities Supreme como objetivos de longo prazo em Anime Apocalypse e construa uma estratégia estável em torno da melhor ability que você já possui."
+        },
+        {
+          "type": "system",
+          "name": "Regras de Pity de Anime Apocalypse",
+          "category": "Planejamento de Spins",
+          "details": "O Gacha de Abilities de Anime Apocalypse tem marcos de pity: 50 giros garantem uma ability Legendary e 100 giros garantem uma ability Mythic.",
+          "milestones": [
+            "50 giros: Legendary garantida",
+            "100 giros: Mythic garantida"
+          ],
+          "playerUse": "Não gaste todos os seus Lucky Spins de Anime Apocalypse imediatamente; planeje sessões de giros maiores quando sua contagem de pity e recompensas de Codes puderem trabalhar juntas."
+        },
+        {
+          "type": "ability",
+          "name": "Zorro",
+          "category": "Ability Inicial",
+          "obtainMethod": "Disponível como a arma inicial de Anime Apocalypse para todos os jogadores",
+          "details": "Zorro é a primeira ability prática de Anime Apocalypse para aprender ataques, movimentação em salas e rotação básica de habilidades.",
+          "playerUse": "Use Zorro nas primeiras partidas de Anime Apocalypse e depois compare novos giros com sua velocidade de limpeza e conforto."
+        },
+        {
+          "type": "ability",
+          "name": "Nen Prodigy",
+          "category": "Ability de Gacha Conhecida",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Nen Prodigy faz parte do elenco conhecido de abilities de Anime Apocalypse e pode ser usada como kit de combate principal ao progredir pelas salas do início e meio do jogo.",
+          "playerUse": "Mantenha a Nen Prodigy tempo suficiente para aprender sua rotação em Anime Apocalypse antes de substituí-la por um giro de melhor desempenho."
+        },
+        {
+          "type": "ability",
+          "name": "Sosuke",
+          "category": "Ability de Gacha Conhecida",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Sosuke é uma das abilities listadas no elenco de Anime Apocalypse e funciona como uma opção de ability principal para limpeza regular.",
+          "playerUse": "Avalie Sosuke pelo fluxo de cooldown em Anime Apocalypse, conforto de alcance e quão bem ela limpa ondas de zumbis agrupados."
+        },
+        {
+          "type": "ability",
+          "name": "King of Curses",
+          "category": "Ability de Gacha Conhecida",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "King of Curses é uma opção de ability listada em Anime Apocalypse para jogadores que buscam um kit ofensivo mais forte.",
+          "playerUse": "Use King of Curses como uma ability de dano principal e aprenda onde sua Ultimate e Awakening oferecem o maior valor."
+        },
+        {
+          "type": "ability",
+          "name": "Coyote",
+          "category": "Escolha Popular Inicial",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Coyote usa invocações do tipo lobo e animações de movimento suaves, tornando-a uma das escolhas práticas mais populares para a progressão inicial em Anime Apocalypse.",
+          "playerUse": "Escolha Coyote quando quiser dano consistente em ondas de Anime Apocalypse com uma jogabilidade amigável à mobilidade."
+        },
+        {
+          "type": "ability",
+          "name": "Shadow Monarch",
+          "category": "Ability de Invocação Popular",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Shadow Monarch é conhecida por uma mecânica estilo Arise que invoca aliados lobos e fornece pressão consistente durante as ondas de zumbis de Anime Apocalypse.",
+          "playerUse": "Use Shadow Monarch para farming inicial em Anime Apocalypse e limpeza sustentada de salas enquanto se move agressivamente entre grupos de inimigos."
+        },
+        {
+          "type": "ability",
+          "name": "Stark",
+          "category": "Ability de Dano em Área (AoE)",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Stark tem um conjunto de movimentos do tipo arma em Anime Apocalypse e uma ultimate de área de efeito forte para dano explosivo.",
+          "playerUse": "Reserve a ultimate de Stark para grupos densos, janelas de pressão em chefes ou salas onde os inimigos podem ser agrupados por um gadget."
+        },
+        {
+          "type": "ability",
+          "name": "Saiyan",
+          "category": "Ability Supreme de Desejo",
+          "obtainMethod": "Gacha de Abilities de Anime Apocalypse",
+          "details": "Saiyan é a ability de nível Supreme mais rara de Anime Apocalypse e a opção de desejo com o desempenho bruto mais forte, com grande valor de velocidade de caminhada e dano.",
+          "playerUse": "Trate Saiyan como um objetivo de longo prazo em Anime Apocalypse e evite atrasar a progressão enquanto espera por um giro de 0,1%."
+        },
+        {
+          "type": "ability",
+          "name": "Fire Fighter",
+          "category": "Ability de Passe de Batalha",
+          "obtainMethod": "Recompensa de nível final do Passe de Batalha de Anime Apocalypse",
+          "details": "Fire Fighter é a arma do Passe de Batalha de Anime Apocalypse e tem uma ultimate chamativa, mas sua velocidade de limpeza de masmorras é mais lenta do que as escolhas práticas mais fortes.",
+          "playerUse": "Use Fire Fighter para coleção em Anime Apocalypse, valor de conclusão do Passe de Batalha e variedade, em vez de velocidade máxima de farming."
+        }
+      ]
+    },
+    "animeApocalypseGadgetsGuide": {
+      "title": "Guia de Gadgets de Anime Apocalypse para um Controle de Ondas mais Seguro",
+      "eyebrow": "Sistema de Gadgets",
+      "subtitle": "Use os Gadgets de Anime Apocalypse como habilidades ativas secundárias que apoiam seu conjunto principal de Abilities com controle de grupo, defesa, agrupamento de inimigos e limpeza de ondas mais segura.",
+      "intro": "Os Gadgets de Anime Apocalypse são separados da sua Ability principal inspirada em animes e dão a cada partida outra ferramenta para lidar com a pressão dos zumbis. Spins de Gadget Normais e Spins de Gadget de Sorte ajudam a desbloquear opções de gadgets, enquanto escolhas fortes como Black Hole e Infinity podem definir quão segura e rapidamente você limpa as salas das masmorras ou sobrevive no modo Infinito.",
+      "bestForLabel": "Melhor para",
+      "items": [
+        {
+          "title": "Slot de Gadget de Anime Apocalypse",
+          "category": "Sistema Principal",
+          "description": "O slot de gadget atua como uma habilidade ativa secundária que ajuda sua Ability a lidar com ondas de zumbis. Um bom gadget adiciona ataque, defesa, controle de grupo ou proteção de emergência, dependendo do seu efeito.",
+          "bestFor": "Jogadores que querem segurança extra e controle de ondas mais rápido",
+          "notes": [
+            "Funciona junto com sua Ability principal de Anime Apocalypse",
+            "Suporta tanto a limpeza de masmorras quanto o modo Infinito",
+            "Funciona melhor quando escolhido para resolver uma fraqueza clara em sua build"
+          ]
+        },
+        {
+          "title": "Spins de Gadget Normais de Anime Apocalypse",
+          "category": "Tipo de Spin",
+          "description": "Os Spins de Gadget Normais rodam o sistema de gadgets através do mesmo ciclo de progressão estilo gacha usado por outros upgrades de Anime Apocalypse. Eles são úteis no início porque as recompensas de Codes geralmente ajudam os jogadores a construir um conjunto inicial de gadgets rapidamente.",
+          "bestFor": "Coleção inicial de gadgets e substituição de rolagens iniciais fracas",
+          "notes": [
+            "Bom para construir um primeiro conjunto de gadgets utilizável",
+            "Comumente combinado com o planejamento de recompensas de Codes",
+            "Melhor gasto antes de usar recursos de gadgets mais raros"
+          ]
+        },
+        {
+          "title": "Spins de Gadget de Sorte de Anime Apocalypse",
+          "category": "Tipo de Spin",
+          "description": "Os Spins de Gadget de Sorte são mais valiosos porque ajudam na busca por gadgets de raridade mais alta. Guarde-os para sessões onde você estiver tentando ativamente melhorar seu slot de gadget, em vez de dar reroll casualmente entre partidas curtas.",
+          "bestFor": "Busca por gadgets mais fortes como Black Hole ou Infinity",
+          "notes": [
+            "Aparece em recompensas de grandes lançamentos de Anime Apocalypse",
+            "Melhor guardado para sessões focadas de reroll",
+            "Mais útil quando você já conhece seu estilo de jogo preferido"
+          ]
+        },
+        {
+          "title": "Black Hole",
+          "category": "Controle de Grupo",
+          "description": "O Black Hole puxa inimigos próximos, tornando-o um dos Gadgets mais práticos de Anime Apocalypse para limpar grupos densos de zumbis. Ele brilha quando sua Ability principal tem dano em área ou quando as salas das masmorras ficam lotadas.",
+          "bestFor": "Limpeza de masmorras, agrupamento de ondas e velocidade de farming",
+          "notes": [
+            "Agrupa inimigos para dano em área",
+            "Melhora a consistência da limpeza de salas",
+            "Combina bem com rotações de recarga rápida"
+          ]
+        },
+        {
+          "title": "Infinity",
+          "category": "Defesa",
+          "description": "O Infinity cria uma bolha protetora que impede que os inimigos cheguem até você por uma curta duração. É especialmente forte no modo Infinito de Anime Apocalypse porque a pesada pressão dos inimigos torna o tempo de atividade defensiva valioso.",
+          "bestFor": "Modo Infinito, sobrevivência e defesa de emergência",
+          "notes": [
+            "Cria uma forte janela defensiva",
+            "Ajuda quando os inimigos inundam a tela",
+            "Combina bem com escolhas de Cards de vida extra e sobrevivência"
+          ]
+        },
+        {
+          "title": "Time Stop",
+          "category": "Controle",
+          "description": "O Time Stop oferece uma breve janela de controle, mas o Anime Apocalypse recompensa movimento rápido, reposicionamento e limpeza ágil de ondas. Ainda pode ajudar jogadores defensivos, especialmente ao aprender o ritmo dos inimigos.",
+          "bestFor": "Controle situacional e jogo defensivo mais lento",
+          "notes": [
+            "Pode interromper a pressão inimiga",
+            "Menos eficiente que o Black Hole para limpezas rápidas",
+            "Melhor como uma opção de controle temporária do que como um alvo final de farming"
+          ]
+        }
+      ]
+    },
+    "animeApocalypseGadgetTierList": {
+      "title": "Tier List de Gadgets de Anime Apocalypse para Masmorras e Modo Infinito",
+      "eyebrow": "Ranking de Gadgets",
+      "subtitle": "Compare os Gadgets de Anime Apocalypse por controle de grupo, defesa, valor no modo Infinito, utilidade em salas de chefes e velocidade de farming.",
+      "intro": "Os Gadgets mudam a sensação de uma partida de Anime Apocalypse porque adicionam uma ferramenta ativa separada além da sua Ability principal. Black Hole e Infinity são as escolhas práticas mais fortes para jogabilidade com muitos grupos, enquanto Time Stop é mais situacional porque o jogo recompensa movimento rápido e limpeza ágil de salas.",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Melhor no Geral",
+          "items": [
+            {
+              "name": "Infinity",
+              "role": "Gadget de sobrevivência defensiva",
+              "strengths": [
+                "Cria uma bolha protetora",
+                "Muito forte quando os inimigos enchem a tela",
+                "Excelente para o modo Infinito de Anime Apocalypse"
+              ],
+              "bestModes": [
+                "Modo Infinito",
+                "Salas de alta pressão"
+              ],
+              "keepOrReroll": "Mantenha o Infinity e construa partidas de sobrevivência de Anime Apocalypse em torno de sua janela defensiva."
+            },
+            {
+              "name": "Black Hole",
+              "role": "Gadget de farming de controle de grupo",
+              "strengths": [
+                "Puxa inimigos próximos juntos",
+                "Melhora a eficiência do dano em área",
+                "Acelera a limpeza de zumbis"
+              ],
+              "bestModes": [
+                "Modo Masmorra",
+                "Partidas de farming",
+                "Salas com ondas lotadas"
+              ],
+              "keepOrReroll": "Mantenha o Black Hole, especialmente quando sua Ability de Anime Apocalypse tiver um forte dano em área."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Fortes Escolhas Situacionais",
+          "items": [
+            {
+              "name": "Slot de gadget de alto controle",
+              "role": "Escolha de controle utilitário",
+              "strengths": [
+                "Útil quando agrupa inimigos, evita danos ou estabiliza salas de chefes",
+                "Vale a pena testar antes de gastar rerolls raros"
+              ],
+              "bestModes": [
+                "Modo Masmorra",
+                "Progressão mista"
+              ],
+              "keepOrReroll": "Mantenha temporariamente se ele melhorar claramente a segurança ou a velocidade de limpeza no Anime Apocalypse."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Utilizável, mas não é Prioridade",
+          "items": [
+            {
+              "name": "Time Stop",
+              "role": "Gadget de controle de tempo",
+              "strengths": [
+                "Pode diminuir a pressão do combate",
+                "Pode criar uma breve janela de controle"
+              ],
+              "bestModes": [
+                "Jogo defensivo situacional"
+              ],
+              "keepOrReroll": "Dê reroll no Time Stop quando estiver buscando um farming mais rápido no Anime Apocalypse ou uma sobrevivência mais forte no modo Infinito."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Candidatos a Reroll",
+          "items": [
+            {
+              "name": "Rolagens de gadget de baixo impacto",
+              "role": "Preenchimento temporário de início de jogo",
+              "strengths": [
+                "Pode ajudar antes de você obter um gadget mais forte",
+                "Aceitável enquanto economiza Spins de Gadget de Sorte"
+              ],
+              "bestModes": [
+                "Progressão inicial"
+              ],
+              "keepOrReroll": "Substitua as rolagens de baixo impacto assim que puder focar em um Gadget de controle de grupo ou defensivo mais forte no Anime Apocalypse."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseTraitsGuide": {
+      "title": "Guia de Traits de Anime Apocalypse: Quando dar Reroll e o que Manter",
+      "eyebrow": "Rerolls de Traits",
+      "subtitle": "Traits são modificadores passivos aplicados às Abilities de Anime Apocalypse para melhorar o dano, movimento, fluxo de recarga ou sobrevivência.",
+      "intro": "Os Rerolls de Traits de Anime Apocalypse são recursos de progressão valiosos, então a melhor abordagem é gastá-los em Abilities que você planeja manter. Traits fortes importam mais quando anexados a Abilities de alta raridade ou de longo prazo que já se encaixam no seu plano de farming, sala de chefe ou modo Infinito.",
+      "items": [
+        {
+          "columns": [
+            "Foco da Trait",
+            "O que Melhora",
+            "Melhor Caso de Uso",
+            "Conselho de Reroll"
+          ],
+          "rows": [
+            {
+              "traitFocus": "Reaper",
+              "whatItImproves": "Valor ofensivo de alto nível para builds de Ability de Anime Apocalypse mais fortes",
+              "bestUseCase": "Jogadores construindo em torno de uma Ability forte e procurando melhor desempenho de dano",
+              "rerollAdvice": "Mantenha Reaper em uma Ability forte de Anime Apocalypse e evite substituí-la casualmente."
+            },
+            {
+              "traitFocus": "Flash",
+              "whatItImproves": "Desempenho focado em movimento e reposicionamento mais rápido",
+              "bestUseCase": "Limpezas rápidas de masmorras, estilos de jogo móveis e movimento mais seguro por salas lotadas",
+              "rerollAdvice": "Mantenha Flash se sua build de Anime Apocalypse se beneficiar de velocidade e ritmo entre as salas."
+            },
+            {
+              "traitFocus": "Traits de Dano",
+              "whatItImproves": "Limpeza de ondas, dano a chefes e velocidade de farming",
+              "bestUseCase": "Abilities principais usadas para grind de masmorras ou combate de alta pressão",
+              "rerollAdvice": "Gaste rerolls aqui quando a Ability de Anime Apocalypse for rara o suficiente para ser mantida a longo prazo."
+            },
+            {
+              "traitFocus": "Traits de Recarga",
+              "whatItImproves": "Velocidade de rotação de habilidades e tempo de atividade da habilidade",
+              "bestUseCase": "Abilities que dependem de ciclar várias habilidades rapidamente",
+              "rerollAdvice": "Foque no valor de recarga assim que sua economia e escolha de Ability de Anime Apocalypse estiverem estáveis."
+            },
+            {
+              "traitFocus": "Traits de Movimento",
+              "whatItImproves": "Esquiva, reposicionamento e fluxo de mapa mais rápido",
+              "bestUseCase": "Sobrevivência no modo Infinito e limpezas de masmorras focadas em velocidade",
+              "rerollAdvice": "Mantenha o valor de movimento se ele melhorar visivelmente a sobrevivência ou a velocidade de limpeza no Anime Apocalypse."
+            },
+            {
+              "traitFocus": "Traits de Ability Inicial",
+              "whatItImproves": "Conforto no início do jogo enquanto aprende o combate",
+              "bestUseCase": "Primeiras partidas antes de você desbloquear Abilities melhores",
+              "rerollAdvice": "Não gaste muitos Rerolls de Traits de Anime Apocalypse aqui; guarde-os para Abilities mais fortes."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseCardsGuide": {
+      "title": "Guia de Anime Apocalypse Cards para Melhores Escolhas de Partida",
+      "eyebrow": "Cards Roguelike",
+      "subtitle": "Anime Apocalypse cards aparecem durante uma partida e moldam sua build temporária com bônus de economia, cooldown, sobrevivência e drop.",
+      "intro": "Anime Apocalypse usa uma camada de Cards roguelike entre as ondas ou após os chefes, permitindo que cada partida se desenvolva de forma diferente. Cards de economia são poderosos no início, a redução de cooldown melhora a velocidade de limpeza de ondas quando sua build está estável, e vidas extras tornam-se mais valiosas quando a pressão de sobrevivência aumenta.",
+      "pickTimingLabel": "Momento de escolha",
+      "items": [
+        {
+          "title": "Riqueza",
+          "category": "Card de Economia",
+          "description": "Riqueza aumenta o valor de uma partida de Anime Apocalypse ao melhorar o ganho de recursos. É uma das melhores escolhas iniciais porque uma economia mais rápida ajuda você a comprar melhorias, girar mais Spins e fortalecer tentativas futuras.",
+          "bestFor": [
+            "Escalonamento no início da partida",
+            "Farming de dungeon",
+            "Progressão focada em melhorias"
+          ],
+          "pickTiming": "Priorize Riqueza cedo, antes que sua economia no Anime Apocalypse esteja estável."
+        },
+        {
+          "title": "Redução de Cooldown",
+          "category": "Card de Velocidade de Combate",
+          "description": "A redução de cooldown permite que você use as habilidades de Abilities com mais frequência, o que melhora diretamente a limpeza de ondas no Anime Apocalypse quando sua habilidade principal já possui dano forte.",
+          "bestFor": [
+            "Limpeza rápida de zumbis",
+            "Builds focadas em Abilities",
+            "Ritmo do modo Infinite"
+          ],
+          "pickTiming": "Escolha o valor de cooldown após ter economia suficiente ou quando as ondas começarem a ficar densas."
+        },
+        {
+          "title": "Vidas Extras",
+          "category": "Card de Sobrevivência",
+          "description": "Vidas extras dão mais margem para erros em salas difíceis, lutas contra chefes ou partidas longas no modo Infinite do Anime Apocalypse. Elas são mais fortes quando a densidade de inimigos aumenta e um posicionamento ruim pode encerrar a partida.",
+          "bestFor": [
+            "Modo Infinite",
+            "Segurança em salas de chefes",
+            "Aprender mapas difíceis"
+          ],
+          "pickTiming": "Escolha vidas extras quando a pressão de sobrevivência no Anime Apocalypse se tornar mais importante do que a velocidade bruta de farming."
+        },
+        {
+          "title": "Aumento de Chance de Drop",
+          "category": "Card de Loot",
+          "description": "Aumentos na chance de drop melhoram o lado das recompensas de uma partida de Anime Apocalypse, ajudando você a coletar drops mais úteis em combate. Combina com partidas de dungeon focadas em farming, onde o objetivo é um valor de progressão mais forte.",
+          "bestFor": [
+            "Farming de loot",
+            "Modo dungeon",
+            "Partidas de progressão"
+          ],
+          "pickTiming": "Escolha chance de drop quando sua build de Anime Apocalypse já limpar as ondas com segurança."
+        },
+        {
+          "title": "Bônus de Coins",
+          "category": "Card de Moeda",
+          "description": "Cards focados em Coins são úteis porque Coins sustentam melhorias e Spins futuros. Eles são especialmente bons na progressão inicial do Anime Apocalypse, quando cada partida deve melhorar o poder permanente.",
+          "bestFor": [
+            "Novos jogadores",
+            "Farming de melhorias",
+            "Preparação para Spins"
+          ],
+          "pickTiming": "Escolha bônus de Coins cedo, enquanto você ainda precisa das melhorias principais do Anime Apocalypse."
+        },
+        {
+          "title": "Acúmulo de Cards Defensivos",
+          "category": "Estratégia de Modo Infinite",
+          "description": "Escolhas defensivas tornam-se mais valiosas no modo Infinite do Anime Apocalypse porque as ondas continuam escalonando. Combinar Cards de sobrevivência com um Gadgets defensivo forte, como o Infinity, pode tornar as partidas longas muito mais seguras.",
+          "bestFor": [
+            "Partidas longas no modo Infinite",
+            "Ondas de alta densidade",
+            "Progressão mais segura"
+          ],
+          "pickTiming": "Escolha o acúmulo defensivo assim que a pressão dos inimigos começar a superar o seu dano no Anime Apocalypse."
+        }
+      ]
+    },
+    "animeApocalypseInfiniteModeGuide": {
+      "title": "Guia do Modo Infinite de Anime Apocalypse",
+      "eyebrow": "Estratégia de Modo Infinito",
+      "subtitle": "Avance mais fundo nas ondas infinitas de zumbis do Anime Apocalypse com melhor movimentação, escolhas de Cards, ciclo de cooldown e uso de Gadgets defensivos.",
+      "intro": "O modo Infinite do Anime Apocalypse continua escalonando após o fim da pressão normal das ondas. A sobrevivência estável em partidas longas vem de mobilidade confiável, rotação rápida de habilidades, agrupamento de inimigos, ferramentas defensivas e um ritmo limpo de sala em sala.",
+      "priorityTitle": "Prioridades do Modo Infinite de Anime Apocalypse",
+      "priorityItems": [
+        {
+          "label": "Melhor Mapa Inicial",
+          "value": "Shibuya",
+          "detail": "Corredores abertos e um fluxo de sala legível tornam o modo Infinite do Anime Apocalypse mais fácil de controlar."
+        },
+        {
+          "label": "Objetivo Principal de Combate",
+          "value": "Agrupar Antes do Burst",
+          "detail": "Reúna as ondas de zumbis antes de gastar grandes habilidades de Abilities, ultimates ou Black Hole."
+        },
+        {
+          "label": "Estabilidade da Partida",
+          "value": "Cooldowns Mais Defesa",
+          "detail": "A redução de cooldown mantém o dano disponível, enquanto Cards defensivos e o Infinity protegem janelas de erro."
+        }
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Comece o Modo Infinite de Anime Apocalypse com Shibuya",
+          "description": "Shibuya é o mapa recomendado para o modo Infinite do Anime Apocalypse porque seu layout aberto e fluxo de sala direto são mais fáceis de controlar em alta velocidade. O conforto com o mapa importa mais do que o desafio bruto quando as ondas continuam escalonando."
+        },
+        {
+          "step": 2,
+          "title": "Use a Movimentação do Anime Apocalypse para Controlar a Onda",
+          "description": "Encadeie pulo duplo, air dash, wall run, dash e slide para ficar à frente dos grupos de zumbis. Uma movimentação forte permite atrair inimigos para caminhos previsíveis antes de usar habilidades de área ou um Gadgets de controle de grupo."
+        },
+        {
+          "step": 3,
+          "title": "Agrupe os Inimigos do Anime Apocalypse Antes dos Grandes Cooldowns",
+          "description": "Evite gastar habilidades principais em zumbis espalhados. Black Hole é valioso porque atrai os inimigos, tornando as habilidades de Abilities e ultimates muito mais eficientes para a limpeza de ondas."
+        },
+        {
+          "step": 4,
+          "title": "Mude os Anime Apocalypse Cards para Redução de Cooldown",
+          "description": "Cards iniciais de Riqueza ajudam a acelerar o ganho de ouro e recursos, mas a redução de cooldown torna-se mais importante quando as ondas começam a encher a tela. Um ciclo de habilidades mais rápido significa menos momentos em que você está apenas fugindo."
+        },
+        {
+          "step": 5,
+          "title": "Mantenha as Ferramentas Defensivas do Anime Apocalypse Prontas",
+          "description": "Cards de vida extra e Gadgets defensivos estendem as partidas quando a densidade de inimigos se torna difícil de gerenciar. O Infinity cria uma bolha protetora que ajuda na recuperação quando os inimigos alcançam seu caminho."
+        },
+        {
+          "step": 6,
+          "title": "Rastreie os Inimigos Restantes do Anime Apocalypse e Continue se Movendo",
+          "description": "Use o minimapa para encontrar inimigos que ficaram para trás em sua rota de movimento. Se uma sala parecer travada, observe o aviso de direção de saída para que a partida não perca o ritmo entre as ondas."
+        }
+      ]
+    },
+    "animeApocalypseSurvivalModeGuide": {
+      "title": "Guia do Modo Survival de Anime Apocalypse",
+      "eyebrow": "Progressão Principal",
+      "subtitle": "Aprenda como limpar níveis de Anime Apocalypse, sobreviver a ondas de zumbis, lidar com salas de chefes e evitar perder progresso por mortes descuidadas.",
+      "intro": "O modo Survival do Anime Apocalypse é o ciclo principal de limpeza de níveis. Você seleciona um mapa, luta contra ondas de zumbis, escolhe Cards de vantagens entre momentos-chave, coleta loot e usa melhorias do lobby, traits, Abilities, pets e Gadgets para se tornar mais forte.",
+      "routeTitle": "Rota de Survival do Anime Apocalypse",
+      "tipLabel": "Foco em sobrevivência",
+      "items": [
+        {
+          "step": 1,
+          "title": "Prepare seu Loadout de Anime Apocalypse no Lobby",
+          "description": "Use os sistemas do lobby para girar Abilities e Gadgets, verificar traits, gastar ouro em melhorias úteis e equipar o melhor loadout disponível antes de começar. Melhorias de velocidade de cooldown e velocidade de caminhada tornam as limpezas iniciais mais suaves.",
+          "tip": "Entre na partida com uma habilidade clara, um Gadgets de suporte e conforto de movimento suficiente para se recuperar de salas lotadas."
+        },
+        {
+          "step": 2,
+          "title": "Escolha um Mapa de Anime Apocalypse que Combine com seu Conforto",
+          "description": "Shibuya é mais fácil de aprender porque tem um layout mais aberto e um fluxo de sala mais simples. Impel Down funciona melhor quando você deseja uma sensação de dungeon mais difícil, com seções subterrâneas e áreas com chão de lava.",
+          "tip": "Escolha Shibuya primeiro pela consistência, depois mude para Impel Down assim que sua build e movimentação estiverem estáveis."
+        },
+        {
+          "step": 3,
+          "title": "Limpe as Ondas de Anime Apocalypse com Movimentação Primeiro",
+          "description": "Use dash, slide, pulo duplo, air dash e wall run para evitar ser cercado. Assim que os inimigos estiverem agrupados, use habilidades de Abilities, efeitos de Gadgets e sua ultimate para limpá-los rapidamente.",
+          "tip": "A movimentação ganha tempo; o dano finaliza a onda depois que os zumbis já estão alinhados."
+        },
+        {
+          "step": 4,
+          "title": "Escolha Anime Apocalypse Cards com Base no Estágio da Partida",
+          "description": "No início de uma partida, Riqueza é útil porque aumenta o ganho de recursos. À medida que a partida fica mais difícil, Cards de redução de cooldown, chance de drop e vida extra tornam-se mais importantes para limpar ondas e sobreviver a erros.",
+          "tip": "Comece com economia quando estiver seguro, depois mude para cooldown e sobrevivência quando as salas ficarem lotadas."
+        },
+        {
+          "step": 5,
+          "title": "Jogue as Salas de Chefes de Anime Apocalypse com Segurança",
+          "description": "Mortes podem enviar você de volta ao início de uma dungeon, então desacelere antes das salas de chefes em vez de correr com vida baixa ou cooldowns mal cronometrados. Guarde habilidades principais, ultimates e janelas de Gadgets defensivos para picos perigosos de inimigos.",
+          "tip": "Trate as salas de chefes como checkpoints onde o tempo de cooldown importa mais do que a velocidade."
+        },
+        {
+          "step": 6,
+          "title": "Colete os Itens de Anime Apocalypse Antes de Sair",
+          "description": "Itens brilhantes no chão são fáceis de perder ao se mover rapidamente, então vasculhe as salas antes de sair. O minimapa ajuda a rastrear inimigos restantes quando um único zumbi impede o início da próxima sala ou onda.",
+          "tip": "Um curto ciclo de limpeza evita a perda de loot e impede que a progressão trave."
+        }
+      ]
+    },
+    "animeApocalypseMapsGuide": {
+      "title": "Guia de Mapas de Anime Apocalypse",
+      "eyebrow": "Seleção de Mapa",
+      "subtitle": "Compare os mapas de Anime Apocalypse por layout, dificuldade, fluxo de farming, rotas de movimento e valor no modo Infinite antes de iniciar uma partida.",
+      "intro": "Os mapas de Anime Apocalypse são construídos em torno da limpeza de ondas de zumbis, fluxo de salas e controle de movimento. Shibuya e Impel Down funcionam de forma diferente: um favorece rotas de aprendizado limpas, enquanto o outro adiciona uma sensação de dungeon mais perigosa para jogadores que desejam pressão extra.",
+      "items": [
+        {
+          "title": "Anime Apocalypse Shibuya",
+          "tag": "Melhor para Iniciantes",
+          "description": "Shibuya tem um layout mais aberto e um fluxo de sala direto, tornando mais fácil para novos jogadores aprenderem o rastreamento de inimigos, rotas de movimento e tempo de cooldown. Também é o mapa preferido para o modo Infinite porque o layout suporta um ritmo mais rápido."
+        },
+        {
+          "title": "Anime Apocalypse Impel Down",
+          "tag": "Melhor para Desafios",
+          "description": "Impel Down usa um layout com tema de prisão, com seções subterrâneas e visuais de chão de lava. É mais adequado para jogadores que já entendem de movimentação, agrupamento de inimigos, cautela em salas de chefes e ritmo de dungeon."
+        },
+        {
+          "title": "Impacto do Layout de Mapa no Anime Apocalypse",
+          "tag": "Velocidade de Farming",
+          "description": "Espaços abertos facilitam o kite de zumbis, o agrupamento de inimigos e o acerto de habilidades de área. Layouts mais complexos desaceleram o farming porque você deve observar cantos, rastrear retardatários e evitar perder tempo entre as salas."
+        },
+        {
+          "title": "Rotas de Movimento no Anime Apocalypse",
+          "tag": "Vantagem de Mobilidade",
+          "description": "Pulo duplo, air dash, wall run, dash e slide importam mais em mapas com salas longas ou superfícies verticais. Jogadores que se movem bem limpam as ondas mais rápido porque os inimigos passam mais tempo perseguindo do que atacando."
+        },
+        {
+          "title": "Escolha de Modo Infinite no Anime Apocalypse",
+          "tag": "Shibuya Recomendado",
+          "description": "Para ondas infinitas, Shibuya é a recomendação mais segura porque o layout facilita o controle dos inimigos. Isso permite que os jogadores foquem no ciclo de cooldown, Gadgets defensivos e gerenciamento de Cards de vida extra, em vez de lutar contra o próprio mapa."
+        },
+        {
+          "title": "Escolha de Modo Dungeon no Anime Apocalypse",
+          "tag": "Desafio em Impel Down",
+          "description": "Para a limpeza normal de dungeons, Impel Down torna-se uma escolha mais forte quando você deseja uma jogabilidade mais difícil. Seu layout e perigos visuais o tornam um teste melhor depois que você melhorou seu personagem e aprendeu hábitos mais seguros em salas de chefes."
+        }
+      ]
+    },
+    "animeApocalypseShibuyaGuide": {
+      "title": "Guia de Anime Apocalypse Shibuya",
+      "eyebrow": "Foco no Mapa",
+      "subtitle": "Domine Anime Apocalypse Shibuya com caminhos de movimento mais seguros, melhor agrupamento de inimigos e um plano de build que funciona para progressão inicial e modo Infinito.",
+      "intro": "Anime Apocalypse Shibuya é um dos principais mapas iniciais e o melhor ponto de partida para aprender o ciclo de sobrevivência baseado em movimento. Seu layout aberto oferece aos jogadores mais espaço para atrair zumbis, testar Gadgets, praticar escolhas de Cards e ganhar confiança antes de entrar em partidas mais exigentes.",
+      "items": [
+        {
+          "title": "Por que Anime Apocalypse Shibuya é amigável para iniciantes",
+          "label": "Curva de Aprendizado Fácil",
+          "description": "Shibuya tem um layout mais limpo e aberto do que Impel Down, permitindo que novos jogadores vejam o movimento dos inimigos com mais facilidade. Isso o torna um mapa forte para praticar controle de ondas, esquiva e tempo de habilidade."
+        },
+        {
+          "title": "Melhor Caso de Uso de Anime Apocalypse Shibuya",
+          "label": "Prática no Modo Infinito",
+          "description": "Shibuya é uma forte escolha para o modo Infinito porque o ritmo mais rápido combina bem com o fluxo de suas salas. Os jogadores podem focar na rotação de cooldowns e Cards de sobrevivência em vez de serem atrasados por terrenos complexos."
+        },
+        {
+          "title": "Rota de Movimento Segura em Anime Apocalypse Shibuya",
+          "label": "Atraia Primeiro",
+          "description": "Use loops amplos ao redor de grupos de inimigos e, em seguida, atravesse o espaço aberto com dash ou dash aéreo quando os zumbis se aproximarem. Correr pelas paredes e pulos duplos ajudam a resetar a distância antes de usar uma habilidade principal."
+        },
+        {
+          "title": "Plano de Agrupamento de Inimigos em Anime Apocalypse Shibuya",
+          "label": "Configuração de AoE",
+          "description": "Deixe os zumbis se reunirem antes de usar ataques grandes, ultimates ou Black Hole. Agrupar os inimigos primeiro torna cada cooldown mais valioso e reduz o tempo gasto perseguindo alvos espalhados."
+        },
+        {
+          "title": "Prioridade de Cards em Anime Apocalypse Shibuya",
+          "label": "Estabilidade da Partida",
+          "description": "Escolha Wealth cedo ao farmar, depois mude para redução de cooldown e Cards de vida extra conforme a partida fica mais perigosa. Esse equilíbrio mantém a progressão eficiente enquanto protege partidas longas."
+        },
+        {
+          "title": "Prioridade de Gadget em Anime Apocalypse Shibuya",
+          "label": "Controle e Defesa",
+          "description": "Black Hole é excelente para puxar inimigos para uma zona de abate, enquanto Infinity oferece uma janela defensiva quando a tela fica lotada. Esses dois Gadgets se encaixam especialmente bem no estilo de ondas rápidas e abertas de Shibuya."
+        }
+      ]
+    },
+    "animeApocalypseImpelDownGuide": {
+      "title": "Guia de Anime Apocalypse Impel Down",
+      "eyebrow": "Guia de Mapa",
+      "subtitle": "Aprenda como se mover pelas salas da prisão de Anime Apocalypse Impel Down, seções subterrâneas, visuais de lava e rotas de masmorras exigentes sem perder o ritmo.",
+      "intro": "Anime Apocalypse Impel Down é uma masmorra com tema de prisão mais escura, com seções subterrâneas, visuais de chão de lava e uma travessia mais exigente do que o layout aberto de Shibuya. A chave para limpá-la suavemente é usar ferramentas de movimento de forma agressiva enquanto diminui a velocidade perto de salas de chefes, perigos e saídas confusas.",
+      "playerGoalLabel": "Objetivo do jogador",
+      "items": [
+        {
+          "step": 1,
+          "title": "Entre em Anime Apocalypse Impel Down após aprender o movimento principal",
+          "description": "Comece com salas mais fáceis ou rotas no estilo Shibuya até que o pulo duplo, dash, slide e wall run pareçam naturais. Anime Apocalypse Impel Down é melhor quando você consegue se reposicionar durante as ondas de zumbis em vez de lutar contra cada grupo parado.",
+          "playerGoal": "Chegar às salas mais rápido, evitar ser encurralado e manter espaço suficiente para rotacionar habilidades."
+        },
+        {
+          "step": 2,
+          "title": "Leia o layout da prisão de Anime Apocalypse antes de se comprometer",
+          "description": "Anime Apocalypse Impel Down usa rotas inspiradas em prisões com seções subterrâneas e um fluxo de salas mais apertado. Antes de usar habilidades de cooldown longo, verifique as posições dos inimigos, paredes próximas, cantos e a direção visível da saída para que seu dano atinja de um ângulo útil.",
+          "playerGoal": "Usar o formato da sala para agrupar zumbis em vez de deixar os inimigos cercarem você."
+        },
+        {
+          "step": 3,
+          "title": "Lide com os visuais de lava de Anime Apocalypse com movimento constante",
+          "description": "Alguns visuais de lava em Anime Apocalypse Impel Down fazem parte do ambiente e podem ser atravessados ou usados para travessia. Trate as áreas de lava como testes de movimento: teste caminhos seguros, mantenha o impulso e use superfícies de wall-running quando a rota permitir.",
+          "playerGoal": "Mover-se através de zonas de perigo visual sem interromper sua velocidade de limpeza."
+        },
+        {
+          "step": 4,
+          "title": "Use o wall running de Anime Apocalypse para corrigir rotas complicadas",
+          "description": "Superfícies verticais podem ser usadas para wall running, permitindo que você alcance pontos elevados, atravesse partes de uma sala ou se recupere de uma posição ruim. Isso é especialmente útil em salas estilo prisão onde o caminho pelo chão está lotado de zumbis.",
+          "playerGoal": "Escapar da pressão, pular rotas lentas pelo chão e se reposicionar antes que os inimigos te alcancem."
+        },
+        {
+          "step": 5,
+          "title": "Limpe as salas de Anime Apocalypse Impel Down com ciclos de cooldown",
+          "description": "Comece com uma ferramenta de agrupamento ou habilidade de área alta, depois rotacione ataques normais, movimento de dash e habilidades de cooldown mais baixo enquanto espera por suas Abilities mais fortes. Cards de redução de cooldown e upgrades tornam Anime Apocalypse Impel Down mais suave porque reduzem o tempo morto entre as ondas.",
+          "playerGoal": "Manter o tempo de atividade do dano alto enquanto evita enfrentar grandes grupos de frente."
+        },
+        {
+          "step": 6,
+          "title": "Aproxime-se das salas de chefes de Anime Apocalypse com cuidado",
+          "description": "Morrer em conteúdo de masmorra pode forçar um reinício do começo, então evite correr para as entradas das salas de chefes quando seus cooldowns, Gadget ou ultimate estiverem indisponíveis. Entre com espaço, guarde uma ferramenta defensiva quando possível e use dash ou movimento de parede antes de se comprometer com animações longas.",
+          "playerGoal": "Terminar a masmorra sem perder toda a partida por causa de uma sala ruim."
+        }
+      ]
+    },
+    "animeApocalypseFarmingGuide": {
+      "title": "Guia de Farming de Anime Apocalypse",
+      "eyebrow": "Progressão",
+      "subtitle": "Compare Anime Apocalypse Coins, drops, Spins, Raid Tickets, progresso de maestria e recompensas do passe de batalha antes de encarar masmorras mais difíceis ou o modo Infinito.",
+      "intro": "A progressão de Anime Apocalypse é construída em torno de partidas repetidas, escolhas de Cards, Codes, missões, Spins, upgrades e sistemas de conta de longo prazo. A progressão inicial mais rápida vem do acúmulo de recompensas de economia primeiro, convertendo-as em melhores Abilities, Gadgets, traits, upgrades de cooldown e maior consistência nas partidas.",
+      "resourceLabel": "Recurso",
+      "bestSourcesLabel": "Melhores fontes",
+      "bestUseLabel": "Melhor uso",
+      "priorityLabel": "Prioridade",
+      "farmingTipLabel": "Dica de farming de Anime Apocalypse",
+      "items": [
+        {
+          "resource": "Coins",
+          "bestSources": [
+            "Cards de Wealth durante as partidas",
+            "Recompensas de Coins de Codes ativos",
+            "Limpeza de masmorras",
+            "Recompensas de missões"
+          ],
+          "bestUse": "Gaste Coins em upgrades principais de Anime Apocalypse primeiro, especialmente velocidade de cooldown e velocidade de caminhada, antes de buscar rolagens de luxo.",
+          "priority": "Muito Alta",
+          "farmingTip": "Escolha Wealth cedo em uma partida quando seu dano estiver estável, depois mude para Cards de cooldown ou sobrevivência assim que sua economia estiver fluindo."
+        },
+        {
+          "resource": "Drops",
+          "bestSources": [
+            "Drops de zumbis",
+            "Cards de chance de drop",
+            "Boosts de Codes de x2 Drops",
+            "Limpeza de masmorras e ondas"
+          ],
+          "bestUse": "Use drops como a base para a coleção de itens e criação de cosméticos em Anime Apocalypse.",
+          "priority": "Alta",
+          "farmingTip": "Jogue enquanto os boosts de drop estiverem ativos e evite ignorar itens brilhantes no chão, pois os drops podem ser fáceis de perder durante movimentos rápidos."
+        },
+        {
+          "resource": "Normal Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Recompensas de login diário",
+            "Missões",
+            "Moeda do jogo"
+          ],
+          "bestUse": "Role para obter Abilities utilizáveis de Anime Apocalypse antes de investir pesadamente em maestria ou rerolls de traits.",
+          "priority": "Alta",
+          "farmingTip": "Use Spins normais para construir uma base de habilidades jogável, depois economize recursos de maior valor para buscar upgrades raros."
+        },
+        {
+          "resource": "Lucky Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Recompensas diárias",
+            "Missões",
+            "Drops ocasionais de zumbis"
+          ],
+          "bestUse": "Use Lucky Ability Spins quando estiver buscando ativamente Abilities de raridade mais alta em Anime Apocalypse, como opções de nível Mítico ou Supremo.",
+          "priority": "Alta",
+          "farmingTip": "Resgate Codes com muitos Spins antes de longas sessões de jogo para que as recompensas melhorem imediatamente sua configuração de farming."
+        },
+        {
+          "resource": "Normal Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Recompensas de missões",
+            "Recompensas de progressão"
+          ],
+          "bestUse": "Role para um Gadget prático de Anime Apocalypse que ajude na limpeza de ondas, agrupamento ou defesa.",
+          "priority": "Média",
+          "farmingTip": "Um Gadget forte pode estabilizar as partidas mesmo antes de seu elenco de habilidades estar perfeito, então não ignore os Spins de Gadget."
+        },
+        {
+          "resource": "Lucky Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Recompensas de progressão",
+            "Drops de recompensas limitadas"
+          ],
+          "bestUse": "Busque Gadgets de alto impacto em Anime Apocalypse, como Black Hole ou Infinity, para melhor controle de multidão e sobrevivência.",
+          "priority": "Alta",
+          "farmingTip": "Use Lucky Gadget Spins quando sua habilidade atual já for funcional e sua principal fraqueza for o controle de ondas ou segurança."
+        },
+        {
+          "resource": "Raid Tickets",
+          "bestSources": [
+            "Codes que concedem tickets",
+            "Rastreamento de eventos e recompensas"
+          ],
+          "bestUse": "Economize Raid Tickets para tentativas em Anime Apocalypse onde sua habilidade, Gadget e upgrades já estejam fortes o suficiente para obter valor da partida.",
+          "priority": "Média",
+          "farmingTip": "A recompensa de lançamento SORRYFORDELAY inclui 20 Raid Tickets, tornando o resgate de Codes um primeiro passo importante antes de focar em raids."
+        },
+        {
+          "resource": "Experiência de Maestria",
+          "bestSources": [
+            "Partidas repetidas com a mesma habilidade",
+            "Limpeza de masmorras",
+            "Farming de ondas no modo Infinito",
+            "Grinding em dificuldades mais altas"
+          ],
+          "bestUse": "Desenvolva maestria em Abilities de Anime Apocalypse que você realmente planeja usar, já que a progressão de maestria pode desbloquear valor adicional para a habilidade.",
+          "priority": "Média",
+          "farmingTip": "Não espalhe a maestria por muitas habilidades cedo; foque em uma habilidade de farming confiável até que sua build principal esteja estável."
+        },
+        {
+          "resource": "Progresso do Passe de Batalha",
+          "bestSources": [
+            "Subir de nível através do jogo regular",
+            "Partidas em masmorras",
+            "Sessões no modo Infinito",
+            "Progressão sazonal"
+          ],
+          "bestUse": "Resgate recompensas sazonais de Anime Apocalypse, como Spins, ouro e a arma Fire Fighter do passe de batalha quando disponível.",
+          "priority": "Média",
+          "farmingTip": "Trate o progresso do passe de batalha como um bônus sobreposto ao farming normal, pois seu nível sazonal contribui para as recompensas do passe."
+        },
+        {
+          "resource": "Trait Rerolls",
+          "bestSources": [
+            "Recompensas de Codes",
+            "Recompensas de progressão",
+            "Recompensas de eventos"
+          ],
+          "bestUse": "Aplique rerolls de traits em Abilities de Anime Apocalypse que você provavelmente manterá, em vez de rolar novamente armas temporárias fracas.",
+          "priority": "Média",
+          "farmingTip": "Economize rerolls até ter uma base de habilidade forte, então busque traits que melhorem o dano, velocidade ou consistência da partida."
+        }
+      ]
+    },
+    "animeApocalypsePetsTitlesCosmeticsGuide": {
+      "title": "Guia de Pets, Títulos e Cosméticos de Anime Apocalypse",
+      "eyebrow": "Sistemas de Conta",
+      "subtitle": "Entenda os sistemas de Anime Apocalypse além da sua Ability e Gadget principal, incluindo pets, títulos, itens, cosméticos, traits e crafting.",
+      "intro": "Anime Apocalypse não é apenas sobre obter uma Ability forte. O jogo também inclui pets, títulos, traits, itens, cosméticos, quests e sistemas de recompensa que adicionam bônus de status, objetivos de crafting e motivos de longo prazo para continuar eliminando zumbis.",
+      "statImpactLabel": "Impacto nos status",
+      "bestForLabel": "Melhor para",
+      "items": [
+        {
+          "title": "Pets de Anime Apocalypse",
+          "summary": "Pets seguem seu personagem e concedem bônus de status.",
+          "content": "Pets de Anime Apocalypse fazem parte do ciclo de progressão de longo prazo e valem a pena serem farmados porque adicionam poder à conta além da sua Ability ativa. Como o ciclo de jogo permite ganhar loot e moedas nos mapas, os pets devem ser tratados como um caminho de melhoria paralelo enquanto você continua aprimorando Abilities e Gadgets.",
+          "statImpact": "Bônus de status",
+          "bestFor": "Jogadores que querem poder passivo enquanto farmam dungeons ou o modo Infinite."
+        },
+        {
+          "title": "Títulos de Anime Apocalypse",
+          "summary": "Títulos são recompensas de progressão equipáveis que fornecem buffs de status adicionais.",
+          "content": "Títulos de Anime Apocalypse são úteis porque permitem que os jogadores adicionem status extras sem mudar sua configuração principal de Ability ou Gadget. Equipe um título que corresponda à sua fraqueza atual, como sobrevivência, velocidade ou progressão focada em dano.",
+          "statImpact": "Buff de status",
+          "bestFor": "Jogadores otimizando sua build após as escolhas básicas de Ability e Gadget já estarem funcionando."
+        },
+        {
+          "title": "Itens de Anime Apocalypse",
+          "summary": "Itens podem ser obtidos de zumbis derrotados e alimentam o ciclo de crafting.",
+          "content": "Os drops de zumbis de Anime Apocalypse são importantes porque os itens conectam o combate regular ao crafting de cosméticos. Pegue os drops brilhantes no chão durante limpezas rápidas para que o farm de dungeons e waves também aumente seu inventário de itens ao longo do tempo.",
+          "statImpact": "Material de crafting",
+          "bestFor": "Jogadores farmando dungeons repetidamente e coletando materiais enquanto progridem."
+        },
+        {
+          "title": "Cosméticos de Anime Apocalypse",
+          "summary": "Cosméticos são peças de equipamento que podem conceder status adicionais.",
+          "content": "Cosméticos de Anime Apocalypse não são apenas objetivos de coleção visual. Eles são listados como equipamentos com valor de status, então os jogadores devem tratar o crafting de cosméticos como parte da progressão da conta, em vez de um sistema puramente decorativo.",
+          "statImpact": "Status de equipamento",
+          "bestFor": "Jogadores que querem camadas extras de status após melhorar Abilities, Gadgets, pets e títulos."
+        },
+        {
+          "title": "Crafting de Cosméticos de Anime Apocalypse",
+          "summary": "O crafting conecta drops de zumbis, itens e progressão cosmética.",
+          "content": "Derrotar zumbis de Anime Apocalypse gera itens que podem ser usados para crafting cosmético. A melhor abordagem é farmar conteúdo que você consegue limpar de forma consistente, coletar drops em cada run e craftar cosméticos assim que seu inventário suportar a peça desejada.",
+          "statImpact": "Progressão de item para equipamento",
+          "bestFor": "Jogadores que farmam salas repetidas e querem objetivos de longo prazo além de Spins."
+        },
+        {
+          "title": "Skins de Arma de Anime Apocalypse",
+          "summary": "Skins de arma podem mudar os efeitos visuais de uma arma.",
+          "content": "Skins de arma de Anime Apocalypse fazem parte da camada cosmética e podem tornar uma Ability favorita mais distinta. Elas devem ser tratadas como atualizações de estilo após sua base de combate já estar estável.",
+          "statImpact": "Customização visual",
+          "bestFor": "Jogadores que querem um visual mais limpo ou uma apresentação de estilo anime mais forte para sua arma principal."
+        },
+        {
+          "title": "Traits de Anime Apocalypse",
+          "summary": "Traits são modificadores passivos que tornam as Abilities mais fortes.",
+          "content": "Traits de Anime Apocalypse são rolados nas Abilities e devem ser usados com cuidado porque os rerolls de traits são valiosos. Economize rerolls para Abilities que planeja manter e use traits para reforçar seu estilo preferido de farm ou sobrevivência.",
+          "statImpact": "Modificador passivo de Ability",
+          "bestFor": "Jogadores que já têm uma Ability forte e querem otimizá-la ainda mais."
+        }
+      ]
+    },
+    "animeApocalypseControlsMovementGuide": {
+      "title": "Guia de Controles e Movimentação de Anime Apocalypse",
+      "eyebrow": "Controles",
+      "subtitle": "Domine o ataque, skills, Gadgets, uso de ultimate, esquiva, deslizamento, pulo duplo, air dash e corrida na parede em Anime Apocalypse.",
+      "intro": "Anime Apocalypse é mais rápido que um jogo padrão de defesa de hordas no Roblox porque o combate é construído em torno de reposicionamento constante. Aprender os controles cedo torna todos os sistemas mais fáceis: você limpa salas mais rápido, coleta drops com mais segurança, evita pressão de chefes e sobrevive por mais tempo em ondas infinitas de zumbis.",
+      "inputLabel": "Comando",
+      "comboTipLabel": "Dica de combo",
+      "items": [
+        {
+          "step": 1,
+          "title": "Movimentação Básica de Anime Apocalypse",
+          "input": "W, A, S, D",
+          "description": "Use a movimentação padrão do Roblox para circular inimigos, atrair grupos de zumbis e não ficar encurralado. Nunca fique parado após iniciar uma onda porque a pressão dos inimigos escala rapidamente em salas lotadas.",
+          "comboTip": "Mova-se para os lados enquanto ataca para que os zumbis se agrupem à sua frente em vez de cercarem você."
+        },
+        {
+          "step": 2,
+          "title": "Pulo e Pulo Duplo de Anime Apocalypse",
+          "input": "Space",
+          "description": "O pulo é a base da cadeia de movimentação, e Anime Apocalypse suporta mobilidade ao estilo pulo duplo. Use o pulo para atravessar vãos nas salas, resetar sua posição e se preparar para rotas de air dash ou corrida na parede.",
+          "comboTip": "Pule antes de dar o dash quando precisar de distância em vez de uma esquiva curta no chão."
+        },
+        {
+          "step": 3,
+          "title": "Dash e Esquiva de Anime Apocalypse",
+          "input": "Q",
+          "description": "Dash é sua principal ferramenta de fuga e reposicionamento. Use-o para desviar de ataques, sair de aglomerados de inimigos e criar espaço antes de usar sua próxima skill.",
+          "comboTip": "Use o dash após a animação de uma skill para evitar ser punido enquanto os cooldowns se recuperam."
+        },
+        {
+          "step": 4,
+          "title": "Deslizamento de Anime Apocalypse",
+          "input": "Ctrl",
+          "description": "O deslizamento oferece outra opção de movimento para reposicionamento rápido no chão. É útil quando você precisa escapar da pressão sem gastar uma ação de combate maior.",
+          "comboTip": "Deslize por caminhos abertos e, em seguida, vire-se e use uma skill de área quando os inimigos estiverem agrupados atrás de você."
+        },
+        {
+          "step": 5,
+          "title": "Ataque Básico de Anime Apocalypse",
+          "input": "Botão Esquerdo do Mouse",
+          "description": "O ataque básico preenche as lacunas entre os cooldowns das Abilities. Não é apenas enchimento; ele mantém o dano fluindo enquanto você espera as skills, Gadget ou ultimate recarregarem.",
+          "comboTip": "Use ataques básicos enquanto atrai inimigos em vez de esperar passivamente pelos cooldowns."
+        },
+        {
+          "step": 6,
+          "title": "Skills de Ability de Anime Apocalypse",
+          "input": "Z, X, C, V",
+          "description": "As skills de Ability são seus principais botões de dano e definem seu estilo de combate. Intercale o uso delas em vez de usar tudo de uma vez, especialmente em salas exigentes onde o tempo de cooldown importa.",
+          "comboTip": "Comece com uma skill ampla ou de agrupamento e guarde uma skill para inimigos que surgirem atrás de você."
+        },
+        {
+          "step": 7,
+          "title": "Gadget de Anime Apocalypse",
+          "input": "E",
+          "description": "Gadgets são ferramentas ativas secundárias que suportam sua Ability. Use Gadgets ofensivos para agrupar ou limpar zumbis, e Gadgets defensivos quando precisar de tempo para resetar seu posicionamento.",
+          "comboTip": "Use um Gadget de controle de grupo antes de sua skill de área mais forte para limpezas de hordas mais eficientes."
+        },
+        {
+          "step": 8,
+          "title": "Ultimate de Anime Apocalypse",
+          "input": "G",
+          "description": "Skills de Ultimate são habilidades de alto impacto, melhor guardadas para pressão de chefes, grandes ondas de zumbis ou limpezas de emergência. Do não desperdice um ultimate em uma sala quase terminada, a menos que isso evite uma morte.",
+          "comboTip": "Entre em salas mais difíceis com o ultimate pronto quando possível, especialmente em runs de Impel Down ou dificuldades superiores."
+        },
+        {
+          "step": 9,
+          "title": "Air Dash de Anime Apocalypse",
+          "input": "Cadeia de pulo mais movimento de dash",
+          "description": "O air dash permite que você se reposicione rapidamente após pular e é uma das formas mais rápidas de escapar da pressão inimiga. Também ajuda a atravessar seções maiores das salas e manter a velocidade durante as rotas de farm.",
+          "comboTip": "Use o pulo duplo seguido de air dash quando uma rota terrestre estiver bloqueada por zumbis."
+        },
+        {
+          "step": 10,
+          "title": "Corrida na Parede de Anime Apocalypse",
+          "input": "Use superfícies verticais durante o movimento",
+          "description": "Correr na parede permite que você se mova por superfícies verticais, alcance rotas elevadas e pule partes complicadas de uma sala. Isso é especialmente valioso em mapas com caminhos estreitos ou perigos ambientais.",
+          "comboTip": "Corra pela parede para escapar de pisos lotados e, depois, desça em um ângulo de ataque melhor."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "FAQ de Anime Apocalypse",
+    "titleHighlight": "Guia",
+    "subtitle": "Respostas para Anime Apocalypse Codes, Abilities, Gadgets, mapas e progressão na primeira run.",
+    "questions": [
+      {
+        "question": "O que é Anime Apocalypse no Roblox?",
+        "answer": "Anime Apocalypse é um jogo de sobrevivência roguelike de zumbis de anime no Roblox onde os jogadores limpam ondas, obtêm Abilities e Gadgets, escolhem Cards, farmam recompensas e melhoram suas builds."
+      },
+      {
+        "question": "Como os Anime Apocalypse Codes ajudam novos jogadores?",
+        "answer": "Anime Apocalypse Codes dão Coins, Spins, timers de boost, Raid Tickets e rerolls de traits que aceleram os rolls iniciais de Ability, rolls de Gadget, upgrades e sessões de farm."
+      },
+      {
+        "question": "Qual Ability de Anime Apocalypse os iniciantes devem usar primeiro?",
+        "answer": "Iniciantes em Anime Apocalypse devem aprender o kit inicial do Zorro primeiro, depois tentar um roll mais fluido como Coyote, Shadow Monarch, Stark ou outra Ability que limpe ondas de forma consistente."
+      },
+      {
+        "question": "Como funciona o Gacha de Ability de Anime Apocalypse?",
+        "answer": "O Gacha de Ability de Anime Apocalypse usa Normal Spins e Lucky Spins, inclui raridades de Rare a Supreme e possui marcos de pity em 50 rolls para Legendary e 100 rolls para Mythic."
+      },
+      {
+        "question": "Por quais mapas os iniciantes de Anime Apocalypse devem começar?",
+        "answer": "Iniciantes em Anime Apocalypse devem começar por Shibuya para um fluxo de sala mais limpo, depois seguir para Impel Down após aprender o timing do dash, pulo duplo, air dash e movimentação na parede."
+      },
+      {
+        "question": "O que os jogadores de Anime Apocalypse devem melhorar primeiro?",
+        "answer": "Jogadores de Anime Apocalypse devem priorizar velocidade de cooldown, conforto de movimentação, acesso a Abilities, suporte de Gadget e ferramentas de economia para que cada run limpe as salas mais rápido e sobrevive por mais tempo."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para sobreviver ao Anime Apocalypse?",
+    "description": "Junte-se ao Discord do Anime Apocalypse para atualizações do Roblox, alertas de Codes, ideias de builds e discussões sobre sobrevivência a ondas.",
+    "joinCommunity": "Junte-se ao Discord do Anime Apocalypse",
+    "joinGame": "Jogue Anime Apocalypse no Roblox"
+  },
+  "footer": {
+    "title": "Anime Apocalypse Wiki",
+    "description": "Seu hub completo de recursos para Anime Apocalypse Roblox Codes, Abilities, Gadgets, Cards, farming, mapas e guias para iniciantes.",
+    "resources": "Recursos",
+    "community": "Comunidade",
+    "legal": "Jurídico",
+    "discord": "Discord",
+    "twitter": "YouTube Gameplay",
+    "robloxGroup": "Grupo Roblox",
+    "robloxGame": "Jogo Roblox",
+    "about": "Sobre",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Anime Apocalypse Wiki. Não afiliado ao Anime Apocalypse Dev ou Roblox Corporation.",
+    "disclaimer": "Site de recursos não oficial feito por fãs."
+  },
+  "pages": {
+    "codes": {
+      "title": "Anime Apocalypse Codes",
+      "description": "Últimos Anime Apocalypse Codes para Coins, gemas, boosts, Spins, tickets e progressão mais rápida no Roblox.",
+      "metaTitle": "Anime Apocalypse Codes - Guia de Recompensas e Resgate",
+      "metaDescription": "Use Anime Apocalypse Codes para Coins grátis, gemas, boosts, Spins, tickets e recompensas de sobrevivência a ondas no Roblox.",
+      "categoryLabel": "CODES",
+      "whatIs": "O que são Anime Apocalypse Codes?",
+      "whatIsDescription": "Anime Apocalypse Codes são sequências de recompensas dos desenvolvedores que ajudam os jogadores a resgatar Coins grátis, gemas, boosts, Spins, tickets e outros recursos úteis.",
+      "why": "Por que usar Anime Apocalypse Codes?",
+      "whySteps": {
+        "step1Title": "Resgate Recompensas do Anime Apocalypse",
+        "step1Description": "Resgate as recompensas dos Codes antes de iniciar longas sessões de farming ou gastar recursos de upgrade iniciais.",
+        "step2Title": "Melhore a Progressão no Anime Apocalypse",
+        "step2Description": "Use moedas grátis, boosts e Spins para desbloquear opções mais fortes sem atrasar suas primeiras partidas.",
+        "step3Title": "Planeje seus Gastos no Anime Apocalypse",
+        "step3Description": "Combine cada recompensa de Code com invocações, upgrades, Raid Tickets ou rerolls para que cada resgate ajude sua build."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Anime Apocalypse Codes"
+    },
+    "guide": {
+      "title": "Anime Apocalypse Guide",
+      "description": "Cobertura completa do guia do Anime Apocalypse para iniciantes, controles, rotas de farming, progressão, atualizações e estratégia de sobrevivência.",
+      "metaTitle": "Anime Apocalypse Guide - Dicas para Iniciantes e Progressão",
+      "metaDescription": "Leia artigos do guia do Anime Apocalypse para rotas de iniciantes, métodos de farming, controles, progressão, notas de testes públicos e estratégia de gameplay.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "O que é a seção de Guia do Anime Apocalypse?",
+      "whatIsDescription": "A seção de guia do Anime Apocalypse explica o ciclo principal de sobrevivência no Roblox, rotas iniciais, o básico do combate, prioridades de farming, atualizações e planejamento de progressão.",
+      "why": "Por que ler os guias do Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Aprenda o Básico do Anime Apocalypse",
+        "step1Description": "Entenda a movimentação, ataques, ondas, menus, recompensas e objetivos da primeira sessão antes que os recursos fiquem escassos.",
+        "step2Title": "Crie Impulso no Anime Apocalypse",
+        "step2Description": "Siga rotas de iniciantes e de farming que transformam cada partida em Coins, Spins, upgrades e desbloqueios.",
+        "step3Title": "Adapte-se às Atualizações do Anime Apocalypse",
+        "step3Description": "Use guias de atualização e teste para entender novos sistemas, mudanças e prioridades conforme a experiência no Roblox se expande."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Guias do Anime Apocalypse"
+    },
+    "tier": {
+      "title": "Anime Apocalypse Tier List",
+      "description": "Cobertura da Anime Apocalypse Tier List para as melhores Abilities, Gadgets, armas, Cards e builds completas.",
+      "metaTitle": "Anime Apocalypse Tier List - Melhores Builds e Equipamentos",
+      "metaDescription": "Compare artigos da Anime Apocalypse Tier List para as melhores Abilities, Gadgets, armas, Cards e builds em farming, raids e partidas de sobrevivência.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "O que é a Anime Apocalypse Tier List?",
+      "whatIsDescription": "A seção da Anime Apocalypse Tier List classifica e compara escolhas de build para que os jogadores possam priorizar Abilities, Gadgets, armas, Cards e loadouts de alto valor.",
+      "why": "Por que conferir a Anime Apocalypse Tier List?",
+      "whySteps": {
+        "step1Title": "Compare as Melhores Escolhas do Anime Apocalypse",
+        "step1Description": "Veja quais opções têm melhor desempenho para limpeza de ondas, dano a chefes, utilidade, sobrevivência e farming de recursos.",
+        "step2Title": "Gaste seus Rolls do Anime Apocalypse com Sabedoria",
+        "step2Description": "Use os rankings para decidir quando buscar uma Ability, Gadget, arma ou build completa mais forte.",
+        "step3Title": "Ajuste seus Loadouts no Anime Apocalypse",
+        "step3Description": "Combine as recomendações da Tier List com raids, sessões de farming, modo Infinito e progressão de iniciante."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Artigos da Anime Apocalypse Tier List"
+    },
+    "weapons": {
+      "title": "Armas do Anime Apocalypse",
+      "description": "Guias de armas do Anime Apocalypse para Akaza, Escanor, escolhas de raid, notas de showcase, upgrades e ajuste de combate.",
+      "metaTitle": "Armas do Anime Apocalypse - Melhores Guias de Armas",
+      "metaDescription": "Navegue pelas armas do Anime Apocalypse, incluindo a arma do Akaza, arma do Escanor, showcases de armas, escolhas de raid, upgrades e recomendações de combate.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "O que são as Armas do Anime Apocalypse?",
+      "whatIsDescription": "As armas do Anime Apocalypse são ferramentas de combate que moldam o dano, alcance, pressão em raids e a identidade da build em partidas de sobrevivência.",
+      "why": "Por que ler os guias de armas do Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Escolha Armas do Anime Apocalypse",
+        "step1Description": "Compare a força das armas, uso em raids, estilo de dano e valor prático de combate antes de investir.",
+        "step2Title": "Planeje Loadouts de Raid no Anime Apocalypse",
+        "step2Description": "Use guias de armas para combinar lutas contra chefes, ondas de inimigos e necessidades da equipe com a opção de combate certa.",
+        "step3Title": "Melhore o Dano no Anime Apocalypse",
+        "step3Description": "Entenda quando uma arma merece recursos e como ela complementa suas escolhas de Ability, Gadget e Card."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Armas do Anime Apocalypse"
+    },
+    "raids": {
+      "title": "Raids do Anime Apocalypse",
+      "description": "Guias de raids do Anime Apocalypse cobrindo tickets, recompensas, estratégia de raid do Akaza, atualizações e preparação para chefes.",
+      "metaTitle": "Raids do Anime Apocalypse - Tickets, Recompensas e Guia de Chefes",
+      "metaDescription": "Leia guias de raids do Anime Apocalypse para Raid Tickets, recompensas, estratégia de raid do Akaza, notas de atualização, preparação para chefes e builds recomendadas.",
+      "categoryLabel": "RAIDS",
+      "whatIs": "O que são as Raids do Anime Apocalypse?",
+      "whatIsDescription": "As raids do Anime Apocalypse são desafios de maior pressão no Roblox onde os jogadores gastam tickets, lutam contra chefes, buscam recompensas e testam builds preparadas.",
+      "why": "Por que ler os guias de raid do Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Prepare seus Tickets do Anime Apocalypse",
+        "step1Description": "Saiba quando usar Raid Tickets e quais recompensas tornam cada tentativa de raid valiosa.",
+        "step2Title": "Vença os Chefes do Anime Apocalypse",
+        "step2Description": "Revise rotas de raid, pressão de chefes, armas recomendadas, Abilities, Gadgets e hábitos de sobrevivência.",
+        "step3Title": "Acompanhe as Atualizações de Raid do Anime Apocalypse",
+        "step3Description": "Use guias de atualização para entender novas recompensas de raid, adições de chefes e mudanças de prioridade."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Raids do Anime Apocalypse"
+    },
+    "abilities": {
+      "title": "Anime Apocalypse Abilities",
+      "description": "Guias de Anime Apocalypse Abilities para Spins, lucky Spins, cooldowns, rerolls de traits, showcases e planejamento de builds.",
+      "metaTitle": "Anime Apocalypse Abilities - Spins, Cooldowns e Builds",
+      "metaDescription": "Explore Anime Apocalypse Abilities com Spins de habilidades, lucky Spins, planejamento de cooldown, rerolls de traits, showcases e conselhos de builds de combate.",
+      "categoryLabel": "ABILITIES",
+      "whatIs": "O que são Anime Apocalypse Abilities?",
+      "whatIsDescription": "Anime Apocalypse Abilities definem seu kit de combate ativo, fluxo de cooldown, saída de dano, controle de grupo, valor de movimento e pressão contra chefes.",
+      "why": "Por que ler guias de Anime Apocalypse Abilities?",
+      "whySteps": {
+        "step1Title": "Entenda as Skills de Anime Apocalypse",
+        "step1Description": "Aprenda como efeitos de habilidades, cooldowns, awakenings e showcases se traduzem em desempenho real nas partidas.",
+        "step2Title": "Gaste Anime Apocalypse Spins",
+        "step2Description": "Compare Spins de habilidades regulares, lucky Spins e decisões de reroll antes de comprometer recursos.",
+        "step3Title": "Forme Builds de Anime Apocalypse",
+        "step3Description": "Combine Abilities com armas, Gadgets e Cards para farming, raids, chefes e ondas de sobrevivência."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todas as Anime Apocalypse Abilities"
+    },
+    "gadgets": {
+      "title": "Anime Apocalypse Gadgets",
+      "description": "Guias de Anime Apocalypse Gadgets para Black Hole, Infinity, Time Stop, Spins de gadgets, lucky Spins e builds de utilidade.",
+      "metaTitle": "Anime Apocalypse Gadgets - Spins e Melhores Escolhas de Utilidade",
+      "metaDescription": "Navegue pelos Anime Apocalypse Gadgets incluindo Black Hole, Infinity, Time Stop, Spins de gadgets, lucky Spins de gadgets, escolhas de utilidade e combinações de builds.",
+      "categoryLabel": "GADGETS",
+      "whatIs": "O que são Anime Apocalypse Gadgets?",
+      "whatIsDescription": "Anime Apocalypse Gadgets são ferramentas de utilidade que suportam seu kit principal com controle, defesa, janelas de burst, ajuda na mobilidade ou conforto no farming.",
+      "why": "Por que ler guias de Anime Apocalypse Gadgets?",
+      "whySteps": {
+        "step1Title": "Compare a Utilidade em Anime Apocalypse",
+        "step1Description": "Veja como Gadgets como Black Hole, Infinity e Time Stop afetam ondas, chefes e espaço de sobrevivência.",
+        "step2Title": "Use Anime Apocalypse Gadget Spins",
+        "step2Description": "Entenda Spins de gadgets regulares e lucky Spins de gadgets antes de buscar ferramentas de utilidade raras.",
+        "step3Title": "Complete Builds de Anime Apocalypse",
+        "step3Description": "Combine Gadgets com Abilities, armas, Cards e objetivos de raid para um loadout completo mais limpo."
+      },
+      "featured": "Destaques e Essenciais",
+      "all": "Todos os Anime Apocalypse Gadgets"
+    }
   }
 }

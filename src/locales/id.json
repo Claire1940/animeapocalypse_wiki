@@ -1,11 +1,1603 @@
 {
+  "seo": {
+    "home": {
+      "title": "Anime Apocalypse Wiki - Codes, Tier List & Panduan Pemula",
+      "description": "Anime Apocalypse Wiki mencakup Codes terbaru, Abilities, Gadgets, senjata, bos, rute farming, Tier List, peta, kontrol, dan tips pemula untuk Roblox.",
+      "ogTitle": "Anime Apocalypse Wiki - Codes, Tier List & Panduan Pemula",
+      "ogDescription": "Anime Apocalypse Wiki mencakup Roblox Codes, Abilities, Gadgets, bos, rute farming, peta, Tier List, kontrol, dan tips pemula.",
+      "twitterTitle": "Anime Apocalypse Wiki - Codes, Tier List & Panduan Pemula",
+      "twitterDescription": "Anime Apocalypse Wiki mencakup Roblox Codes, Abilities, Gadgets, bos, Tier List, peta, dan tips pemula."
+    }
+  },
   "nav": {
     "codes": "Codes",
-    "guide": "Guide",
+    "guide": "Panduan",
     "tier": "Tier",
-    "weapons": "Weapons",
-    "raids": "Raids",
+    "weapons": "Senjata",
+    "raids": "Raid",
     "abilities": "Abilities",
     "gadgets": "Gadgets"
+  },
+  "common": {
+    "home": "Beranda",
+    "more": "Lainnya",
+    "playNow": "Mainkan di Roblox",
+    "switchLanguage": "Ganti Bahasa",
+    "switchTheme": "Ganti Tema",
+    "lightMode": "Mode Terang",
+    "darkMode": "Mode Gelap",
+    "notFound": "Halaman Tidak Ditemukan",
+    "notFoundDescription": "Halaman yang Anda cari tidak ada.",
+    "backToHome": "Kembali ke Beranda",
+    "relatedArticles": "Artikel Terkait",
+    "readMore": "Baca Selengkapnya"
+  },
+  "hero": {
+    "badge": "Anime Zombie Roguelike Survival",
+    "title": "Anime Apocalypse Wiki",
+    "description": "Bertahan dari gelombang zombie di peta yang terinspirasi anime, buka Abilities dan Gadgets, pilih perk Cards, farm Coins dan Spins, serta gunakan Codes untuk progres lebih cepat.",
+    "getFreeCodesCTA": "Gabung Discord",
+    "playOnRobloxCTA": "Mainkan di Roblox",
+    "playOnSteamCTA": "Mainkan di Roblox",
+    "stats": {
+      "stat1": {
+        "value": "102K+",
+        "label": "Total Kunjungan"
+      },
+      "stat2": {
+        "value": "97%",
+        "label": "Tingkat Persetujuan"
+      },
+      "stat3": {
+        "value": "2.8K+",
+        "label": "Anggota Discord"
+      },
+      "stat4": {
+        "value": "30",
+        "label": "Ukuran Server"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay Anime Apocalypse",
+    "description": "Selesaikan gelombang zombie Roblox, dapatkan Abilities dan Gadgets, pilih perk Cards, farm Coins dan Spins, serta bangun run Anime Apocalypse yang lebih kuat."
+  },
+  "tools": {
+    "title": "Sumber Daya Anime Apocalypse",
+    "titleHighlight": "Sumber Daya Anime Apocalypse",
+    "subtitle": "Langsung menuju Anime Apocalypse Codes, progres pemula, peringkat ability, Abilities, Gadgets, trait, Cards, mode Infinite, mode Survival, peta, rute Shibuya, Impel Down, farming, sistem akun, dan kontrol.",
+    "cards": [
+      {
+        "icon": "ClipboardCheck",
+        "title": "Anime Apocalypse Codes",
+        "description": "Codes aktif, kode kedaluwarsa, hadiah, dan langkah penukaran"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Panduan Pemula Anime Apocalypse",
+        "description": "Rute run pertama, kontrol, Cards, Spins, dan peningkatan"
+      },
+      {
+        "icon": "Star",
+        "title": "Anime Apocalypse Ability Tier List",
+        "description": "Abilities terbaik untuk farming, bos, mode Infinite, dan penyelesaian"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Panduan Abilities Anime Apocalypse",
+        "description": "Skill ability, aturan gacha, tingkat kelangkaan, pity, dan catatan roster"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Panduan Gadgets Anime Apocalypse",
+        "description": "Gadget Spins, skill sekunder, Black Hole, Infinity, dan peran pendukung"
+      },
+      {
+        "icon": "Shield",
+        "title": "Anime Apocalypse Gadget Tier List",
+        "description": "Gadgets terbaik untuk mode Dungeon, mode Infinite, pertahanan, dan kecepatan farming"
+      },
+      {
+        "icon": "Settings",
+        "title": "Panduan Trait Anime Apocalypse",
+        "description": "Reroll trait, bonus pasif, saran penyimpanan, dan perencanaan reroll"
+      },
+      {
+        "icon": "Package",
+        "title": "Panduan Cards Anime Apocalypse",
+        "description": "Wealth, cooldown, nyawa tambahan, drop, Coins, dan strategi run Cards"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Panduan Mode Infinite Anime Apocalypse",
+        "description": "Rute gelombang tak berujung, siklus cooldown, pilihan defensif, dan kontrol jangka panjang"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Panduan Mode Survival Anime Apocalypse",
+        "description": "Persiapan lobi, pilihan peta, pembersihan gelombang, Cards, bos, dan progres aman"
+      },
+      {
+        "icon": "Map",
+        "title": "Panduan Peta Anime Apocalypse",
+        "description": "Shibuya, Impel Down, dampak tata letak, rute pergerakan, dan pilihan mode"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Panduan Shibuya Anime Apocalypse",
+        "description": "Rute Shibuya ramah pemula, pengaturan AoE, Cards, Gadgets, dan rencana latihan"
+      },
+      {
+        "icon": "Clock",
+        "title": "Panduan Impel Down Anime Apocalypse",
+        "description": "Kecepatan rute penjara, penjelajahan, bahaya, pembersihan ruangan, dan keamanan ruang bos"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Panduan Farming Anime Apocalypse",
+        "description": "Coins, drop, Spins, Raid Tickets, mastery, progres pass, dan prioritas peningkatan"
+      },
+      {
+        "icon": "Users",
+        "title": "Panduan Pet, Gelar, dan Kosmetik Anime Apocalypse",
+        "description": "Pet, gelar, trait, item, kosmetik, crafting, dan kekuatan akun jangka panjang"
+      },
+      {
+        "icon": "Keyboard",
+        "title": "Panduan Kontrol dan Pergerakan Anime Apocalypse",
+        "description": "Input serangan, skill, Gadgets, ultimate, dash, slide, air dash, dan wall run"
+      }
+    ]
+  },
+  "modules": {
+    "animeApocalypseCodes": {
+      "title": "Anime Apocalypse Codes",
+      "eyebrow": "Hadiah Gratis",
+      "subtitle": "Tukarkan Anime Apocalypse Codes aktif untuk Coins, Ability Spins, Gadget Spins, boost timer, Raid Tickets, dan reroll trait. Gunakan hadiah ini sebelum melakukan rolling awal agar run pertama Anda dimulai dengan Abilities dan Gadgets yang lebih kuat.",
+      "intro": "Modul Anime Apocalypse Codes ini dibuat untuk pemain yang menginginkan kode hadiah terbaru dan alur penukaran yang jelas. Codes aktif diurutkan pertama, diikuti oleh kode kedaluwarsa yang sering dicari pemain setelah rilis dan pencapaian pengujian.",
+      "activeTitle": "Anime Apocalypse Codes Aktif",
+      "expiredTitle": "Anime Apocalypse Codes Kedaluwarsa",
+      "redeemTitle": "Cara Menukarkan Anime Apocalypse Codes",
+      "copyLabel": "Salin",
+      "copiedLabel": "Tersalin",
+      "redeemSteps": [
+        "Buka Anime Apocalypse di Roblox.",
+        "Klik ikon Codes di sisi kanan layar.",
+        "Tempelkan kode ke dalam kotak teks.",
+        "Tekan Confirm untuk mengklaim hadiah."
+      ],
+      "items": [
+        {
+          "code": "THANKSFOR5K",
+          "status": "Aktif",
+          "rewardSummary": "Coins dan Spins",
+          "rewards": [
+            "Coins",
+            "Spins"
+          ],
+          "bestUse": "Klaim Anime Apocalypse Code ini di server baru atau privat sebelum menghabiskan Spins awal agar hadiah pencapaian rilis dapat mendukung roll ability dan gadget pertama Anda."
+        },
+        {
+          "code": "THXFORPLAYING",
+          "status": "Aktif",
+          "rewardSummary": "10k Coins, 5 Normal Ability Spins, 3 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, dan x2 Coins selama 1800 menit",
+          "rewards": [
+            "10.000 Coins",
+            "5 Normal Ability Spins",
+            "3 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Coins selama 1800 menit"
+          ],
+          "bestUse": "Gunakan Anime Apocalypse Code ini sebelum sesi farming yang lama agar boost koin berjalan saat Anda menyelesaikan gelombang dan mengumpulkan mata uang untuk peningkatan."
+        },
+        {
+          "code": "RELEASE!",
+          "status": "Aktif",
+          "rewardSummary": "10k Coins, 5 Normal Ability Spins, 3 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, dan x2 Drops selama 900 menit",
+          "rewards": [
+            "10.000 Coins",
+            "5 Normal Ability Spins",
+            "3 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Drops selama 900 menit"
+          ],
+          "bestUse": "Tukarkan Anime Apocalypse Code ini sebelum run dungeon atau farming item awal karena boost drop bekerja paling baik saat Anda aktif membersihkan ruangan."
+        },
+        {
+          "code": "SORRYFORDELAY",
+          "status": "Aktif",
+          "rewardSummary": "15k Coins, 20 Raid Tickets, 5 Normal Ability Spins, 4 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, x2 Drops selama 1200 menit, dan x2 Coins selama 1200 menit",
+          "rewards": [
+            "15.000 Coins",
+            "20 Raid Tickets",
+            "5 Normal Ability Spins",
+            "4 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Drops selama 1200 menit",
+            "x2 Coins selama 1200 menit"
+          ],
+          "bestUse": "Simpan bundel Anime Apocalypse ini untuk blok progres terfokus karena menggabungkan mata uang, akses raid, Spins, dan kedua boost farming utama."
+        },
+        {
+          "code": "RELEASEONSATURDAY",
+          "status": "Kedaluwarsa",
+          "rewardSummary": "3 Lucky Gadget Spins dan 10 Normal Gadget Spins",
+          "rewards": [
+            "3 Lucky Gadget Spins",
+            "10 Normal Gadget Spins"
+          ],
+          "bestUse": "Arsip kode rilis Anime Apocalypse untuk pemain yang memeriksa hadiah peluncuran lama."
+        },
+        {
+          "code": "TESTING!",
+          "status": "Kedaluwarsa",
+          "rewardSummary": "8 Lucky Ability Spins dan 5 Normal Ability Spins",
+          "rewards": [
+            "8 Lucky Ability Spins",
+            "5 Normal Ability Spins"
+          ],
+          "bestUse": "Arsip kode pengujian Anime Apocalypse untuk pemain yang memeriksa daftar hadiah pra-rilis atau minggu peluncuran."
+        },
+        {
+          "code": "LIKETHEGAME!",
+          "status": "Kedaluwarsa",
+          "rewardSummary": "30k Coins dan 10 Trait Rerolls",
+          "rewards": [
+            "30.000 Coins",
+            "10 Trait Rerolls"
+          ],
+          "bestUse": "Arsip kode pencapaian Anime Apocalypse untuk pemain yang mencari hadiah reroll trait."
+        }
+      ]
+    },
+    "animeApocalypseBeginnerGuide": {
+      "title": "Panduan Pemula Anime Apocalypse",
+      "eyebrow": "Rute Pemula",
+      "subtitle": "Mulai dari lobi, bersihkan gelombang zombie, pilih Cards yang berguna, dan gunakan hadiah pertama Anda pada sistem yang paling penting. Panduan Anime Apocalypse ini mengubah beberapa permainan pertama menjadi jalur progresi yang sederhana.",
+      "intro": "Anime Apocalypse adalah RPG aksi Roblox di mana pemain melawan gelombang zombie di peta yang terinspirasi anime, mendapatkan jarahan, melakukan roll untuk Abilities dan Gadgets, serta memperkuat permainan dengan Cards, traits, pets, kosmetik, dan peningkatan. Jalur awal terbaik adalah mempelajari pergerakan, membersihkan ruangan yang dapat diakses, menggunakan Codes untuk Spins, dan membangun karakter di sekitar kecepatan cooldown, ekonomi, dan pembersihan gelombang yang konsisten.",
+      "tipLabel": "Tip Anime Apocalypse",
+      "items": [
+        {
+          "step": 1,
+          "title": "Muncul di lobi Anime Apocalypse dan buka area bermain",
+          "goal": "Pahami alur dasar Anime Apocalypse sebelum menghabiskan Spins atau mata uang.",
+          "details": "Anda memulai di lobi Anime Apocalypse dengan starting Ability, lalu masuk ke area bermain untuk memilih peta dan mulai membersihkan level yang dipenuhi zombie.",
+          "actions": [
+            "Periksa area bermain.",
+            "Pilih peta awal daripada langsung melompat ke konten yang sulit.",
+            "Mulai permainan untuk mempelajari alur ruangan dan ritme musuh."
+          ],
+          "beginnerTip": "Gunakan permainan Anime Apocalypse pertama untuk mempelajari tempat musuh muncul dan bagaimana pintu keluar terbuka setelah ruangan dibersihkan."
+        },
+        {
+          "step": 2,
+          "title": "Pelajari kontrol inti Anime Apocalypse",
+          "goal": "Buat pertarungan dan pergerakan Anime Apocalypse terasa otomatis sebelum gelombang yang lebih sulit.",
+          "details": "Serangan dasar dilakukan dengan LMB, skill aktif dipetakan ke Z, X, C, dan V, Gadgets menggunakan E, ultimate menggunakan G, dash menggunakan Q, dan slide menggunakan Ctrl.",
+          "actions": [
+            "Latih waktu dash dengan Q.",
+            "Gabungkan double jump dan air dash untuk reposisi.",
+            "Gunakan skill dalam rotasi daripada menyimpan setiap cooldown untuk bos."
+          ],
+          "beginnerTip": "Pergerakan cepat adalah keuntungan utama di Anime Apocalypse karena banyak ruangan memberikan hadiah untuk reposisi cepat dan pembersihan gelombang yang bersih."
+        },
+        {
+          "step": 3,
+          "title": "Pilih mode dan peta Anime Apocalypse yang ramah pemula",
+          "goal": "Selesaikan permainan Anime Apocalypse secara konsisten sebelum mengejar hadiah yang lebih sulit.",
+          "details": "Permainan dungeon gaya bertahan hidup adalah jalur pembelajaran awal yang utama, sementara mode Infinite menjadi lebih baik setelah Anda memahami pergerakan, Cards, dan siklus cooldown. Shibuya adalah peta peluncuran yang lebih mudah, sementara Impel Down menambahkan tata letak ruangan yang lebih menuntut dan bahaya visual.",
+          "actions": [
+            "Mulai dengan Shibuya untuk alur ruangan yang lebih bersih.",
+            "Pindah ke Impel Down setelah Anda nyaman dengan dash dan pergerakan dinding.",
+            "Gunakan mode Infinite saat Anda ingin latihan gelombang dan farming sesi panjang."
+          ],
+          "beginnerTip": "Jangan panik di sekitar bagian bergaya lava di Anime Apocalypse Impel Down; beberapa bagian dapat dilewati dan merupakan bagian dari alur peta."
+        },
+        {
+          "step": 4,
+          "title": "Bersihkan gelombang Anime Apocalypse dan pilih Cards yang tepat",
+          "goal": "Ubah setiap permainan Anime Apocalypse menjadi build yang lebih kuat daripada hanya mengandalkan kemampuan dasar Anda.",
+          "details": "Setelah pencapaian bos atau gelombang, Anime Apocalypse dapat menawarkan Cards yang mengubah permainan dengan bonus seperti kekayaan, nyawa tambahan, pengurangan cooldown, dan peningkatan peluang drop.",
+          "actions": [
+            "Pilih Wealth lebih awal saat Anda membutuhkan lebih banyak ekonomi.",
+            "Beralih ke pengurangan cooldown setelah aliran mata uang Anda stabil.",
+            "Gunakan nyawa tambahan untuk keamanan dalam permainan yang lebih lama dan mode Infinite."
+          ],
+          "beginnerTip": "Cards cooldown menjadi lebih berharga setelah rotasi Ability Anime Apocalypse Anda cukup kuat untuk membersihkan ruangan dengan cepat."
+        },
+        {
+          "step": 5,
+          "title": "Gunakan hadiah awal Anime Apocalypse untuk Spins dan peningkatan",
+          "goal": "Tingkatkan build Anime Apocalypse Anda sebelum mencoba memaksakan konten yang lebih sulit.",
+          "details": "Coins, Spins, Gadgets, traits, pets, dan kosmetik semuanya berkontribusi pada progresi, tetapi pemain awal harus fokus pada akses Ability dan Gadgets ditambah peningkatan yang membantu pembersihan ruangan.",
+          "actions": [
+            "Tukarkan Anime Apocalypse Codes yang aktif sebelum melakukan banyak roll.",
+            "Gunakan Normal dan Lucky Ability Spins untuk memperluas opsi Ability Anda.",
+            "Prioritaskan peningkatan kecepatan cooldown, lalu dukungan pergerakan dan ekonomi."
+          ],
+          "beginnerTip": "Kecepatan cooldown adalah peningkatan Anime Apocalypse prioritas tinggi karena siklus skill yang lebih cepat meningkatkan pembersihan gelombang dan tekanan pada bos."
+        },
+        {
+          "step": 6,
+          "title": "Bangun di sekitar satu Ability Anime Apocalypse yang andal terlebih dahulu",
+          "goal": "Hindari membuang sumber daya Anime Apocalypse dengan terus-menerus berganti sebelum build stabil pertama Anda siap.",
+          "details": "Abilities adalah sistem pertarungan utama, sementara Gadgets menambahkan alat aktif terpisah. Pemain awal harus mempertahankan Ability yang konsisten cukup lama untuk mempelajari jangkauan, cooldown, pola kerusakan, waktu ultimate, dan waktu awakening-nya.",
+          "actions": [
+            "Gunakan Z, X, C, and V sebagai rotasi utama Anda.",
+            "Simpan G untuk momen ultimate yang bernilai tinggi.",
+            "Pasangkan Gadgets kontrol kerumunan dengan Abilities yang membutuhkan musuh yang berkelompok."
+          ],
+          "beginnerTip": "Ability Anime Apocalypse yang konsisten dengan penggunaan cooldown yang bersih lebih kuat daripada tarikan langka yang belum Anda pahami."
+        }
+      ]
+    },
+    "animeApocalypseAbilityTierList": {
+      "title": "Anime Apocalypse Ability Tier List",
+      "eyebrow": "Abilities Terbaik",
+      "subtitle": "Bandingkan Abilities Anime Apocalypse terbaik untuk farming awal, ruang bos, mode Infinite, dan pembersihan akhir permainan. Peringkat berfokus pada performa, nilai summon, mobilitas, efisiensi cooldown, dan seberapa praktis setiap Ability untuk digunakan.",
+      "intro": "Abilities adalah alat tempur utama di Anime Apocalypse, dan setiap Ability menggunakan rangkaian skill yang dibangun di sekitar skill aktif, waktu ultimate, dan nilai awakening. Pilihan awal terkuat adalah pembersih gelombang yang konsisten, sementara target jangka panjang terkuat adalah opsi tingkat Supreme yang langka.",
+      "items": [
+        {
+          "tier": "S+",
+          "label": "Terbaik Secara Keseluruhan",
+          "abilities": [
+            {
+              "name": "Saiyan",
+              "role": "Ability target Supreme",
+              "bestFor": [
+                "Pembersihan akhir permainan",
+                "Tekanan bos",
+                "Farming cepat"
+              ],
+              "rankingReason": "Saiyan adalah Ability Anime Apocalypse tingkat Supreme yang paling langka dan memiliki performa mentah terkuat, menggabungkan nilai kecepatan jalan yang besar dengan output kerusakan tinggi.",
+              "tradeoff": "Tingkat tarikan Supreme 0,1% membuat Saiyan menjadi target Anime Apocalypse jangka panjang daripada Ability yang harus direncanakan oleh sebagian besar pemain pada hari pertama."
+            }
+          ]
+        },
+        {
+          "tier": "S",
+          "label": "Pilihan Praktis Teratas",
+          "abilities": [
+            {
+              "name": "Shadow Monarch",
+              "role": "Pembersih gelombang berbasis summon",
+              "bestFor": [
+                "Farming awal",
+                "Pembersihan ruangan",
+                "Kerusakan berkelanjutan"
+              ],
+              "rankingReason": "Shadow Monarch adalah pilihan awal Anime Apocalypse yang populer karena mekanik summon gaya Arise-nya menciptakan tekanan saat pemain bergerak melalui gelombang zombie.",
+              "tradeoff": "Shadow Monarch mendapatkan nilai Anime Apocalypse maksimal saat Anda menjaga musuh tetap terkendali dan membiarkan summon berkontribusi di seluruh ruangan."
+            },
+            {
+              "name": "Coyote",
+              "role": "Penyerang summon yang mulus",
+              "bestFor": [
+                "Farming awal",
+                "Mode Infinite",
+                "Pertarungan mobile"
+              ],
+              "rankingReason": "Coyote adalah salah satu pilihan awal Anime Apocalypse yang paling populer berkat output kerusakan yang konsisten, summon tipe serigala, dan animasi gerakan yang mulus.",
+              "tradeoff": "Coyote menghargai pergerakan Anime Apocalypse yang aktif dan rotasi skill yang bersih daripada permainan pasif."
+            },
+            {
+              "name": "Stark",
+              "role": "Kerusakan AoE gaya senjata api",
+              "bestFor": [
+                "Ruang bos",
+                "Gelombang berkelompok",
+                "Burst ultimate"
+              ],
+              "rankingReason": "Stark menghadirkan moveset Anime Apocalypse tipe senjata api dengan ultimate area-of-effect yang kuat, membuatnya berharga saat musuh berkelompok atau saat ruangan membutuhkan kerusakan burst.",
+              "tradeoff": "Stark mendapatkan nilai Anime Apocalypse terbaiknya dari penentuan waktu ultimate ke dalam kelompok musuh yang padat daripada menggunakannya pada target yang tersebar."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Opsi Gacha yang Kuat",
+          "abilities": [
+            {
+              "name": "King of Curses",
+              "role": "Ability gacha kerusakan utama",
+              "bestFor": [
+                "Pembersihan umum",
+                "Tekanan bos",
+                "Latihan rotasi skill"
+              ],
+              "rankingReason": "King of Curses termasuk dalam daftar Ability Anime Apocalypse dan berfungsi sebagai opsi pertarungan utama yang kuat saat pemain menginginkan rangkaian serangan penuh sebelum mengejar tarikan paling langka.",
+              "tradeoff": "Performa King of Curses bergantung pada mempelajari urutan skill Anime Apocalypse yang lengkap, waktu ultimate, dan penggunaan awakening."
+            },
+            {
+              "name": "Sosuke",
+              "role": "Ability gacha ofensif",
+              "bestFor": [
+                "Progresi umum",
+                "Pembersihan ruangan",
+                "Farming awal hingga menengah"
+              ],
+              "rankingReason": "Sosuke adalah bagian dari kolam Ability gacha Anime Apocalypse dan cocok untuk pemain yang menginginkan Ability utama untuk permainan reguler sambil membangun menuju opsi target bernilai lebih tinggi.",
+              "tradeoff": "Sosuke harus dievaluasi berdasarkan alur cooldown Anime Apocalypse dan konsistensi pembersihan ruangan daripada nilai nama saja."
+            },
+            {
+              "name": "Nen Prodigy",
+              "role": "Ability gacha yang fleksibel",
+              "bestFor": [
+                "Mempelajari rotasi",
+                "Progresi awal hingga menengah",
+                "Pertarungan gelombang campuran"
+              ],
+              "rankingReason": "Nen Prodigy memberi pemain Anime Apocalypse rute Ability terdaftar lainnya untuk membangun rangkaian yang stabil sebelum menggunakan premium Spins untuk target yang lebih langka.",
+              "tradeoff": "Nen Prodigy paling baik digunakan sebagai Ability utama Anime Apocalypse yang dipelajari, bukan sebagai roll sementara yang diganti sebelum penguasaan berkembang."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Pilihan Pemula dan Koleksi",
+          "abilities": [
+            {
+              "name": "Zorro",
+              "role": "Ability pemula",
+              "bestFor": [
+                "Permainan pertama",
+                "Mempelajari kontrol",
+                "Pembersihan gelombang dasar"
+              ],
+              "rankingReason": "Zorro adalah senjata pemula default Anime Apocalypse yang tersedia bagi pemain, menjadikannya opsi pertama yang alami untuk mempelajari pergerakan, penargetan, dan waktu skill.",
+              "tradeoff": "Beralihlah setelah Anda mendapatkan Ability Anime Apocalypse yang lebih kuat, lebih mulus, atau lebih terspesialisasi."
+            },
+            {
+              "name": "Fire Fighter",
+              "role": "Ability Battle Pass",
+              "bestFor": [
+                "Koleksi",
+                "Ultimate visual",
+                "Progresi Battle Pass"
+              ],
+              "rankingReason": "Fire Fighter terikat pada progresi Battle Pass Anime Apocalypse dan memiliki ultimate yang mencolok, tetapi ia membersihkan dungeon lebih lambat daripada pilihan praktis yang lebih kuat.",
+              "tradeoff": "Gunakan Fire Fighter saat Anda menginginkan pengalaman senjata Battle Pass Anime Apocalypse, bukan saat Anda membutuhkan kecepatan pembersihan tercepat."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseAbilitiesGuide": {
+      "title": "Panduan Anime Apocalypse Abilities",
+      "eyebrow": "Sistem Ability",
+      "subtitle": "Pelajari cara kerja Anime Apocalypse Abilities, cara melakukan roll, perbedaan antara Normal Spins dan Lucky Spins, serta Abilities mana saja yang saat ini menjadi bagian dari daftar peluncuran. Gunakan ini sebelum menggunakan hadiah Codes atau bundel premium Spins.",
+      "intro": "Abilities adalah cara utama untuk melawan gelombang zombie di Anime Apocalypse. Setiap Ability memiliki tiga skill reguler ditambah satu skill Ultimate dan satu skill Awakening, sementara Ability Gacha menggunakan Normal Spins dan Lucky Spins di seluruh kategori kelangkaan Rare, Epic, Legendary, Mythic, dan Supreme.",
+      "systemTitle": "Sistem Anime Apocalypse Ability",
+      "rosterTitle": "Daftar Anime Apocalypse Ability",
+      "items": [
+        {
+          "type": "system",
+          "name": "Struktur Skill Anime Apocalypse Ability",
+          "category": "Dasar Pertempuran",
+          "details": "Setiap Anime Apocalypse Ability dibangun dengan tiga skill reguler, satu skill Ultimate, dan satu skill Awakening.",
+          "controls": [
+            "Z: Skill 1",
+            "X: Skill 2",
+            "C: Skill 3",
+            "G: Ultimate",
+            "V: Awakening"
+          ],
+          "playerUse": "Gunakan skill reguler secara bergantian untuk pembersihan gelombang Anime Apocalypse, simpan Ultimate untuk ruang bos atau kerumunan musuh yang padat, dan gunakan Awakening saat pertempuran membutuhkan lonjakan kekuatan."
+        },
+        {
+          "type": "system",
+          "name": "Anime Apocalypse Ability Gacha",
+          "category": "Cara Mendapatkan",
+          "details": "Anime Apocalypse Abilities didapatkan dengan membuka menu Ability Gacha dengan menekan E dan melakukan roll dengan Normal Spins atau Lucky Spins.",
+          "controls": [
+            "Lobby Ability Gacha: tekan E untuk membuka menu rolling"
+          ],
+          "playerUse": "Gunakan Normal Spins untuk roll awal Anime Apocalypse secara umum dan Lucky Spins saat Anda menginginkan peluang lebih baik untuk mendapatkan Abilities dengan kelangkaan lebih tinggi."
+        },
+        {
+          "type": "system",
+          "name": "Tingkat Kelangkaan Anime Apocalypse",
+          "category": "Peluang Drop",
+          "details": "Kelangkaan Anime Apocalypse Ability terdaftar sebagai Rare 62,1%, Epic 32%, Legendary 5%, Mythic 0,8%, dan Supreme 0,1%.",
+          "rates": [
+            {
+              "rarity": "Rare",
+              "chance": "62.1%"
+            },
+            {
+              "rarity": "Epic",
+              "chance": "32%"
+            },
+            {
+              "rarity": "Legendary",
+              "chance": "5%"
+            },
+            {
+              "rarity": "Mythic",
+              "chance": "0.8%"
+            },
+            {
+              "rarity": "Supreme",
+              "chance": "0.1%"
+            }
+          ],
+          "playerUse": "Anggap Supreme Abilities sebagai target jangka panjang Anime Apocalypse dan bangun permainan yang stabil di sekitar Ability terbaik yang sudah Anda miliki."
+        },
+        {
+          "type": "system",
+          "name": "Aturan Pity Anime Apocalypse",
+          "category": "Perencanaan Spins",
+          "details": "Anime Apocalypse Ability Gacha memiliki pencapaian pity: 50 roll menjamin Ability Legendary dan 100 roll menjamin Ability Mythic.",
+          "milestones": [
+            "50 roll: jaminan Legendary",
+            "100 roll: jaminan Mythic"
+          ],
+          "playerUse": "Jangan habiskan setiap Anime Apocalypse Lucky Spins segera; rencanakan sesi rolling yang lebih besar saat hitungan pity dan hadiah Codes Anda dapat digunakan bersamaan."
+        },
+        {
+          "type": "ability",
+          "name": "Zorro",
+          "category": "Ability Pemula",
+          "obtainMethod": "Tersedia sebagai senjata awal Anime Apocalypse untuk semua pemain",
+          "details": "Zorro adalah Anime Apocalypse Ability pertama yang praktis untuk mempelajari serangan, pergerakan ruangan, dan rotasi skill dasar.",
+          "playerUse": "Gunakan Zorro untuk beberapa sesi permainan awal Anime Apocalypse, lalu bandingkan roll baru dengan kecepatan pembersihan dan kenyamanannya."
+        },
+        {
+          "type": "ability",
+          "name": "Nen Prodigy",
+          "category": "Ability Gacha yang Diketahui",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Nen Prodigy adalah bagian dari daftar Anime Apocalypse Ability yang diketahui dan dapat digunakan sebagai perlengkapan tempur utama saat maju melalui ruang awal dan pertengahan permainan.",
+          "playerUse": "Gunakan Nen Prodigy cukup lama untuk mempelajari rotasi Anime Apocalypse-nya sebelum menggantinya dengan tarikan yang berkinerja lebih tinggi."
+        },
+        {
+          "type": "ability",
+          "name": "Sosuke",
+          "category": "Ability Gacha yang Diketahui",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Sosuke adalah salah satu Abilities yang terdaftar dalam daftar Anime Apocalypse dan berfungsi sebagai opsi Ability utama untuk pembersihan reguler.",
+          "playerUse": "Evaluasi Sosuke berdasarkan alur cooldown Anime Apocalypse, kenyamanan jangkauan, dan seberapa baik ia membersihkan gelombang zombie yang berkelompok."
+        },
+        {
+          "type": "ability",
+          "name": "King of Curses",
+          "category": "Ability Gacha yang Diketahui",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "King of Curses adalah opsi Anime Apocalypse Ability yang terdaftar bagi pemain yang membangun perlengkapan ofensif yang lebih kuat.",
+          "playerUse": "Gunakan King of Curses sebagai Ability damage utama dan pelajari di mana Ultimate dan Awakening-nya memberikan nilai tertinggi."
+        },
+        {
+          "type": "ability",
+          "name": "Coyote",
+          "category": "Pilihan Awal yang Populer",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Coyote menggunakan pemanggilan tipe serigala dan animasi gerakan yang mulus, menjadikannya salah satu pilihan praktis paling populer untuk progres awal Anime Apocalypse.",
+          "playerUse": "Pilih Coyote saat Anda menginginkan damage gelombang Anime Apocalypse yang konsisten dengan gameplay yang mendukung mobilitas tinggi."
+        },
+        {
+          "type": "ability",
+          "name": "Shadow Monarch",
+          "category": "Ability Summon yang Populer",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Shadow Monarch dikenal dengan mekanik gaya Arise yang memanggil sekutu serigala dan memberikan tekanan konsisten selama gelombang zombie Anime Apocalypse.",
+          "playerUse": "Gunakan Shadow Monarch untuk farming awal Anime Apocalypse dan pembersihan ruangan yang berkelanjutan saat Anda bergerak agresif di sekitar kelompok musuh."
+        },
+        {
+          "type": "ability",
+          "name": "Stark",
+          "category": "Ability Burst AoE",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Stark memiliki moveset Anime Apocalypse tipe senjata dan Ultimate area-of-effect yang kuat untuk damage burst.",
+          "playerUse": "Simpan Ultimate Stark untuk kelompok yang padat, jendela tekanan bos, atau ruangan di mana musuh dapat ditarik bersama oleh Gadgets."
+        },
+        {
+          "type": "ability",
+          "name": "Saiyan",
+          "category": "Ability Supreme yang Dicari",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Saiyan adalah Anime Apocalypse Ability tingkat Supreme yang paling langka dan opsi pencarian performa murni terkuat, dengan nilai kecepatan jalan dan damage yang besar.",
+          "playerUse": "Anggap Saiyan sebagai tujuan jangka panjang Anime Apocalypse dan hindari menunda progres sambil menunggu tarikan 0,1%."
+        },
+        {
+          "type": "ability",
+          "name": "Fire Fighter",
+          "category": "Ability Battle Pass",
+          "obtainMethod": "Hadiah level akhir Anime Apocalypse Battle Pass",
+          "details": "Fire Fighter adalah senjata Anime Apocalypse Battle Pass dan memiliki Ultimate yang mencolok, tetapi kecepatan pembersihan dungeon-nya lebih lambat daripada pilihan praktis terkuat.",
+          "playerUse": "Gunakan Fire Fighter untuk koleksi Anime Apocalypse, nilai penyelesaian Battle Pass, dan variasi daripada kecepatan farming maksimal."
+        }
+      ]
+    },
+    "animeApocalypseGadgetsGuide": {
+      "title": "Panduan Anime Apocalypse Gadgets untuk Kontrol Wave yang Lebih Aman",
+      "eyebrow": "Sistem Gadget",
+      "subtitle": "Gunakan Anime Apocalypse gadgets sebagai skill aktif sekunder yang mendukung loadout main ability Anda dengan crowd control, pertahanan, pengelompokan musuh, dan pembersihan wave yang lebih aman.",
+      "intro": "Anime Apocalypse gadgets terpisah dari main anime-inspired ability Anda dan memberikan setiap run alat lain untuk menangani tekanan zombie. Normal Gadget Spins dan Lucky Gadget Spins membantu membuka opsi gadget, sementara pilihan kuat seperti Black Hole dan Infinity dapat menentukan seberapa aman dan cepat Anda membersihkan ruang dungeon atau bertahan di mode Infinite.",
+      "bestForLabel": "Terbaik untuk",
+      "items": [
+        {
+          "title": "Slot Anime Apocalypse Gadget",
+          "category": "Sistem Inti",
+          "description": "Slot gadget bertindak sebagai skill aktif sekunder yang membantu ability Anda menangani wave zombie. Gadget yang baik menambah serangan, pertahanan, crowd control, atau perlindungan darurat tergantung pada efeknya.",
+          "bestFor": "Pemain yang menginginkan keamanan ekstra dan kontrol wave yang lebih cepat",
+          "notes": [
+            "Berjalan bersamaan dengan main Anime Apocalypse ability Anda",
+            "Mendukung pembersihan dungeon dan mode Infinite",
+            "Bekerja paling baik jika dipilih untuk mengatasi kelemahan nyata dalam build Anda"
+          ]
+        },
+        {
+          "title": "Anime Apocalypse Normal Gadget Spins",
+          "category": "Tipe Spin",
+          "description": "Normal Gadget Spins memutar sistem gadget melalui loop progresi gaya gacha yang sama dengan upgrade Anime Apocalypse lainnya. Ini berguna di awal karena hadiah Codes sering membantu pemain membangun kumpulan gadget awal dengan cepat.",
+          "bestFor": "Koleksi gadget awal dan mengganti roll starter yang lemah",
+          "notes": [
+            "Bagus untuk membangun kumpulan gadget pertama yang bisa digunakan",
+            "Sering dipasangkan dengan perencanaan hadiah Codes",
+            "Paling baik digunakan sebelum menggunakan sumber daya gadget yang lebih langka"
+          ]
+        },
+        {
+          "title": "Anime Apocalypse Lucky Gadget Spins",
+          "category": "Tipe Spin",
+          "description": "Lucky Gadget Spins lebih berharga karena mendukung perburuan gadget dengan kelangkaan lebih tinggi. Simpan untuk sesi di mana Anda secara aktif mencoba meningkatkan slot gadget Anda daripada melakukan reroll santai di antara run pendek.",
+          "bestFor": "Mengejar gadget yang lebih kuat seperti Black Hole atau Infinity",
+          "notes": [
+            "Muncul dalam hadiah rilis utama Anime Apocalypse",
+            "Paling baik disimpan untuk sesi reroll yang terfokus",
+            "Paling berguna setelah Anda mengetahui gaya bermain yang Anda sukai"
+          ]
+        },
+        {
+          "title": "Black Hole",
+          "category": "Crowd Control",
+          "description": "Black Hole menarik musuh terdekat secara bersamaan, menjadikannya salah satu Anime Apocalypse gadgets paling praktis untuk membersihkan kelompok zombie yang padat. Ini sangat berguna saat main ability Anda memiliki damage area atau saat ruang dungeon menjadi penuh sesak.",
+          "bestFor": "Pembersihan dungeon, pengelompokan wave, dan kecepatan farming",
+          "notes": [
+            "Mengelompokkan musuh untuk damage area",
+            "Meningkatkan konsistensi pembersihan ruangan",
+            "Berpasangan baik dengan rotasi cooldown yang cepat"
+          ]
+        },
+        {
+          "title": "Infinity",
+          "category": "Pertahanan",
+          "description": "Infinity menciptakan gelembung pelindung yang menghentikan musuh mencapai Anda untuk durasi singkat. Ini sangat kuat di mode Anime Apocalypse Infinite karena tekanan musuh yang berat membuat uptime pertahanan sangat berharga.",
+          "bestFor": "Mode Infinite, survival, dan pertahanan darurat",
+          "notes": [
+            "Menciptakan jendela pertahanan yang kuat",
+            "Membantu saat musuh membanjiri layar",
+            "Bisa dikombinasikan dengan pilihan Cards survival dan nyawa tambahan"
+          ]
+        },
+        {
+          "title": "Time Stop",
+          "category": "Kontrol",
+          "description": "Time Stop memberikan jendela kontrol singkat, tetapi Anime Apocalypse menghargai pergerakan cepat, reposisi, dan pembersihan wave yang cepat. Ini masih bisa membantu pemain defensif, terutama saat mempelajari ritme musuh.",
+          "bestFor": "Kontrol situasional dan permainan defensif yang lebih lambat",
+          "notes": [
+            "Dapat menghentikan tekanan musuh",
+            "Kurang efisien dibandingkan Black Hole untuk clear cepat",
+            "Lebih baik sebagai opsi kontrol sementara daripada target farming akhir"
+          ]
+        }
+      ]
+    },
+    "animeApocalypseGadgetTierList": {
+      "title": "Anime Apocalypse Gadget Tier List untuk Mode Dungeon dan Infinite",
+      "eyebrow": "Peringkat Gadget",
+      "subtitle": "Bandingkan Anime Apocalypse gadgets berdasarkan crowd control, pertahanan, nilai mode Infinite, kegunaan ruang bos, dan kecepatan farming.",
+      "intro": "Gadgets mengubah bagaimana sebuah run Anime Apocalypse terasa karena mereka menambahkan alat aktif terpisah di atas main ability Anda. Black Hole dan Infinity adalah pilihan praktis terkuat untuk gameplay yang padat musuh, sementara Time Stop lebih situasional karena game ini menghargai pergerakan cepat dan pembersihan ruangan yang pesat.",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Terbaik Secara Keseluruhan",
+          "items": [
+            {
+              "name": "Infinity",
+              "role": "Gadget pertahanan untuk bertahan hidup",
+              "strengths": [
+                "Menciptakan gelembung pelindung",
+                "Sangat kuat saat musuh memenuhi layar",
+                "Sangat baik untuk mode Anime Apocalypse Infinite"
+              ],
+              "bestModes": [
+                "Mode Infinite",
+                "Ruangan bertekanan tinggi"
+              ],
+              "keepOrReroll": "Simpan Infinity dan bangun run survival Anime Apocalypse di sekitar jendela pertahanannya."
+            },
+            {
+              "name": "Black Hole",
+              "role": "Gadget farming crowd-control",
+              "strengths": [
+                "Menarik musuh terdekat secara bersamaan",
+                "Meningkatkan efisiensi damage area",
+                "Mempercepat pembersihan zombie"
+              ],
+              "bestModes": [
+                "Mode Dungeon",
+                "Run farming",
+                "Ruang wave yang padat"
+              ],
+              "keepOrReroll": "Simpan Black Hole, terutama saat Anime Apocalypse ability Anda memiliki damage area yang kuat."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Pilihan Situasional yang Kuat",
+          "items": [
+            {
+              "name": "Slot gadget kontrol tinggi",
+              "role": "Pilihan kontrol utilitas",
+              "strengths": [
+                "Berguna saat mengelompokkan musuh, mencegah damage, atau menstabilkan ruang bos",
+                "Layak diuji sebelum menghabiskan reroll langka"
+              ],
+              "bestModes": [
+                "Mode Dungeon",
+                "Progresi campuran"
+              ],
+              "keepOrReroll": "Simpan sementara jika jelas meningkatkan keamanan atau kecepatan clear Anime Apocalypse."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Dapat Digunakan tapi Bukan Prioritas",
+          "items": [
+            {
+              "name": "Time Stop",
+              "role": "Gadget kontrol tempo",
+              "strengths": [
+                "Dapat memperlambat tekanan pertempuran",
+                "Dapat menciptakan jendela kontrol singkat"
+              ],
+              "bestModes": [
+                "Permainan defensif situasional"
+              ],
+              "keepOrReroll": "Reroll Time Stop saat Anda mengejar farming Anime Apocalypse yang lebih cepat atau survival mode Infinite yang lebih kuat."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Kandidat Reroll",
+          "items": [
+            {
+              "name": "Roll gadget berdampak rendah",
+              "role": "Pengisi awal game sementara",
+              "strengths": [
+                "Dapat membantu sebelum Anda mendapatkan gadget yang lebih kuat",
+                "Dapat diterima sambil menyimpan Lucky Gadget Spins"
+              ],
+              "bestModes": [
+                "Progresi awal"
+              ],
+              "keepOrReroll": "Ganti roll berdampak rendah setelah Anda bisa menargetkan gadget crowd-control atau pertahanan Anime Apocalypse yang lebih kuat."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseTraitsGuide": {
+      "title": "Panduan Anime Apocalypse Traits: Kapan Harus Reroll dan Apa yang Harus Disimpan",
+      "eyebrow": "Reroll Trait",
+      "subtitle": "Traits adalah modifier pasif yang di-roll pada Anime Apocalypse Abilities untuk meningkatkan damage, pergerakan, alur cooldown, atau kemampuan bertahan hidup.",
+      "intro": "Reroll Trait Anime Apocalypse adalah sumber daya progresi yang berharga, jadi pendekatan terbaik adalah menghabiskannya pada Abilities yang Anda rencanakan untuk disimpan. Trait yang kuat paling penting saat terpasang pada Abilities dengan kelangkaan tinggi atau jangka panjang yang sudah sesuai dengan rencana farming, ruang bos, atau mode Infinite Anda.",
+      "items": [
+        {
+          "columns": [
+            "Fokus Trait",
+            "Apa yang Ditingkatkan",
+            "Kasus Penggunaan Terbaik",
+            "Saran Reroll"
+          ],
+          "rows": [
+            {
+              "traitFocus": "Reaper",
+              "whatItImproves": "Nilai ofensif tingkat tinggi untuk build Anime Apocalypse ability yang lebih kuat",
+              "bestUseCase": "Pemain yang membangun di sekitar ability yang kuat dan mencari performa damage yang lebih baik",
+              "rerollAdvice": "Simpan Reaper pada Anime Apocalypse ability yang kuat dan hindari menggantinya sembarangan."
+            },
+            {
+              "traitFocus": "Flash",
+              "whatItImproves": "Performa fokus pergerakan dan reposisi yang lebih cepat",
+              "bestUseCase": "Clear dungeon cepat, gaya bermain mobile, dan pergerakan lebih aman melalui ruangan yang padat",
+              "rerollAdvice": "Simpan Flash jika build Anime Apocalypse Anda mendapat manfaat dari kecepatan dan tempo antar ruangan."
+            },
+            {
+              "traitFocus": "Damage Traits",
+              "whatItImproves": "Pembersihan wave, damage bos, dan kecepatan farming",
+              "bestUseCase": "Abilities utama yang digunakan untuk grinding dungeon atau pertempuran tekanan tinggi",
+              "rerollAdvice": "Gunakan reroll di sini saat Anime Apocalypse ability cukup langka untuk disimpan dalam jangka panjang."
+            },
+            {
+              "traitFocus": "Cooldown Traits",
+              "whatItImproves": "Kecepatan rotasi skill dan uptime ability",
+              "bestUseCase": "Abilities yang mengandalkan siklus beberapa skill dengan cepat",
+              "rerollAdvice": "Targetkan nilai cooldown setelah ekonomi dan pilihan ability Anime Apocalypse Anda stabil."
+            },
+            {
+              "traitFocus": "Movement Traits",
+              "whatItImproves": "Menghindar, reposisi, dan alur peta yang lebih cepat",
+              "bestUseCase": "Survival mode Infinite dan clear dungeon fokus kecepatan",
+              "rerollAdvice": "Simpan nilai pergerakan jika secara nyata meningkatkan survival atau kecepatan clear Anime Apocalypse."
+            },
+            {
+              "traitFocus": "Starter Ability Traits",
+              "whatItImproves": "Kenyamanan awal game saat mempelajari pertempuran",
+              "bestUseCase": "Beberapa run pertama sebelum Anda membuka Abilities yang lebih baik",
+              "rerollAdvice": "Jangan menghabiskan terlalu banyak Reroll Trait Anime Apocalypse di sini; simpan untuk Abilities yang lebih kuat."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseCardsGuide": {
+      "title": "Panduan Cards Anime Apocalypse untuk Pilihan Run yang Lebih Baik",
+      "eyebrow": "Cards Roguelike",
+      "subtitle": "Cards Anime Apocalypse muncul selama run dan membentuk build sementara Anda dengan ekonomi, cooldown, ketahanan, dan bonus drop.",
+      "intro": "Anime Apocalypse menggunakan lapisan Cards roguelike di antara wave atau setelah boss, membiarkan setiap run berkembang secara berbeda. Cards ekonomi sangat kuat di awal, pengurangan cooldown meningkatkan kecepatan pembersihan wave setelah build Anda stabil, dan nyawa tambahan menjadi lebih berharga saat tekanan untuk bertahan hidup meningkat.",
+      "pickTimingLabel": "Waktu pengambilan",
+      "items": [
+        {
+          "title": "Kekayaan",
+          "category": "Card Ekonomi",
+          "description": "Kekayaan meningkatkan nilai run Anime Apocalypse dengan meningkatkan perolehan sumber daya. Ini adalah salah satu pilihan awal terbaik karena ekonomi yang lebih cepat membantu Anda membeli upgrade, melakukan roll lebih banyak, dan memperkuat upaya di masa depan.",
+          "bestFor": [
+            "Peningkatan skala run awal",
+            "Farming dungeon",
+            "Progresi yang berfokus pada upgrade"
+          ],
+          "pickTiming": "Prioritaskan Kekayaan di awal sebelum ekonomi Anime Apocalypse Anda stabil."
+        },
+        {
+          "title": "Pengurangan Cooldown",
+          "category": "Card Kecepatan Pertempuran",
+          "description": "Pengurangan cooldown memungkinkan Anda memutar skill Abilities lebih sering, yang secara langsung meningkatkan kecepatan pembersihan wave Anime Apocalypse saat Abilities utama Anda sudah memiliki damage yang kuat.",
+          "bestFor": [
+            "Pembersihan zombie yang cepat",
+            "Build yang berat pada Abilities",
+            "Tempo mode Infinite"
+          ],
+          "pickTiming": "Pilih nilai cooldown setelah Anda memiliki cukup ekonomi atau saat wave mulai menjadi padat."
+        },
+        {
+          "title": "Nyawa Tambahan",
+          "category": "Card Bertahan Hidup",
+          "description": "Nyawa tambahan memberikan lebih banyak ruang untuk kesalahan selama di ruangan yang sulit, pertarungan boss, atau run mode Infinite Anime Apocalypse yang panjang. Mereka paling kuat saat kepadatan musuh meningkat dan satu posisi yang buruk dapat mengakhiri run.",
+          "bestFor": [
+            "Mode Infinite",
+            "Keamanan ruang boss",
+            "Mempelajari map yang sulit"
+          ],
+          "pickTiming": "Pilih nyawa tambahan saat tekanan bertahan hidup Anime Apocalypse menjadi lebih penting daripada kecepatan farming murni."
+        },
+        {
+          "title": "Peningkatan Peluang Drop",
+          "category": "Card Loot",
+          "description": "Peningkatan peluang drop meningkatkan sisi hadiah dari run Anime Apocalypse dengan membantu Anda mengumpulkan lebih banyak drop yang berguna dari pertempuran. Ini cocok untuk run dungeon yang berfokus pada farming di mana tujuannya adalah nilai progresi yang lebih kuat.",
+          "bestFor": [
+            "Farming loot",
+            "Mode dungeon",
+            "Run progresi"
+          ],
+          "pickTiming": "Pilih peluang drop saat build Anime Apocalypse Anda sudah membersihkan wave dengan aman."
+        },
+        {
+          "title": "Bonus Coins",
+          "category": "Card Mata Uang",
+          "description": "Cards yang berfokus pada Coins berguna karena Coins mendukung upgrade dan roll di masa depan. Mereka sangat bagus dalam progresi awal Anime Apocalypse saat setiap run harus meningkatkan kekuatan permanen.",
+          "bestFor": [
+            "Pemain baru",
+            "Farming upgrade",
+            "Persiapan Spins"
+          ],
+          "pickTiming": "Pilih bonus Coins lebih awal saat Anda masih membutuhkan upgrade inti Anime Apocalypse."
+        },
+        {
+          "title": "Tumpukan Cards Pertahanan",
+          "category": "Strategi Mode Infinite",
+          "description": "Pilihan pertahanan menjadi lebih berharga dalam mode Infinite Anime Apocalypse karena wave terus berskala. Menggabungkan Cards bertahan hidup dengan Gadgets pertahanan yang kuat seperti Infinity dapat membuat run yang panjang jauh lebih aman.",
+          "bestFor": [
+            "Run infinite yang panjang",
+            "Wave dengan kepadatan tinggi",
+            "Progresi yang lebih aman"
+          ],
+          "pickTiming": "Pilih tumpukan pertahanan setelah tekanan musuh mulai melampaui damage Anime Apocalypse Anda."
+        }
+      ]
+    },
+    "animeApocalypseInfiniteModeGuide": {
+      "title": "Panduan Mode Infinite Anime Apocalypse",
+      "eyebrow": "Strategi Mode Endless",
+      "subtitle": "Melaju lebih dalam ke wave zombie tanpa akhir Anime Apocalypse dengan pergerakan, pilihan Cards, perputaran cooldown, dan penggunaan Gadgets pertahanan yang lebih baik.",
+      "intro": "Mode Infinite Anime Apocalypse terus meningkat skalanya setelah tekanan wave normal biasanya berakhir. Kelangsungan hidup jangka panjang yang stabil berasal dari mobilitas yang dapat diandalkan, rotasi skill yang cepat, pengelompokan musuh, alat pertahanan, dan ritme antar-ruangan yang bersih.",
+      "priorityTitle": "Prioritas Mode Infinite Anime Apocalypse",
+      "priorityItems": [
+        {
+          "label": "Map Awal Terbaik",
+          "value": "Shibuya",
+          "detail": "Jalur terbuka dan alur ruangan yang mudah dibaca membuat mode Infinite Anime Apocalypse lebih mudah dikendalikan."
+        },
+        {
+          "label": "Tujuan Pertempuran Utama",
+          "value": "Berkumpul Sebelum Burst",
+          "detail": "Tarik wave zombie bersama-sama sebelum menggunakan skill Abilities besar, ultimate, atau Black Hole."
+        },
+        {
+          "label": "Stabilitas Run",
+          "value": "Cooldown Ditambah Pertahanan",
+          "detail": "Pengurangan cooldown menjaga ketersediaan damage sementara Cards pertahanan dan Infinity melindungi jendela kesalahan."
+        }
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Mulai Mode Infinite Anime Apocalypse Dengan Shibuya",
+          "description": "Shibuya adalah map mode Infinite Anime Apocalypse yang direkomendasikan karena tata letaknya yang terbuka dan alur ruangan yang lugas lebih mudah dikendalikan pada kecepatan tinggi. Kenyamanan map lebih penting daripada tantangan murni begitu wave terus berskala."
+        },
+        {
+          "step": 2,
+          "title": "Gunakan Pergerakan Anime Apocalypse Untuk Mengendalikan Wave",
+          "description": "Rantai double jump, air dash, wall run, dash, dan slide untuk tetap berada di depan kelompok zombie. Pergerakan yang kuat memungkinkan Anda menarik musuh ke jalur yang dapat diprediksi sebelum menggunakan skill AoE atau Gadgets crowd-control."
+        },
+        {
+          "step": 3,
+          "title": "Kelompokkan Musuh Anime Apocalypse Sebelum Cooldown Besar",
+          "description": "Hindari menggunakan skill utama pada zombie yang tersebar. Black Hole sangat berharga karena menarik musuh bersama-sama, membuat skill Abilities dan ultimate jauh lebih efisien untuk membersihkan wave."
+        },
+        {
+          "step": 4,
+          "title": "Alihkan Cards Anime Apocalypse Menuju Pengurangan Cooldown",
+          "description": "Cards Kekayaan awal membantu mempercepat perolehan gold dan sumber daya, tetapi pengurangan cooldown menjadi lebih penting setelah wave mulai memenuhi layar. Perputaran skill yang lebih cepat berarti lebih sedikit momen di mana Anda hanya melarikan diri."
+        },
+        {
+          "step": 5,
+          "title": "Siapkan Alat Pertahanan Anime Apocalypse",
+          "description": "Cards nyawa tambahan dan Gadgets pertahanan memperpanjang run saat kepadatan musuh menjadi sulit dikelola. Infinity menciptakan gelembung pelindung yang membantu pemulihan saat musuh mencapai jalur Anda."
+        },
+        {
+          "step": 6,
+          "title": "Lacak Musuh Anime Apocalypse yang Tertinggal Dan Tetap Bergerak",
+          "description": "Gunakan mini map untuk menemukan musuh yang tertinggal di belakang rute pergerakan Anda. Jika sebuah ruangan terasa terhenti, perhatikan petunjuk arah keluar agar run tidak melambat di antara wave."
+        }
+      ]
+    },
+    "animeApocalypseSurvivalModeGuide": {
+      "title": "Panduan Mode Survival Anime Apocalypse",
+      "eyebrow": "Progresi Utama",
+      "subtitle": "Pelajari cara menyelesaikan level Anime Apocalypse, bertahan dari wave zombie, menangani ruang boss, dan menghindari kehilangan progres akibat kematian yang ceroboh.",
+      "intro": "Mode Survival Anime Apocalypse adalah loop pembersihan level utama. Anda memilih map, bertarung melewati wave zombie, memilih perk Cards di antara momen-momen penting, mengumpulkan loot, dan menggunakan upgrade lobi, trait, Abilities, pet, dan Gadgets untuk menjadi lebih kuat.",
+      "routeTitle": "Rute Survival Anime Apocalypse",
+      "tipLabel": "Fokus bertahan hidup",
+      "items": [
+        {
+          "step": 1,
+          "title": "Siapkan Loadout Anime Apocalypse Anda Di Lobi",
+          "description": "Gunakan sistem lobi untuk melakukan roll Abilities dan Gadgets, memeriksa trait, menghabiskan gold untuk upgrade yang berguna, dan melengkapi loadout terbaik yang tersedia sebelum memulai. Kecepatan cooldown dan upgrade kecepatan jalan membuat pembersihan awal lebih lancar.",
+          "tip": "Masuk ke dalam run dengan satu Abilities yang jelas, sebuah Gadgets pendukung, dan kenyamanan pergerakan yang cukup untuk pulih dari ruangan yang padat."
+        },
+        {
+          "step": 2,
+          "title": "Pilih Map Anime Apocalypse Yang Sesuai Dengan Kenyamanan Anda",
+          "description": "Shibuya lebih mudah dipelajari karena memiliki tata letak yang lebih terbuka dan alur ruangan yang lebih sederhana. Impel Down bekerja lebih baik setelah Anda menginginkan nuansa dungeon yang lebih sulit dengan bagian bawah tanah dan area lantai lava.",
+          "tip": "Pilih Shibuya untuk konsistensi terlebih dahulu, lalu pindah ke Impel Down setelah build dan pergerakan Anda stabil."
+        },
+        {
+          "step": 3,
+          "title": "Bersihkan Wave Anime Apocalypse Dengan Pergerakan Terlebih Dahulu",
+          "description": "Gunakan dash, slide, double jump, air dash, dan wall run untuk menghindari posisi terkepung. Setelah musuh berkelompok, gunakan skill Abilities, efek Gadgets, dan ultimate Anda untuk membersihkannya dengan cepat.",
+          "tip": "Pergerakan memberi waktu; damage menyelesaikan wave setelah zombie sudah berbaris."
+        },
+        {
+          "step": 4,
+          "title": "Pilih Cards Anime Apocalypse Berdasarkan Tahapan Run",
+          "description": "Di awal run, Kekayaan berguna karena meningkatkan perolehan sumber daya. Seiring bertambahnya kesulitan run, pengurangan cooldown, peluang drop, dan Cards nyawa tambahan menjadi lebih penting untuk membersihkan wave dan selamat dari kesalahan.",
+          "tip": "Mulailah dengan ekonomi saat aman, lalu beralih ke cooldown dan pertahanan saat ruangan menjadi padat."
+        },
+        {
+          "step": 5,
+          "title": "Mainkan Ruang Boss Anime Apocalypse Dengan Aman",
+          "description": "Kematian dapat mengirim Anda kembali ke awal dungeon, jadi pelan-pelanlah sebelum ruang boss alih-alih terburu-buru dengan kesehatan rendah atau waktu cooldown yang buruk. Simpan skill utama, ultimate, dan jendela Gadgets pertahanan untuk lonjakan musuh yang berbahaya.",
+          "tip": "Anggap ruang boss sebagai titik pemeriksaan di mana pengaturan waktu cooldown lebih penting daripada kecepatan."
+        },
+        {
+          "step": 6,
+          "title": "Kumpulkan Pickup Anime Apocalypse Sebelum Pergi",
+          "description": "Item tanah yang bercahaya mudah terlewatkan saat bergerak cepat, jadi sapu ruangan sebelum pergi. Mini map membantu melacak musuh yang tersisa ketika satu zombie mencegah ruangan atau wave berikutnya dimulai.",
+          "tip": "Putaran pembersihan singkat mencegah loot terlewat dan menghindari progresi yang terhenti."
+        }
+      ]
+    },
+    "animeApocalypseMapsGuide": {
+      "title": "Panduan Map Anime Apocalypse",
+      "eyebrow": "Pemilihan Map",
+      "subtitle": "Bandingkan map Anime Apocalypse berdasarkan tata letak, kesulitan, alur farming, rute pergerakan, dan nilai mode Infinite sebelum memulai run.",
+      "intro": "Map Anime Apocalypse dibangun di sekitar pembersihan wave zombie, alur ruangan, dan kontrol pergerakan. Shibuya dan Impel Down bermain secara berbeda: satu mendukung rute pembelajaran yang bersih, sementara yang lain menambahkan nuansa dungeon yang lebih berbahaya bagi pemain yang menginginkan tekanan ekstra.",
+      "items": [
+        {
+          "title": "Shibuya Anime Apocalypse",
+          "tag": "Terbaik Untuk Pemula",
+          "description": "Shibuya memiliki tata letak yang lebih terbuka dan alur ruangan yang lugas, memudahkan pemain baru untuk mempelajari pelacakan musuh, rute pergerakan, dan waktu cooldown. Ini juga merupakan map pilihan untuk mode Infinite karena tata letaknya mendukung ritme yang lebih cepat."
+        },
+        {
+          "title": "Impel Down Anime Apocalypse",
+          "tag": "Terbaik Untuk Run Tantangan",
+          "description": "Impel Down menggunakan tata letak bertema penjara dengan bagian bawah tanah dan visual lantai lava. Ini lebih cocok untuk pemain yang sudah memahami pergerakan, pengelompokan musuh, kehati-hatian ruang boss, dan ritme dungeon."
+        },
+        {
+          "title": "Dampak Tata Letak Map Anime Apocalypse",
+          "tag": "Kecepatan Farming",
+          "description": "Ruang terbuka memudahkan untuk mengecoh zombie, mengelompokkan musuh, dan mendaratkan skill AoE. Tata letak yang lebih kompleks memperlambat farming karena Anda harus memperhatikan sudut, melacak musuh yang tertinggal, dan menghindari membuang waktu antar ruangan."
+        },
+        {
+          "title": "Rute Pergerakan Anime Apocalypse",
+          "tag": "Keuntungan Mobilitas",
+          "description": "Double jump, air dash, wall run, dash, dan slide lebih penting pada map dengan ruangan panjang atau permukaan vertikal. Pemain yang bergerak dengan baik membersihkan wave lebih cepat karena musuh menghabiskan lebih banyak waktu mengejar alih-alih menyerang."
+        },
+        {
+          "title": "Pilihan Mode Infinite Anime Apocalypse",
+          "tag": "Shibuya Direkomendasikan",
+          "description": "Untuk wave tanpa akhir, Shibuya adalah rekomendasi yang lebih aman karena tata letaknya membuat kontrol musuh lebih mudah. Ini memungkinkan pemain fokus pada perputaran cooldown, Gadgets pertahanan, dan pengelolaan Cards nyawa tambahan alih-alih melawan map itu sendiri."
+        },
+        {
+          "title": "Pilihan Mode Dungeon Anime Apocalypse",
+          "tag": "Tantangan Impel Down",
+          "description": "Untuk pembersihan dungeon normal, Impel Down menjadi pilihan yang lebih kuat begitu Anda menginginkan gameplay yang lebih sulit. Tata letak dan bahaya visualnya menjadikannya ujian yang lebih baik setelah Anda mengupgrade karakter dan mempelajari kebiasaan ruang boss yang lebih aman."
+        }
+      ]
+    },
+    "animeApocalypseShibuyaGuide": {
+      "title": "Panduan Anime Apocalypse Shibuya",
+      "eyebrow": "Fokus Peta",
+      "subtitle": "Kuasai Anime Apocalypse Shibuya dengan jalur pergerakan yang lebih aman, pengelompokan musuh yang lebih baik, dan rencana build yang berfungsi untuk progres awal dan mode Infinite.",
+      "intro": "Anime Apocalypse Shibuya adalah salah satu peta awal utama dan titik awal terbaik untuk mempelajari loop bertahan hidup berbasis pergerakan. Tata letaknya yang terbuka memberi pemain lebih banyak ruang untuk kite zombie, menguji Gadgets, melatih pilihan Cards, dan membangun kepercayaan diri sebelum memasuki sesi yang lebih menuntut.",
+      "items": [
+        {
+          "title": "Mengapa Anime Apocalypse Shibuya Ramah Pemula",
+          "label": "Kurva Pembelajaran Mudah",
+          "description": "Shibuya memiliki tata letak yang lebih bersih dan terbuka daripada Impel Down, sehingga pemain baru dapat melihat pergerakan musuh dengan lebih mudah. Ini menjadikannya peta yang kuat untuk melatih kontrol gelombang, menghindar, dan pengaturan waktu skill."
+        },
+        {
+          "title": "Kasus Penggunaan Anime Apocalypse Shibuya Terbaik",
+          "label": "Latihan Mode Infinite",
+          "description": "Shibuya adalah pilihan mode Infinite yang kuat karena temponya yang lebih cepat bekerja dengan baik dengan alur ruangannya. Pemain dapat fokus pada siklus cooldown dan Cards bertahan hidup alih-alih diperlambat oleh medan yang kompleks."
+        },
+        {
+          "title": "Rute Pergerakan Aman Anime Apocalypse Shibuya",
+          "label": "Kite Terlebih Dahulu",
+          "description": "Gunakan putaran lebar di sekitar kelompok musuh, lalu potong area terbuka dengan dash atau air dash saat zombie mendekat. Wall running dan lompatan ganda membantu mengatur ulang jarak sebelum menggunakan skill utama."
+        },
+        {
+          "title": "Rencana Pengelompokan Musuh Anime Apocalypse Shibuya",
+          "label": "Persiapan AoE",
+          "description": "Biarkan zombie berkumpul sebelum menggunakan serangan besar, ultimate, atau Black Hole. Mengelompokkan musuh terlebih dahulu membuat setiap cooldown lebih berharga dan mengurangi waktu yang dihabiskan untuk mengejar target yang terpencar."
+        },
+        {
+          "title": "Prioritas Card Anime Apocalypse Shibuya",
+          "label": "Stabilitas Sesi",
+          "description": "Pilih Wealth lebih awal saat farming, lalu beralih ke pengurangan cooldown dan Cards nyawa tambahan saat sesi menjadi lebih berbahaya. Keseimbangan ini menjaga progres tetap efisien sambil tetap melindungi sesi yang panjang."
+        },
+        {
+          "title": "Prioritas Gadget Anime Apocalypse Shibuya",
+          "label": "Kontrol Dan Pertahanan",
+          "description": "Black Hole sangat bagus untuk menarik musuh ke dalam satu zona bunuh, sementara Infinity memberikan jendela pertahanan saat layar menjadi ramai. Kedua Gadgets ini sangat cocok dengan gaya gelombang cepat dan terbuka di Shibuya."
+        }
+      ]
+    },
+    "animeApocalypseImpelDownGuide": {
+      "title": "Panduan Anime Apocalypse Impel Down",
+      "eyebrow": "Panduan Peta",
+      "subtitle": "Pelajari cara bergerak melalui ruang penjara Anime Apocalypse Impel Down, bagian bawah tanah, visual lava, dan rute dungeon yang menuntut tanpa kehilangan tempo.",
+      "intro": "Anime Apocalypse Impel Down adalah dungeon bertema penjara yang lebih gelap dengan bagian bawah tanah, visual lantai lava, dan penjelajahan yang lebih menuntut daripada tata letak Shibuya yang terbuka. Kunci untuk menyelesaikannya dengan lancar adalah menggunakan alat pergerakan secara agresif sambil melambat di dekat ruang bos, bahaya, dan pintu keluar yang membingungkan.",
+      "playerGoalLabel": "Tujuan pemain",
+      "items": [
+        {
+          "step": 1,
+          "title": "Masuki Anime Apocalypse Impel Down setelah mempelajari pergerakan inti",
+          "description": "Mulailah dengan ruangan yang lebih mudah atau rute gaya Shibuya sampai lompatan ganda, dash, slide, dan wall run terasa alami. Anime Apocalypse Impel Down lebih baik saat Anda dapat memposisikan ulang selama gelombang zombie alih-alih melawan setiap kelompok di tempat.",
+          "playerGoal": "Mencapai ruangan lebih cepat, menghindari terjebak, dan menjaga ruang yang cukup untuk siklus skill."
+        },
+        {
+          "step": 2,
+          "title": "Baca tata letak penjara Anime Apocalypse sebelum berkomitmen",
+          "description": "Anime Apocalypse Impel Down menggunakan rute yang terinspirasi penjara dengan bagian bawah tanah dan alur ruangan yang lebih ketat. Sebelum menggunakan skill cooldown lama, periksa posisi musuh, dinding terdekat, sudut, dan arah keluar yang terlihat agar damage Anda mendarat dari sudut yang berguna.",
+          "playerGoal": "Gunakan bentuk ruangan untuk mengelompokkan zombie alih-alih membiarkan musuh mengepung Anda."
+        },
+        {
+          "step": 3,
+          "title": "Tangani visual lava Anime Apocalypse dengan pergerakan yang stabil",
+          "description": "Beberapa visual lava di Anime Apocalypse Impel Down adalah bagian dari lingkungan dan dapat diseberangi atau digunakan untuk penjelajahan. Anggap area lava sebagai pemeriksaan pergerakan: uji jalur yang aman, jaga momentum, dan gunakan permukaan wall-running saat rute mendukungnya.",
+          "playerGoal": "Bergerak melalui zona bahaya visual tanpa menghentikan kecepatan penyelesaian Anda."
+        },
+        {
+          "step": 4,
+          "title": "Gunakan wall running Anime Apocalypse untuk memperbaiki rute yang sulit",
+          "description": "Permukaan vertikal dapat digunakan untuk wall running, memungkinkan Anda mencapai tempat yang tinggi, menyeberangi bagian ruangan, atau pulih dari posisi yang buruk. Ini sangat berguna di ruangan bergaya penjara di mana jalur darat dipenuhi oleh zombie.",
+          "playerGoal": "Melarikan diri dari tekanan, melewati rute lantai yang lambat, dan memposisikan ulang sebelum musuh mengejar."
+        },
+        {
+          "step": 5,
+          "title": "Selesaikan ruangan Anime Apocalypse Impel Down dengan siklus cooldown",
+          "description": "Buka dengan alat pengelompokan atau skill area tinggi, lalu putar serangan normal, pergerakan dash, dan skill cooldown lebih rendah sambil menunggu Abilities terkuat Anda. Cards pengurangan cooldown dan peningkatan membuat Anime Apocalypse Impel Down lebih lancar karena mengurangi waktu mati di antara gelombang.",
+          "playerGoal": "Jaga waktu aktif damage tetap tinggi sambil menghindari menahan serangan langsung dari kelompok besar."
+        },
+        {
+          "step": 6,
+          "title": "Dekati ruang bos Anime Apocalypse dengan hati-hati",
+          "description": "Mati dalam konten dungeon dapat memaksa restart dari awal, jadi hindari terburu-buru memasuki pintu masuk ruang bos saat cooldown, Gadget, atau ultimate Anda tidak tersedia. Masuk dengan ruang, simpan alat pertahanan jika memungkinkan, dan gunakan dash atau pergerakan dinding sebelum berkomitmen pada animasi yang panjang.",
+          "playerGoal": "Selesaikan dungeon tanpa kehilangan seluruh sesi karena satu ruangan yang buruk."
+        }
+      ]
+    },
+    "animeApocalypseFarmingGuide": {
+      "title": "Panduan Farming Anime Apocalypse",
+      "eyebrow": "Progresi",
+      "subtitle": "Bandingkan Anime Apocalypse Coins, drops, Spins, Raid Tickets, progres mastery, dan hadiah battle pass sebelum mencoba dungeon yang lebih sulit atau mode Infinite.",
+      "intro": "Progresi Anime Apocalypse dibangun di sekitar sesi berulang, pilihan Cards, Codes, quest, Spins, peningkatan, dan sistem akun jangka panjang. Progresi awal tercepat berasal dari menumpuk hadiah ekonomi terlebih dahulu, lalu mengubah hadiah tersebut menjadi Abilities, Gadgets, traits, peningkatan cooldown yang lebih baik, dan konsistensi sesi yang lebih kuat.",
+      "resourceLabel": "Sumber Daya",
+      "bestSourcesLabel": "Sumber terbaik",
+      "bestUseLabel": "Penggunaan terbaik",
+      "priorityLabel": "Prioritas",
+      "farmingTipLabel": "Tip farming Anime Apocalypse",
+      "items": [
+        {
+          "resource": "Coins",
+          "bestSources": [
+            "Cards Wealth selama sesi",
+            "Hadiah Coin dari Codes aktif",
+            "Penyelesaian dungeon",
+            "Hadiah quest"
+          ],
+          "bestUse": "Habiskan Coins untuk peningkatan inti Anime Apocalypse terlebih dahulu, terutama kecepatan cooldown dan kecepatan jalan, sebelum mengejar roll mewah.",
+          "priority": "Sangat Tinggi",
+          "farmingTip": "Pilih Wealth lebih awal dalam sesi saat damage Anda stabil, lalu beralih ke cooldown atau Cards bertahan hidup setelah ekonomi Anda berjalan."
+        },
+        {
+          "resource": "Drops",
+          "bestSources": [
+            "Drops zombie",
+            "Cards peluang drop",
+            "Boost Codes x2 Drops",
+            "Penyelesaian dungeon dan gelombang"
+          ],
+          "bestUse": "Gunakan drops sebagai tulang punggung untuk koleksi item Anime Apocalypse dan pembuatan kosmetik.",
+          "priority": "Tinggi",
+          "farmingTip": "Jalankan konten saat boost drop aktif dan hindari melewatkan ambilan tanah yang bercahaya, karena drops bisa mudah terlewatkan selama pergerakan cepat."
+        },
+        {
+          "resource": "Normal Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Hadiah login harian",
+            "Quests",
+            "Mata uang dalam game"
+          ],
+          "bestUse": "Roll untuk Abilities Anime Apocalypse yang dapat digunakan sebelum berinvestasi besar-besaran ke mastery atau reroll trait.",
+          "priority": "Tinggi",
+          "farmingTip": "Gunakan Spins normal untuk membangun basis ability yang dapat dimainkan, lalu simpan sumber daya bernilai lebih tinggi untuk mengejar peningkatan langka."
+        },
+        {
+          "resource": "Lucky Ability Spins",
+          "bestSources": [
+            "Codes",
+            "Hadiah harian",
+            "Quests",
+            "Drops zombie sesekali"
+          ],
+          "bestUse": "Gunakan Lucky Ability Spins saat Anda aktif mengejar Abilities Anime Apocalypse dengan kelangkaan lebih tinggi seperti opsi tingkat Mythic atau Supreme.",
+          "priority": "Tinggi",
+          "farmingTip": "Tukarkan Codes yang banyak memberikan Spins sebelum sesi bermain yang lama sehingga hadiahnya segera meningkatkan pengaturan farming Anda."
+        },
+        {
+          "resource": "Normal Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Hadiah quest",
+            "Hadiah progresi"
+          ],
+          "bestUse": "Roll untuk Gadget Anime Apocalypse praktis yang mendukung pembersihan gelombang, pengelompokan, atau pertahanan.",
+          "priority": "Sedang",
+          "farmingTip": "Gadget yang kuat dapat menstabilkan sesi bahkan sebelum daftar ability Anda sempurna, jadi jangan abaikan Spins Gadget."
+        },
+        {
+          "resource": "Lucky Gadget Spins",
+          "bestSources": [
+            "Codes",
+            "Hadiah progresi",
+            "Drops hadiah terbatas"
+          ],
+          "bestUse": "Kejar Gadgets Anime Apocalypse berdampak tinggi seperti Black Hole atau Infinity untuk kontrol kerumunan dan pertahanan hidup yang lebih baik.",
+          "priority": "Tinggi",
+          "farmingTip": "Gunakan Lucky Gadget Spins saat ability Anda saat ini sudah cukup baik dan kelemahan utama Anda adalah kontrol gelombang atau keamanan."
+        },
+        {
+          "resource": "Raid Tickets",
+          "bestSources": [
+            "Codes pemberi tiket",
+            "Pelacakan event dan hadiah"
+          ],
+          "bestUse": "Simpan Raid Tickets untuk upaya Anime Apocalypse di mana ability, Gadget, dan peningkatan Anda sudah cukup kuat untuk mendapatkan nilai dari sesi tersebut.",
+          "priority": "Sedang",
+          "farmingTip": "Hadiah rilis SORRYFORDELAY mencakup 20 Raid Tickets, menjadikan penukaran Codes sebagai langkah pertama yang penting sebelum permainan yang berfokus pada raid."
+        },
+        {
+          "resource": "Mastery Experience",
+          "bestSources": [
+            "Sesi berulang dengan ability yang sama",
+            "Penyelesaian dungeon",
+            "Farming gelombang mode Infinite",
+            "Grinding kesulitan lebih tinggi"
+          ],
+          "bestUse": "Bangun mastery pada Abilities Anime Apocalypse yang benar-benar Anda rencanakan untuk digunakan, karena progres mastery dapat membuka nilai ability tambahan.",
+          "priority": "Sedang",
+          "farmingTip": "Jangan menyebarkan mastery ke terlalu banyak ability di awal; fokus pada satu ability farming yang andal sampai build inti Anda stabil."
+        },
+        {
+          "resource": "Battle Pass Progress",
+          "bestSources": [
+            "Naik level melalui permainan biasa",
+            "Sesi dungeon",
+            "Sesi mode Infinite",
+            "Progresi musiman"
+          ],
+          "bestUse": "Klaim hadiah musiman Anime Apocalypse seperti Spins, emas, dan senjata battle pass Fire Fighter saat tersedia.",
+          "priority": "Sedang",
+          "farmingTip": "Anggap progres battle pass sebagai bonus yang berlapis di atas farming normal, karena level musiman Anda berkontribusi pada hadiah pass."
+        },
+        {
+          "resource": "Trait Rerolls",
+          "bestSources": [
+            "Hadiah Code",
+            "Hadiah progresi",
+            "Hadiah event"
+          ],
+          "bestUse": "Terapkan reroll trait pada Abilities Anime Apocalypse yang kemungkinan besar akan Anda simpan alih-alih melakukan reroll pada senjata sementara yang lemah.",
+          "priority": "Sedang",
+          "farmingTip": "Simpan reroll sampai Anda memiliki basis ability yang kuat, lalu kejar traits yang meningkatkan damage, kecepatan, atau konsistensi sesi."
+        }
+      ]
+    },
+    "animeApocalypsePetsTitlesCosmeticsGuide": {
+      "title": "Panduan Pet, Gelar, dan Kosmetik Anime Apocalypse",
+      "eyebrow": "Sistem Akun",
+      "subtitle": "Pahami sistem Anime Apocalypse di luar Abilities dan Gadgets utama Anda, termasuk pet, gelar, item, kosmetik, trait, dan crafting.",
+      "intro": "Anime Apocalypse bukan hanya tentang melakukan roll untuk mendapatkan Abilities yang kuat. Game ini juga mencakup pet, gelar, trait, item, kosmetik, quest, dan sistem hadiah yang memberikan bonus statistik, tujuan crafting, dan alasan jangka panjang untuk terus membasmi zombie.",
+      "statImpactLabel": "Dampak statistik",
+      "bestForLabel": "Terbaik untuk",
+      "items": [
+        {
+          "title": "Pet Anime Apocalypse",
+          "summary": "Pet mengikuti karakter Anda dan memberikan bonus statistik.",
+          "content": "Pet Anime Apocalypse adalah bagian dari siklus progres jangka panjang dan layak untuk dicari karena mereka menambah kekuatan akun di luar Abilities aktif Anda. Karena siklus gameplay memungkinkan Anda mendapatkan loot dan mata uang dari peta, pet harus dianggap sebagai jalur peningkatan paralel saat Anda terus meningkatkan Abilities dan Gadgets.",
+          "statImpact": "Bonus statistik",
+          "bestFor": "Pemain yang menginginkan kekuatan pasif saat farming dungeon atau mode Infinite."
+        },
+        {
+          "title": "Gelar Anime Apocalypse",
+          "summary": "Gelar adalah hadiah progres yang dapat dipasang dan memberikan buff statistik tambahan.",
+          "content": "Gelar Anime Apocalypse sangat berguna karena memungkinkan pemain menambah statistik ekstra tanpa mengubah pengaturan utama Abilities atau Gadgets mereka. Pasang gelar yang sesuai dengan kelemahan Anda saat ini, seperti ketahanan hidup, kecepatan, atau progres yang berfokus pada damage.",
+          "statImpact": "Buff statistik",
+          "bestFor": "Pemain yang mengoptimalkan build mereka setelah pilihan dasar Abilities dan Gadgets sudah berfungsi dengan baik."
+        },
+        {
+          "title": "Item Anime Apocalypse",
+          "summary": "Item dapat diperoleh dari zombie yang dikalahkan dan digunakan dalam siklus crafting.",
+          "content": "Drop zombie Anime Apocalypse sangat penting karena item menghubungkan pertempuran biasa dengan crafting kosmetik. Ambil drop yang bercahaya di tanah selama pembersihan cepat agar farming dungeon dan wave juga membangun inventaris item Anda seiring waktu.",
+          "statImpact": "Material crafting",
+          "bestFor": "Pemain yang melakukan farming dungeon berulang kali dan mengumpulkan material sambil terus maju."
+        },
+        {
+          "title": "Kosmetik Anime Apocalypse",
+          "summary": "Kosmetik adalah bagian perlengkapan yang dapat memberikan statistik tambahan.",
+          "content": "Kosmetik Anime Apocalypse bukan sekadar tujuan koleksi visual. Mereka terdaftar sebagai perlengkapan dengan nilai statistik, jadi pemain harus menganggap crafting kosmetik sebagai bagian dari progres akun, bukan sekadar sistem dekoratif.",
+          "statImpact": "Statistik perlengkapan",
+          "bestFor": "Pemain yang menginginkan lapisan statistik ekstra setelah meningkatkan Abilities, Gadgets, pet, dan gelar."
+        },
+        {
+          "title": "Crafting Kosmetik Anime Apocalypse",
+          "summary": "Crafting menghubungkan drop zombie, item, dan progres kosmetik.",
+          "content": "Mengalahkan zombie Anime Apocalypse menghasilkan item yang dapat digunakan untuk crafting kosmetik. Pendekatan terbaik adalah farming konten yang dapat Anda selesaikan secara konsisten, mengumpulkan drop di setiap sesi, dan membuat kosmetik setelah inventaris Anda mencukupi untuk bagian yang dituju.",
+          "statImpact": "Progres item-ke-perlengkapan",
+          "bestFor": "Pemain yang melakukan farming di ruangan berulang dan menginginkan tujuan jangka panjang selain Spins."
+        },
+        {
+          "title": "Skin Senjata Anime Apocalypse",
+          "summary": "Skin senjata dapat mengubah efek visual dari sebuah senjata.",
+          "content": "Skin senjata Anime Apocalypse adalah bagian dari lapisan kosmetik dan dapat membuat Abilities favorit terasa lebih istimewa. Ini paling baik dianggap sebagai peningkatan gaya setelah dasar pertempuran Anda sudah stabil.",
+          "statImpact": "Kustomisasi visual",
+          "bestFor": "Pemain yang menginginkan tampilan yang lebih bersih atau presentasi gaya anime yang lebih kuat untuk senjata utama mereka."
+        },
+        {
+          "title": "Trait Anime Apocalypse",
+          "summary": "Trait adalah modifikator pasif yang membuat Abilities menjadi lebih kuat.",
+          "content": "Trait Anime Apocalypse didapatkan melalui roll pada Abilities dan harus digunakan dengan hati-hati karena reroll trait sangat berharga. Simpan reroll untuk Abilities yang rencananya akan Anda simpan, lalu gunakan trait untuk memperkuat gaya farming atau bertahan hidup pilihan Anda.",
+          "statImpact": "Modifikator Abilities pasif",
+          "bestFor": "Pemain yang sudah memiliki Abilities yang kuat dan ingin mengoptimalkannya lebih jauh."
+        }
+      ]
+    },
+    "animeApocalypseControlsMovementGuide": {
+      "title": "Panduan Kontrol dan Pergerakan Anime Apocalypse",
+      "eyebrow": "Kontrol",
+      "subtitle": "Kuasai cara menyerang, skill, Gadgets, penggunaan ultimate, menghindar, meluncur, melompat ganda, dash udara, dan lari di dinding dalam Anime Apocalypse.",
+      "intro": "Anime Apocalypse berjalan lebih cepat daripada game wave-defense Roblox standar karena pertempuran dibangun di atas reposisi yang konstan. Mempelajari kontrol sejak dini membuat setiap sistem menjadi lebih mudah: Anda membersihkan ruangan lebih cepat, mengambil drop dengan lebih andal, menghindari tekanan bos, dan bertahan lebih lama dalam gelombang zombie yang tak ada habisnya.",
+      "inputLabel": "Input",
+      "comboTipLabel": "Tips kombo",
+      "items": [
+        {
+          "step": 1,
+          "title": "Pergerakan Dasar Anime Apocalypse",
+          "input": "W, A, S, D",
+          "description": "Gunakan pergerakan standar Roblox untuk mengitari musuh, memancing kelompok zombie, dan menghindari sudut ruangan. Jangan pernah diam setelah memulai gelombang karena tekanan musuh meningkat dengan cepat di ruangan yang padat.",
+          "comboTip": "Bergeraklah ke samping sambil menyerang agar zombie berkumpul di depan Anda, bukan mengepung Anda."
+        },
+        {
+          "step": 2,
+          "title": "Lompat dan Lompat Ganda Anime Apocalypse",
+          "input": "Spasi",
+          "description": "Lompatan adalah dasar dari rantai pergerakan, dan Anime Apocalypse mendukung mobilitas gaya lompat ganda. Gunakan lompatan untuk menyeberangi celah ruangan, mengatur ulang posisi Anda, dan bersiap untuk rute dash udara atau lari di dinding.",
+          "comboTip": "Lompatlah sebelum melakukan dash saat Anda membutuhkan jarak daripada sekadar menghindar di darat."
+        },
+        {
+          "step": 3,
+          "title": "Dash dan Menghindar Anime Apocalypse",
+          "input": "Q",
+          "description": "Dash adalah alat utama Anda untuk melarikan diri dan reposisi. Gunakan untuk menghindari serangan, meninggalkan kerumunan musuh, dan menciptakan ruang sebelum memutar skill Anda berikutnya.",
+          "comboTip": "Lakukan dash setelah animasi skill untuk menghindari hukuman serangan saat cooldown sedang pulih."
+        },
+        {
+          "step": 4,
+          "title": "Slide Anime Apocalypse",
+          "input": "Ctrl",
+          "description": "Slide memberikan opsi pergerakan lain untuk reposisi cepat di darat. Ini berguna saat Anda perlu keluar dari tekanan tanpa menghabiskan aksi pertempuran yang lebih besar.",
+          "comboTip": "Meluncurlah melalui jalur yang terbuka, lalu berbalik dan gunakan skill area setelah musuh berkumpul di belakang Anda."
+        },
+        {
+          "step": 5,
+          "title": "Serangan Dasar Anime Apocalypse",
+          "input": "Klik Mouse Kiri",
+          "description": "Serangan dasar mengisi celah di antara cooldown Abilities. Ini bukan sekadar pengisi; ini menjaga damage tetap berjalan sementara Anda menunggu skill, Gadgets, atau ultimate kembali aktif.",
+          "comboTip": "Gunakan serangan dasar sambil memancing musuh daripada menunggu cooldown secara pasif."
+        },
+        {
+          "step": 6,
+          "title": "Skill Abilities Anime Apocalypse",
+          "input": "Z, X, C, V",
+          "description": "Skill Abilities adalah tombol damage utama Anda dan menentukan gaya bertarung Anda. Putar penggunaannya alih-alih menggunakan semuanya sekaligus, terutama di ruangan yang menantang di mana pengaturan waktu cooldown sangat penting.",
+          "comboTip": "Buka dengan skill area yang luas atau pengelompok musuh, lalu simpan satu skill untuk musuh yang muncul di belakang Anda."
+        },
+        {
+          "step": 7,
+          "title": "Gadget Anime Apocalypse",
+          "input": "E",
+          "description": "Gadgets adalah alat aktif sekunder yang mendukung Abilities Anda. Gunakan Gadgets ofensif untuk mengumpulkan atau membasmi zombie, dan Gadgets defensif saat Anda butuh waktu untuk mengatur ulang posisi.",
+          "comboTip": "Gunakan Gadgets crowd-control sebelum skill area terkuat Anda untuk pembersihan wave yang lebih efektif."
+        },
+        {
+          "step": 8,
+          "title": "Ultimate Anime Apocalypse",
+          "input": "G",
+          "description": "Skill Ultimate adalah kemampuan berdampak tinggi yang sebaiknya disimpan untuk tekanan bos, gelombang zombie besar, atau pembersihan darurat. Jangan sia-siakan ultimate pada ruangan yang hampir selesai kecuali untuk mencegah kematian.",
+          "comboTip": "Masuki ruangan yang lebih sulit dengan ultimate yang siap digunakan jika memungkinkan, terutama pada sesi Impel Down atau tingkat kesulitan yang lebih tinggi."
+        },
+        {
+          "step": 9,
+          "title": "Air Dash Anime Apocalypse",
+          "input": "Rantai lompat ditambah pergerakan dash",
+          "description": "Air dash memungkinkan Anda mengubah posisi dengan cepat setelah melompat dan merupakan salah satu cara tercepat untuk melarikan diri dari tekanan musuh. Ini juga membantu Anda menyeberangi bagian ruangan yang lebih besar dan menjaga kecepatan selama rute farming.",
+          "comboTip": "Lompat ganda lalu lakukan air dash ketika rute darat diblokir oleh zombie."
+        },
+        {
+          "step": 10,
+          "title": "Wall Run Anime Apocalypse",
+          "input": "Gunakan permukaan vertikal saat bergerak",
+          "description": "Lari di dinding memungkinkan Anda bergerak di sepanjang permukaan vertikal, mencapai rute yang lebih tinggi, dan melewati bagian ruangan yang menyulitkan. Ini sangat berharga di peta dengan jalur sempit atau bahaya lingkungan.",
+          "comboTip": "Lari di dinding untuk melarikan diri dari lantai yang padat, lalu turun kembali ke sudut serangan yang lebih baik."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "FAQ Anime Apocalypse",
+    "titleHighlight": "Panduan",
+    "subtitle": "Jawaban untuk Anime Apocalypse Codes, Abilities, Gadgets, peta, dan progres sesi pertama.",
+    "questions": [
+      {
+        "question": "Apa itu Anime Apocalypse di Roblox?",
+        "answer": "Anime Apocalypse adalah game survival roguelike zombie anime di Roblox di mana pemain membersihkan wave, melakukan roll untuk Abilities dan Gadgets, memilih Cards, farming hadiah, dan meningkatkan build mereka."
+      },
+      {
+        "question": "Bagaimana Anime Apocalypse Codes membantu pemain baru?",
+        "answer": "Anime Apocalypse Codes memberikan Coins, Spins, boost timer, Raid Tickets, dan reroll trait yang mempercepat roll Abilities awal, roll Gadgets, peningkatan, dan sesi farming."
+      },
+      {
+        "question": "Abilities Anime Apocalypse mana yang harus digunakan pemula terlebih dahulu?",
+        "answer": "Pemula Anime Apocalypse harus mempelajari kit starter Zorro terlebih dahulu, lalu mencari roll yang lebih lancar seperti Coyote, Shadow Monarch, Stark, atau Abilities lain yang dapat membersihkan wave secara konsisten."
+      },
+      {
+        "question": "Bagaimana cara kerja Gacha Abilities Anime Apocalypse?",
+        "answer": "Gacha Abilities Anime Apocalypse menggunakan Normal Spins dan Lucky Spins, mencakup kelangkaan Rare hingga Supreme, dan memiliki tonggak pity pada 50 roll untuk Legendary dan 100 roll untuk Mythic."
+      },
+      {
+        "question": "Peta mana yang harus dimulai oleh pemula Anime Apocalypse?",
+        "answer": "Pemula Anime Apocalypse harus mulai dengan Shibuya untuk alur ruangan yang lebih bersih, lalu pindah ke Impel Down setelah mempelajari waktu dash, lompat ganda, air dash, dan pergerakan di dinding."
+      },
+      {
+        "question": "Apa yang harus ditingkatkan pemain Anime Apocalypse lebih awal?",
+        "answer": "Pemain Anime Apocalypse harus memprioritaskan kecepatan cooldown, kenyamanan pergerakan, akses Abilities, dukungan Gadgets, dan alat ekonomi agar setiap sesi dapat membersihkan ruangan lebih cepat dan bertahan lebih lama."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Siap untuk Bertahan Hidup di Anime Apocalypse?",
+    "description": "Bergabunglah dengan Discord Anime Apocalypse untuk pembaruan Roblox, peringatan Codes, ide build, dan diskusi bertahan hidup dari gelombang musuh.",
+    "joinCommunity": "Gabung Discord Anime Apocalypse",
+    "joinGame": "Mainkan Anime Apocalypse di Roblox"
+  },
+  "footer": {
+    "title": "Anime Apocalypse Wiki",
+    "description": "Pusat sumber daya lengkap Anda untuk Anime Apocalypse Roblox Codes, Abilities, Gadgets, Cards, farming, peta, dan panduan pemula.",
+    "resources": "Sumber Daya",
+    "community": "Komunitas",
+    "legal": "Hukum",
+    "discord": "Discord",
+    "twitter": "YouTube Gameplay",
+    "robloxGroup": "Grup Roblox",
+    "robloxGame": "Game Roblox",
+    "about": "Tentang",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan",
+    "copyrightNotice": "Hak Cipta",
+    "copyright": "© 2026 Anime Apocalypse Wiki. Tidak berafiliasi dengan Anime Apocalypse Dev atau Roblox Corporation.",
+    "disclaimer": "Situs web sumber daya tidak resmi buatan penggemar."
+  },
+  "pages": {
+    "codes": {
+      "title": "Anime Apocalypse Codes",
+      "description": "Anime Apocalypse Codes terbaru untuk Coins, permata, boost, Spins, tiket, dan progresi Roblox yang lebih cepat.",
+      "metaTitle": "Anime Apocalypse Codes - Panduan Hadiah dan Penukaran",
+      "metaDescription": "Gunakan Anime Apocalypse Codes untuk Coins gratis, permata, boost, Spins, tiket, dan hadiah bertahan hidup gelombang Roblox.",
+      "categoryLabel": "CODES",
+      "whatIs": "Apa itu Anime Apocalypse Codes?",
+      "whatIsDescription": "Anime Apocalypse Codes adalah rangkaian hadiah pengembang yang membantu pemain mengeklaim Coins gratis, permata, boost, Spins, tiket, dan sumber daya berguna lainnya.",
+      "why": "Mengapa menggunakan Anime Apocalypse Codes?",
+      "whySteps": {
+        "step1Title": "Klaim Hadiah Anime Apocalypse",
+        "step1Description": "Tukarkan hadiah Codes sebelum memulai sesi farming yang lama atau menghabiskan sumber daya peningkatan awal.",
+        "step2Title": "Tingkatkan Progresi Anime Apocalypse",
+        "step2Description": "Gunakan mata uang gratis, boost, dan Spins untuk membuka opsi yang lebih kuat tanpa memperlambat permainan awal Anda.",
+        "step3Title": "Rencanakan Pengeluaran Anime Apocalypse",
+        "step3Description": "Sesuaikan setiap hadiah Codes dengan summon, peningkatan, Raid Tickets, atau reroll agar setiap klaim mendukung build Anda."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Anime Apocalypse Codes"
+    },
+    "guide": {
+      "title": "Panduan Anime Apocalypse",
+      "description": "Cakupan panduan Anime Apocalypse lengkap untuk pemula, kontrol, rute farming, progresi, pembaruan, dan strategi bertahan hidup.",
+      "metaTitle": "Panduan Anime Apocalypse - Tips Pemula dan Progresi",
+      "metaDescription": "Baca artikel panduan Anime Apocalypse untuk rute pemula, metode farming, kontrol, progresi, catatan pengujian publik, dan strategi gameplay.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "Apa itu bagian Panduan Anime Apocalypse?",
+      "whatIsDescription": "Bagian panduan Anime Apocalypse menjelaskan inti permainan bertahan hidup Roblox, rute awal, dasar-dasar pertempuran, prioritas farming, pembaruan, dan perencanaan progresi.",
+      "why": "Mengapa membaca panduan Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Pelajari Dasar-dasar Anime Apocalypse",
+        "step1Description": "Pahami pergerakan, serangan, gelombang, menu, hadiah, dan tujuan sesi pertama sebelum sumber daya menjadi langka.",
+        "step2Title": "Bangun Momentum Anime Apocalypse",
+        "step2Description": "Ikuti rute pemula dan farming yang mengubah setiap permainan menjadi Coins, Spins, peningkatan, dan pembukaan kunci.",
+        "step3Title": "Beradaptasi dengan Pembaruan Anime Apocalypse",
+        "step3Description": "Gunakan panduan pembaruan dan pengujian untuk memahami sistem baru, perubahan, dan prioritas seiring berkembangnya pengalaman Roblox."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Panduan Anime Apocalypse"
+    },
+    "tier": {
+      "title": "Anime Apocalypse Tier List",
+      "description": "Cakupan Anime Apocalypse Tier List untuk Abilities, Gadgets, senjata, Cards, dan build lengkap terbaik.",
+      "metaTitle": "Anime Apocalypse Tier List - Build dan Gear Terbaik",
+      "metaDescription": "Bandingkan artikel Anime Apocalypse Tier List untuk Abilities, Gadgets, senjata, Cards, dan build teratas di seluruh farming, raid, dan permainan bertahan hidup.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "Apa itu Anime Apocalypse Tier List?",
+      "whatIsDescription": "Bagian Anime Apocalypse Tier List memberi peringkat dan membandingkan pilihan build sehingga pemain dapat memprioritaskan Abilities, Gadgets, senjata, Cards, dan loadout bernilai tinggi.",
+      "why": "Mengapa memeriksa Anime Apocalypse Tier List?",
+      "whySteps": {
+        "step1Title": "Bandingkan Pilihan Kekuatan Anime Apocalypse",
+        "step1Description": "Lihat opsi mana yang berkinerja terbaik untuk pembersihan gelombang, damage bos, utilitas, bertahan hidup, dan farming sumber daya.",
+        "step2Title": "Gunakan Roll Anime Apocalypse dengan Bijak",
+        "step2Description": "Gunakan peringkat untuk memutuskan kapan harus mengejar Ability, Gadget, senjata, atau build lengkap yang lebih kuat.",
+        "step3Title": "Sesuaikan Loadout Anime Apocalypse",
+        "step3Description": "Sesuaikan rekomendasi Tier List dengan raid, sesi farming, mode Infinite, dan progresi pemula."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Artikel Anime Apocalypse Tier List"
+    },
+    "weapons": {
+      "title": "Senjata Anime Apocalypse",
+      "description": "Panduan senjata Anime Apocalypse untuk Akaza, Escanor, pilihan raid, catatan showcase, peningkatan, dan kesesuaian tempur.",
+      "metaTitle": "Senjata Anime Apocalypse - Panduan Senjata Terbaik",
+      "metaDescription": "Jelajahi senjata Anime Apocalypse termasuk senjata Akaza, senjata Escanor, showcase senjata, pilihan raid, peningkatan, dan rekomendasi tempur.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "Apa itu Senjata Anime Apocalypse?",
+      "whatIsDescription": "Senjata Anime Apocalypse adalah alat tempur yang membentuk damage, jangkauan, tekanan raid, dan identitas build di seluruh permainan bertahan hidup gelombang.",
+      "why": "Mengapa membaca panduan senjata Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Pilih Senjata Anime Apocalypse",
+        "step1Description": "Bandingkan kekuatan senjata, penggunaan raid, gaya damage, dan nilai tempur praktis sebelum berinvestasi.",
+        "step2Title": "Rencanakan Loadout Raid Anime Apocalypse",
+        "step2Description": "Gunakan panduan senjata untuk mencocokkan pertarungan bos, gelombang musuh, dan kebutuhan tim dengan opsi tempur yang tepat.",
+        "step3Title": "Tingkatkan Damage Anime Apocalypse",
+        "step3Description": "Pahami kapan sebuah senjata layak mendapatkan sumber daya dan bagaimana senjata tersebut mendukung pilihan Ability, Gadget, dan Card Anda."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Senjata Anime Apocalypse"
+    },
+    "raids": {
+      "title": "Raid Anime Apocalypse",
+      "description": "Panduan raid Anime Apocalypse yang mencakup tiket, hadiah, strategi raid Akaza, pembaruan, dan persiapan bos.",
+      "metaTitle": "Raid Anime Apocalypse - Tiket, Hadiah, dan Panduan Bos",
+      "metaDescription": "Baca panduan raid Anime Apocalypse untuk Raid Tickets, hadiah, strategi raid Akaza, catatan pembaruan, persiapan bos, dan build yang direkomendasikan.",
+      "categoryLabel": "RAIDS",
+      "whatIs": "Apa itu Raid Anime Apocalypse?",
+      "whatIsDescription": "Raid Anime Apocalypse adalah tantangan Roblox bertekanan lebih tinggi di mana pemain menghabiskan tiket, melawan bos, mengejar hadiah, dan menguji build yang telah disiapkan.",
+      "why": "Mengapa membaca panduan raid Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Siapkan Tiket Anime Apocalypse",
+        "step1Description": "Pelajari kapan harus menggunakan Raid Tickets dan hadiah apa yang membuat setiap upaya raid berharga.",
+        "step2Title": "Kalahkan Bos Anime Apocalypse",
+        "step2Description": "Tinjau rute raid, tekanan bos, senjata yang direkomendasikan, Abilities, Gadgets, dan kebiasaan bertahan hidup.",
+        "step3Title": "Pantau Pembaruan Raid Anime Apocalypse",
+        "step3Description": "Gunakan panduan pembaruan untuk memahami hadiah raid baru, penambahan bos, dan perubahan prioritas."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Raid Anime Apocalypse"
+    },
+    "abilities": {
+      "title": "Anime Apocalypse Abilities",
+      "description": "Panduan Anime Apocalypse Abilities untuk spins, lucky spins, cooldowns, reroll trait, showcase, dan perencanaan build.",
+      "metaTitle": "Anime Apocalypse Abilities - Spins, Cooldowns dan Build",
+      "metaDescription": "Jelajahi Anime Apocalypse Abilities dengan ability spins, lucky spins, perencanaan cooldown, reroll trait, showcase, dan saran build pertempuran.",
+      "categoryLabel": "ABILITIES",
+      "whatIs": "Apa itu Anime Apocalypse Abilities?",
+      "whatIsDescription": "Anime Apocalypse Abilities menentukan kit pertempuran aktif Anda, alur cooldown, output damage, crowd control, nilai pergerakan, dan tekanan bos.",
+      "why": "Mengapa membaca panduan Anime Apocalypse Abilities?",
+      "whySteps": {
+        "step1Title": "Pahami Skill Anime Apocalypse",
+        "step1Description": "Pelajari bagaimana efek ability, cooldown, awakening, dan showcase diterjemahkan ke dalam performa permainan yang sebenarnya.",
+        "step2Title": "Gunakan Anime Apocalypse Spins",
+        "step2Description": "Bandingkan ability spins biasa, lucky spins, dan keputusan reroll sebelum menggunakan sumber daya.",
+        "step3Title": "Bentuk Build Anime Apocalypse",
+        "step3Description": "Pasangkan Abilities dengan senjata, Gadgets, dan Cards untuk farming, raid, bos, dan gelombang survival."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Anime Apocalypse Abilities"
+    },
+    "gadgets": {
+      "title": "Anime Apocalypse Gadgets",
+      "description": "Panduan Anime Apocalypse Gadgets untuk Black Hole, Infinity, Time Stop, gadget spins, lucky spins, dan build utilitas.",
+      "metaTitle": "Anime Apocalypse Gadgets - Spins dan Pilihan Utilitas Terbaik",
+      "metaDescription": "Lihat Anime Apocalypse Gadgets termasuk Black Hole, Infinity, Time Stop, gadget spins, lucky gadget spins, pilihan utilitas, dan pasangan build.",
+      "categoryLabel": "GADGETS",
+      "whatIs": "Apa itu Anime Apocalypse Gadgets?",
+      "whatIsDescription": "Anime Apocalypse Gadgets adalah alat utilitas yang mendukung kit utama Anda dengan kontrol, pertahanan, jendela burst, bantuan mobilitas, atau kenyamanan farming.",
+      "why": "Mengapa membaca panduan Anime Apocalypse Gadgets?",
+      "whySteps": {
+        "step1Title": "Bandingkan Utilitas Anime Apocalypse",
+        "step1Description": "Lihat bagaimana Gadgets seperti Black Hole, Infinity, dan Time Stop memengaruhi gelombang, bos, dan ruang survival.",
+        "step2Title": "Gunakan Anime Apocalypse Gadget Spins",
+        "step2Description": "Pahami gadget spins biasa dan lucky gadget spins sebelum mencari alat utilitas langka.",
+        "step3Title": "Lengkapi Build Anime Apocalypse",
+        "step3Description": "Pasangkan Gadgets dengan Abilities, senjata, Cards, dan tujuan raid untuk loadout lengkap yang lebih baik."
+      },
+      "featured": "Unggulan & Penting",
+      "all": "Semua Anime Apocalypse Gadgets"
+    }
   }
 }
