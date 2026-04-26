@@ -57,7 +57,7 @@
   "tools": {
     "title": "Anime Apocalypse Resources",
     "titleHighlight": "Anime Apocalypse Resources",
-    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, abilities, gadgets, traits, and roguelike card choices.",
+    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, abilities, gadgets, traits, cards, Infinite mode, Survival mode, maps, and Shibuya routes.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -98,6 +98,26 @@
         "icon": "Package",
         "title": "Anime Apocalypse Cards Guide",
         "description": "Wealth, cooldown, extra lives, drops, coins, and run strategy cards"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Anime Apocalypse Infinite Mode Guide",
+        "description": "Endless-wave routes, cooldown cycling, defensive picks, and long-run control"
+      },
+      {
+        "icon": "HeartPulse",
+        "title": "Anime Apocalypse Survival Mode Guide",
+        "description": "Lobby prep, map choice, wave clearing, cards, bosses, and safe progression"
+      },
+      {
+        "icon": "Map",
+        "title": "Anime Apocalypse Maps Guide",
+        "description": "Shibuya, Impel Down, layout impact, movement routes, and mode choices"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Anime Apocalypse Shibuya Guide",
+        "description": "Beginner-friendly Shibuya routes, AoE setup, cards, gadgets, and practice plans"
       }
     ]
   },
@@ -862,6 +882,184 @@
             "Safer progression"
           ],
           "pickTiming": "Pick defensive stacking once enemy pressure starts outpacing your Anime Apocalypse damage."
+        }
+      ]
+    },
+    "animeApocalypseInfiniteModeGuide": {
+      "title": "Anime Apocalypse Infinite Mode Guide",
+      "eyebrow": "Endless Mode Strategy",
+      "subtitle": "Push deeper into Anime Apocalypse endless zombie waves with better movement, card choices, cooldown cycling, and defensive gadget usage.",
+      "intro": "Anime Apocalypse Infinite mode keeps scaling after normal wave pressure would usually end. Stable long-run survival comes from reliable mobility, fast skill rotation, enemy grouping, defensive tools, and clean room-to-room pacing.",
+      "priorityTitle": "Anime Apocalypse Infinite Mode Priorities",
+      "priorityItems": [
+        {
+          "label": "Best Starting Map",
+          "value": "Shibuya",
+          "detail": "Open lanes and readable room flow make Anime Apocalypse Infinite mode easier to control."
+        },
+        {
+          "label": "Core Combat Goal",
+          "value": "Group Before Burst",
+          "detail": "Pull zombie waves together before spending large ability skills, ultimates, or Black Hole."
+        },
+        {
+          "label": "Run Stability",
+          "value": "Cooldowns Plus Defense",
+          "detail": "Cooldown reduction keeps damage available while defensive cards and Infinity protect mistake windows."
+        }
+      ],
+      "items": [
+        {
+          "step": 1,
+          "title": "Start Anime Apocalypse Infinite Mode With Shibuya",
+          "description": "Shibuya is the recommended Anime Apocalypse Infinite mode map because its open layout and straightforward room flow are easier to control at high speed. Map comfort matters more than raw challenge once waves keep scaling."
+        },
+        {
+          "step": 2,
+          "title": "Use Anime Apocalypse Movement To Control The Wave",
+          "description": "Chain double jump, air dash, wall run, dash, and slide to stay ahead of zombie groups. Strong movement lets you pull enemies into predictable paths before using AoE skills or a crowd-control gadget."
+        },
+        {
+          "step": 3,
+          "title": "Group Anime Apocalypse Enemies Before Big Cooldowns",
+          "description": "Avoid spending major skills on scattered zombies. Black Hole is valuable because it pulls enemies together, making ability skills and ultimates much more efficient for wave clearing."
+        },
+        {
+          "step": 4,
+          "title": "Shift Anime Apocalypse Cards Toward Cooldown Reduction",
+          "description": "Early Wealth cards help accelerate gold and resource gain, but cooldown reduction becomes more important once waves begin filling the screen. Faster skill cycling means fewer moments where you are only running away."
+        },
+        {
+          "step": 5,
+          "title": "Keep Anime Apocalypse Defensive Tools Ready",
+          "description": "Extra-life cards and defensive gadgets extend runs when enemy density becomes hard to manage. Infinity creates a protective bubble that helps recover when enemies reach your path."
+        },
+        {
+          "step": 6,
+          "title": "Track Anime Apocalypse Stragglers And Keep Moving",
+          "description": "Use the mini map to find enemies that fall behind your movement route. If a room feels stalled, watch for the exit direction prompt so the run does not slow down between waves."
+        }
+      ]
+    },
+    "animeApocalypseSurvivalModeGuide": {
+      "title": "Anime Apocalypse Survival Mode Guide",
+      "eyebrow": "Core Progression",
+      "subtitle": "Learn how to clear Anime Apocalypse levels, survive zombie waves, handle boss rooms, and avoid losing progress from careless deaths.",
+      "intro": "Anime Apocalypse Survival mode is the main level-clearing loop. You select a map, fight through zombie waves, choose perk cards between key moments, collect loot, and use lobby upgrades, traits, abilities, pets, and gadgets to become stronger.",
+      "routeTitle": "Anime Apocalypse Survival Route",
+      "tipLabel": "Survival focus",
+      "items": [
+        {
+          "step": 1,
+          "title": "Prepare Your Anime Apocalypse Loadout In The Lobby",
+          "description": "Use the lobby systems to roll abilities and gadgets, check traits, spend gold on useful upgrades, and equip the best available loadout before starting. Cooldown speed and walk speed upgrades make early clears smoother.",
+          "tip": "Enter the run with a clear ability, a support gadget, and enough movement comfort to recover from crowded rooms."
+        },
+        {
+          "step": 2,
+          "title": "Pick An Anime Apocalypse Map That Matches Your Comfort",
+          "description": "Shibuya is easier to learn because it has a more open layout and simpler room flow. Impel Down works better after you want a harder dungeon feel with underground sections and lava-floor areas.",
+          "tip": "Choose Shibuya for consistency first, then move into Impel Down once your build and movement are stable."
+        },
+        {
+          "step": 3,
+          "title": "Clear Anime Apocalypse Waves With Movement First",
+          "description": "Use dash, slide, double jump, air dash, and wall run to avoid surrounded positions. Once enemies are grouped, spend ability skills, gadget effects, and your ultimate to clear them quickly.",
+          "tip": "Movement buys time; damage finishes the wave after zombies are already lined up."
+        },
+        {
+          "step": 4,
+          "title": "Choose Anime Apocalypse Cards Based On Run Stage",
+          "description": "Early in a run, Wealth is useful because it increases resource gain. As the run gets harder, cooldown reduction, drop chance, and extra-life cards become more important for clearing waves and surviving mistakes.",
+          "tip": "Start with economy when safe, then swap toward cooldown and survival when rooms become crowded."
+        },
+        {
+          "step": 5,
+          "title": "Play Anime Apocalypse Boss Rooms Safely",
+          "description": "Deaths can send you back to the beginning of a dungeon, so slow down before boss rooms instead of rushing with low health or poorly timed cooldowns. Save major skills, ultimates, and defensive gadget windows for dangerous enemy spikes.",
+          "tip": "Treat boss rooms as checkpoints where cooldown timing matters more than speed."
+        },
+        {
+          "step": 6,
+          "title": "Collect Anime Apocalypse Pickups Before Leaving",
+          "description": "Glowing ground items are easy to miss while moving quickly, so sweep rooms before leaving. The mini map helps track leftover enemies when one zombie prevents the next room or wave from starting.",
+          "tip": "A short cleanup loop prevents missed loot and avoids stalled progression."
+        }
+      ]
+    },
+    "animeApocalypseMapsGuide": {
+      "title": "Anime Apocalypse Maps Guide",
+      "eyebrow": "Map Selection",
+      "subtitle": "Compare Anime Apocalypse maps by layout, difficulty, farming flow, movement routes, and Infinite mode value before starting a run.",
+      "intro": "Anime Apocalypse maps are built around zombie wave clearing, room flow, and movement control. Shibuya and Impel Down play differently: one favors clean learning routes, while the other adds a more dangerous dungeon feel for players who want extra pressure.",
+      "items": [
+        {
+          "title": "Anime Apocalypse Shibuya",
+          "tag": "Best For Beginners",
+          "description": "Shibuya has a more open layout and straightforward room flow, making it easier for new players to learn enemy tracking, movement routes, and cooldown timing. It is also the preferred map for Infinite mode because the layout supports faster pacing."
+        },
+        {
+          "title": "Anime Apocalypse Impel Down",
+          "tag": "Best For Challenge Runs",
+          "description": "Impel Down uses a prison-themed layout with underground sections and lava-floor visuals. It is better suited for players who already understand movement, enemy grouping, boss-room caution, and dungeon pacing."
+        },
+        {
+          "title": "Anime Apocalypse Map Layout Impact",
+          "tag": "Farming Speed",
+          "description": "Open spaces make it easier to kite zombies, group enemies, and land AoE skills. More complex layouts slow down farming because you must watch corners, track stragglers, and avoid losing time between rooms."
+        },
+        {
+          "title": "Anime Apocalypse Movement Routes",
+          "tag": "Mobility Advantage",
+          "description": "Double jump, air dash, wall run, dash, and slide matter more on maps with long rooms or vertical surfaces. Players who move well clear waves faster because enemies spend more time chasing instead of attacking."
+        },
+        {
+          "title": "Anime Apocalypse Infinite Mode Choice",
+          "tag": "Shibuya Recommended",
+          "description": "For endless waves, Shibuya is the safer recommendation because the layout makes enemy control easier. This lets players focus on cooldown cycling, defensive gadgets, and extra-life card management instead of fighting the map itself."
+        },
+        {
+          "title": "Anime Apocalypse Dungeon Mode Choice",
+          "tag": "Impel Down Challenge",
+          "description": "For normal dungeon clearing, Impel Down becomes a stronger pick once you want harder gameplay. Its layout and visual hazards make it a better test after you have upgraded your character and learned safer boss-room habits."
+        }
+      ]
+    },
+    "animeApocalypseShibuyaGuide": {
+      "title": "Anime Apocalypse Shibuya Guide",
+      "eyebrow": "Map Focus",
+      "subtitle": "Master Anime Apocalypse Shibuya with safer movement paths, better enemy grouping, and a build plan that works for early progression and Infinite mode.",
+      "intro": "Anime Apocalypse Shibuya is one of the key early maps and the best starting point for learning the movement-based survival loop. Its open layout gives players more room to kite zombies, test gadgets, practice card choices, and build confidence before entering more demanding runs.",
+      "items": [
+        {
+          "title": "Why Anime Apocalypse Shibuya Is Beginner-Friendly",
+          "label": "Easy Learning Curve",
+          "description": "Shibuya has a cleaner, more open layout than Impel Down, so new players can see enemy movement more easily. This makes it a strong map for practicing wave control, dodging, and skill timing."
+        },
+        {
+          "title": "Best Anime Apocalypse Shibuya Use Case",
+          "label": "Infinite Mode Practice",
+          "description": "Shibuya is a strong Infinite mode pick because the faster pacing works well with its room flow. Players can focus on cooldown cycling and survival cards instead of getting slowed down by complex terrain."
+        },
+        {
+          "title": "Anime Apocalypse Shibuya Safe Movement Route",
+          "label": "Kite First",
+          "description": "Use wide loops around enemy groups, then cut across open space with dash or air dash when zombies close in. Wall running and double jumps help reset distance before using a major skill."
+        },
+        {
+          "title": "Anime Apocalypse Shibuya Enemy Grouping Plan",
+          "label": "AoE Setup",
+          "description": "Let zombies gather before using large attacks, ultimates, or Black Hole. Grouping enemies first makes every cooldown more valuable and reduces the time spent chasing scattered targets."
+        },
+        {
+          "title": "Anime Apocalypse Shibuya Card Priority",
+          "label": "Run Stability",
+          "description": "Choose Wealth early when farming, then shift into cooldown reduction and extra-life cards as the run gets more dangerous. This balance keeps progression efficient while still protecting long runs."
+        },
+        {
+          "title": "Anime Apocalypse Shibuya Gadget Priority",
+          "label": "Control And Defense",
+          "description": "Black Hole is excellent for pulling enemies into one kill zone, while Infinity gives a defensive window when the screen becomes crowded. These two gadgets fit Shibuya's fast, open-wave style especially well."
         }
       ]
     }

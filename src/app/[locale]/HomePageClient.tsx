@@ -2,6 +2,7 @@
 
 import { useEffect, useState, Suspense, lazy } from 'react'
 import {
+  Activity,
   ArrowRight,
   BookOpen,
   Check,
@@ -10,6 +11,9 @@ import {
   ExternalLink,
   Gamepad2,
   Gift,
+  HeartPulse,
+  Map as MapIcon,
+  MapPin,
   MessageCircle,
   Package,
   RotateCcw,
@@ -20,6 +24,7 @@ import {
   Swords,
   Target,
   Ticket,
+  TrendingUp,
   Trophy,
   Zap,
 } from 'lucide-react'
@@ -73,6 +78,12 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
   const traitsModule = t.modules.animeApocalypseTraitsGuide
   const traitTable = traitsModule.items[0]
   const cardsModule = t.modules.animeApocalypseCardsGuide
+  const infiniteModeModule = t.modules.animeApocalypseInfiniteModeGuide
+  const survivalModeModule = t.modules.animeApocalypseSurvivalModeGuide
+  const mapsModule = t.modules.animeApocalypseMapsGuide
+  const shibuyaModule = t.modules.animeApocalypseShibuyaGuide
+  const mapGuideIcons = [MapPin, MapIcon, Target, Activity, TrendingUp, Swords]
+  const shibuyaGuideIcons = [BookOpen, TrendingUp, Activity, Target, Package, Shield]
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -181,7 +192,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
       {/* 广告位 3: 标准横幅 728×90 */}
       <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
-      {/* Tools Grid - 8 Navigation Cards */}
+      {/* Tools Grid - 12 Navigation Cards */}
       <section className="px-4 py-20 bg-muted/20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -312,6 +323,66 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               </div>
               <h3 className="font-semibold mb-2">{toolCards[7].title}</h3>
               <p className="text-sm text-muted-foreground">{toolCards[7].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-infinite-mode-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-infinite-mode-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[8].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[8].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[8].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-survival-mode-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-survival-mode-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[9].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[9].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[9].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-maps-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-maps-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[10].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[10].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[10].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-shibuya-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-shibuya-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[11].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[11].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[11].description}</p>
             </a>
           </div>
         </div>
@@ -816,6 +887,172 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 9: Anime Apocalypse Infinite Mode Guide */}
+      <section id="anime-apocalypse-infinite-mode-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <TrendingUp className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {infiniteModeModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{infiniteModeModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{infiniteModeModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{infiniteModeModule.intro}</p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-[1fr_320px] gap-6">
+            <div className="scroll-reveal space-y-4">
+              {infiniteModeModule.items.map((step: any) => (
+                <div key={step.step} className="grid grid-cols-[56px_1fr] gap-4 p-5 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] flex items-center justify-center text-lg font-bold">
+                    {step.step}
+                  </div>
+                  <div>
+                    <div className="flex items-start justify-between gap-3 mb-2">
+                      <h3 className="text-xl font-bold">{step.title}</h3>
+                      <Activity className="hidden sm:block w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                    </div>
+                    <p className="text-sm text-muted-foreground">{step.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <aside className="scroll-reveal lg:sticky lg:top-24 h-fit rounded-xl border border-[hsl(var(--nav-theme)/0.3)] bg-[hsl(var(--nav-theme)/0.06)] p-6">
+              <div className="flex items-center gap-3 mb-5">
+                <Shield className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+                <h3 className="text-xl font-bold">{infiniteModeModule.priorityTitle}</h3>
+              </div>
+              <div className="space-y-4">
+                {infiniteModeModule.priorityItems.map((item: any) => (
+                  <div key={item.label} className="rounded-lg border border-border bg-background/70 p-4">
+                    <p className="text-xs uppercase tracking-normal text-[hsl(var(--nav-theme-light))] mb-2">{item.label}</p>
+                    <h4 className="font-bold mb-2">{item.value}</h4>
+                    <p className="text-sm text-muted-foreground">{item.detail}</p>
+                  </div>
+                ))}
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 10: Anime Apocalypse Survival Mode Guide */}
+      <section id="anime-apocalypse-survival-mode-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <HeartPulse className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {survivalModeModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{survivalModeModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{survivalModeModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{survivalModeModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal mb-6 flex items-center gap-3">
+            <ClipboardCheck className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+            <h3 className="text-2xl font-bold">{survivalModeModule.routeTitle}</h3>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {survivalModeModule.items.map((step: any) => (
+              <div key={step.step} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                <div className="flex items-start gap-4 mb-4">
+                  <div className="w-12 h-12 rounded-xl bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] text-[hsl(var(--nav-theme-light))] flex items-center justify-center text-lg font-bold flex-shrink-0">
+                    {step.step}
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-2">{step.title}</h3>
+                    <p className="text-sm text-muted-foreground">{step.description}</p>
+                  </div>
+                </div>
+                <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-4 text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">{survivalModeModule.tipLabel}: </span>
+                  {step.tip}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 11: Anime Apocalypse Maps Guide */}
+      <section id="anime-apocalypse-maps-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <MapIcon className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {mapsModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{mapsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{mapsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{mapsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {mapsModule.items.map((item: any, index: number) => {
+              const Icon = mapGuideIcons[index % mapGuideIcons.length]
+
+              return (
+                <div key={item.title} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <div className="flex items-start justify-between gap-4 mb-4">
+                    <div>
+                      <span className="inline-flex px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))]">
+                        {item.tag}
+                      </span>
+                      <h3 className="text-xl font-bold mt-3">{item.title}</h3>
+                    </div>
+                    <div className="w-10 h-10 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 12: Anime Apocalypse Shibuya Guide */}
+      <section id="anime-apocalypse-shibuya-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <MapPin className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {shibuyaModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{shibuyaModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{shibuyaModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{shibuyaModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 gap-5">
+            {shibuyaModule.items.map((item: any, index: number) => {
+              const Icon = shibuyaGuideIcons[index % shibuyaGuideIcons.length]
+
+              return (
+                <div key={item.title} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className="w-11 h-11 rounded-lg bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] flex items-center justify-center flex-shrink-0">
+                      <Icon className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    </div>
+                    <div>
+                      <span className="inline-flex px-2 py-1 rounded-full bg-muted/50 border border-border text-xs text-muted-foreground mb-3">
+                        {item.label}
+                      </span>
+                      <h3 className="text-xl font-bold">{item.title}</h3>
+                    </div>
+                  </div>
+                  <p className="text-sm text-muted-foreground">{item.description}</p>
+                </div>
+              )
+            })}
           </div>
         </div>
       </section>
