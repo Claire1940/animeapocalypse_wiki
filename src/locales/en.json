@@ -57,7 +57,7 @@
   "tools": {
     "title": "Anime Apocalypse Resources",
     "titleHighlight": "Anime Apocalypse Resources",
-    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, and the core ability system.",
+    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, abilities, gadgets, traits, and roguelike card choices.",
     "cards": [
       {
         "icon": "ClipboardCheck",
@@ -78,6 +78,26 @@
         "icon": "Sparkles",
         "title": "Anime Apocalypse Abilities Guide",
         "description": "Ability skills, gacha rules, rarity rates, pity, and roster notes"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Anime Apocalypse Gadgets Guide",
+        "description": "Gadget spins, secondary skills, Black Hole, Infinity, and support roles"
+      },
+      {
+        "icon": "Shield",
+        "title": "Anime Apocalypse Gadget Tier List",
+        "description": "Best gadgets for Dungeon mode, Infinite mode, defense, and farming speed"
+      },
+      {
+        "icon": "Settings",
+        "title": "Anime Apocalypse Traits Guide",
+        "description": "Trait rerolls, passive bonuses, keep advice, and reroll planning"
+      },
+      {
+        "icon": "Package",
+        "title": "Anime Apocalypse Cards Guide",
+        "description": "Wealth, cooldown, extra lives, drops, coins, and run strategy cards"
       }
     ]
   },
@@ -540,6 +560,308 @@
           "obtainMethod": "Anime Apocalypse Battle Pass final-level reward",
           "details": "Fire Fighter is the Anime Apocalypse Battle Pass weapon and has a flashy ultimate, but its dungeon clear speed is slower than the strongest practical picks.",
           "playerUse": "Use Fire Fighter for Anime Apocalypse collection, Battle Pass completion value, and variety rather than maximum farming speed."
+        }
+      ]
+    },
+    "animeApocalypseGadgetsGuide": {
+      "title": "Anime Apocalypse Gadgets Guide for Safer Wave Control",
+      "eyebrow": "Gadget System",
+      "subtitle": "Use Anime Apocalypse gadgets as secondary active skills that support your main ability loadout with crowd control, defense, enemy grouping, and safer wave clearing.",
+      "intro": "Anime Apocalypse gadgets are separate from your main anime-inspired ability and give each run another tool for handling zombie pressure. Normal Gadget Spins and Lucky Gadget Spins help unlock gadget options, while strong picks such as Black Hole and Infinity can define how safely and quickly you clear dungeon rooms or survive Infinite mode.",
+      "bestForLabel": "Best for",
+      "items": [
+        {
+          "title": "Anime Apocalypse Gadget Slot",
+          "category": "Core System",
+          "description": "The gadget slot acts as a secondary active skill that helps your ability handle zombie waves. A good gadget adds offense, defense, crowd control, or emergency protection depending on its effect.",
+          "bestFor": "Players who want extra safety and faster wave control",
+          "notes": [
+            "Runs alongside your main Anime Apocalypse ability",
+            "Supports both dungeon clearing and Infinite mode",
+            "Works best when picked to solve a clear weakness in your build"
+          ]
+        },
+        {
+          "title": "Anime Apocalypse Normal Gadget Spins",
+          "category": "Spin Type",
+          "description": "Normal Gadget Spins roll the gadget system through the same gacha-style progression loop used by other Anime Apocalypse upgrades. They are useful early because code rewards often help players build a starter gadget pool quickly.",
+          "bestFor": "Early gadget collection and replacing weak starter rolls",
+          "notes": [
+            "Good for building a first usable gadget pool",
+            "Commonly paired with code reward planning",
+            "Best spent before using rarer gadget resources"
+          ]
+        },
+        {
+          "title": "Anime Apocalypse Lucky Gadget Spins",
+          "category": "Spin Type",
+          "description": "Lucky Gadget Spins are more valuable because they support higher-rarity gadget hunting. Save them for sessions where you are actively trying to improve your gadget slot instead of casually rerolling between short runs.",
+          "bestFor": "Chasing stronger gadgets such as Black Hole or Infinity",
+          "notes": [
+            "Appears in major Anime Apocalypse release rewards",
+            "Best saved for focused reroll sessions",
+            "Most useful once you know your preferred playstyle"
+          ]
+        },
+        {
+          "title": "Black Hole",
+          "category": "Crowd Control",
+          "description": "Black Hole pulls nearby enemies together, making it one of the most practical Anime Apocalypse gadgets for clearing dense zombie groups. It shines when your main ability has area damage or when dungeon rooms become crowded.",
+          "bestFor": "Dungeon clearing, wave grouping, and farming speed",
+          "notes": [
+            "Groups enemies for area damage",
+            "Improves room clear consistency",
+            "Pairs well with fast cooldown rotations"
+          ]
+        },
+        {
+          "title": "Infinity",
+          "category": "Defense",
+          "description": "Infinity creates a protective bubble that stops enemies from reaching you for a short duration. It is especially strong in Anime Apocalypse Infinite mode because heavy enemy pressure makes defensive uptime valuable.",
+          "bestFor": "Infinite mode, survival, and emergency defense",
+          "notes": [
+            "Creates a strong defensive window",
+            "Helps when enemies flood the screen",
+            "Combines well with extra-life and survival card choices"
+          ]
+        },
+        {
+          "title": "Time Stop",
+          "category": "Control",
+          "description": "Time Stop gives a brief control window, but Anime Apocalypse rewards fast movement, repositioning, and quick wave clearing. It can still help defensive players, especially while learning enemy pacing.",
+          "bestFor": "Situational control and slower defensive play",
+          "notes": [
+            "Can interrupt enemy pressure",
+            "Less efficient than Black Hole for fast clears",
+            "Better as a temporary control option than a final farming target"
+          ]
+        }
+      ]
+    },
+    "animeApocalypseGadgetTierList": {
+      "title": "Anime Apocalypse Gadget Tier List for Dungeon and Infinite Mode",
+      "eyebrow": "Gadget Ranking",
+      "subtitle": "Compare Anime Apocalypse gadgets by crowd control, defense, Infinite mode value, boss-room usefulness, and farming speed.",
+      "intro": "Gadgets change how an Anime Apocalypse run feels because they add a separate active tool on top of your main ability. Black Hole and Infinity are the strongest practical choices for crowd-heavy gameplay, while Time Stop is more situational because the game rewards fast movement and rapid room clearing.",
+      "items": [
+        {
+          "tier": "S",
+          "label": "Best Overall",
+          "items": [
+            {
+              "name": "Infinity",
+              "role": "Defensive survival gadget",
+              "strengths": [
+                "Creates a protective bubble",
+                "Very strong when enemies fill the screen",
+                "Excellent for Anime Apocalypse Infinite mode"
+              ],
+              "bestModes": [
+                "Infinite Mode",
+                "High-pressure rooms"
+              ],
+              "keepOrReroll": "Keep Infinity and build Anime Apocalypse survival runs around its defensive window."
+            },
+            {
+              "name": "Black Hole",
+              "role": "Crowd-control farming gadget",
+              "strengths": [
+                "Pulls nearby enemies together",
+                "Improves area-damage efficiency",
+                "Speeds up zombie clearing"
+              ],
+              "bestModes": [
+                "Dungeon Mode",
+                "Farming runs",
+                "Crowded wave rooms"
+              ],
+              "keepOrReroll": "Keep Black Hole, especially when your Anime Apocalypse ability has strong area damage."
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Strong Situational Picks",
+          "items": [
+            {
+              "name": "High-control gadget slot",
+              "role": "Utility placeholder",
+              "strengths": [
+                "Useful when it groups enemies, prevents damage, or stabilizes boss rooms",
+                "Worth testing before spending rare rerolls"
+              ],
+              "bestModes": [
+                "Dungeon Mode",
+                "Mixed progression"
+              ],
+              "keepOrReroll": "Keep temporarily if it clearly improves Anime Apocalypse safety or clear speed."
+            }
+          ]
+        },
+        {
+          "tier": "B",
+          "label": "Usable but Not Priority",
+          "items": [
+            {
+              "name": "Time Stop",
+              "role": "Tempo-control gadget",
+              "strengths": [
+                "Can slow combat pressure",
+                "Can create a brief control window"
+              ],
+              "bestModes": [
+                "Situational defensive play"
+              ],
+              "keepOrReroll": "Reroll Time Stop when you are chasing faster Anime Apocalypse farming or stronger Infinite mode survival."
+            }
+          ]
+        },
+        {
+          "tier": "C",
+          "label": "Reroll Candidates",
+          "items": [
+            {
+              "name": "Low-impact gadget rolls",
+              "role": "Temporary early-game filler",
+              "strengths": [
+                "Can help before you obtain a stronger gadget",
+                "Acceptable while saving Lucky Gadget Spins"
+              ],
+              "bestModes": [
+                "Early progression"
+              ],
+              "keepOrReroll": "Replace low-impact rolls once you can target a stronger Anime Apocalypse crowd-control or defensive gadget."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseTraitsGuide": {
+      "title": "Anime Apocalypse Traits Guide: When to Reroll and What to Keep",
+      "eyebrow": "Trait Rerolls",
+      "subtitle": "Traits are passive modifiers rolled onto Anime Apocalypse abilities to improve damage, movement, cooldown flow, or survivability.",
+      "intro": "Anime Apocalypse Trait Rerolls are valuable progression resources, so the best approach is to spend them on abilities you plan to keep. Strong traits matter most when attached to high-rarity or long-term abilities that already fit your farming, boss-room, or Infinite mode plan.",
+      "items": [
+        {
+          "columns": [
+            "Trait Focus",
+            "What It Improves",
+            "Best Use Case",
+            "Reroll Advice"
+          ],
+          "rows": [
+            {
+              "traitFocus": "Reaper",
+              "whatItImproves": "High-end offensive value for stronger Anime Apocalypse ability builds",
+              "bestUseCase": "Players building around a strong ability and looking for better damage performance",
+              "rerollAdvice": "Keep Reaper on a strong Anime Apocalypse ability and avoid replacing it casually."
+            },
+            {
+              "traitFocus": "Flash",
+              "whatItImproves": "Movement-focused performance and faster repositioning",
+              "bestUseCase": "Fast dungeon clears, mobile playstyles, and safer movement through crowded rooms",
+              "rerollAdvice": "Keep Flash if your Anime Apocalypse build benefits from speed and room-to-room tempo."
+            },
+            {
+              "traitFocus": "Damage Traits",
+              "whatItImproves": "Wave clearing, boss damage, and farming speed",
+              "bestUseCase": "Main abilities used for dungeon grinding or high-pressure combat",
+              "rerollAdvice": "Spend rerolls here when the Anime Apocalypse ability is rare enough to keep long term."
+            },
+            {
+              "traitFocus": "Cooldown Traits",
+              "whatItImproves": "Skill rotation speed and ability uptime",
+              "bestUseCase": "Abilities that rely on cycling multiple skills quickly",
+              "rerollAdvice": "Target cooldown value once your Anime Apocalypse economy and ability choice are stable."
+            },
+            {
+              "traitFocus": "Movement Traits",
+              "whatItImproves": "Dodging, repositioning, and faster map flow",
+              "bestUseCase": "Infinite mode survival and speed-focused dungeon clears",
+              "rerollAdvice": "Keep movement value if it noticeably improves Anime Apocalypse survival or clear speed."
+            },
+            {
+              "traitFocus": "Starter Ability Traits",
+              "whatItImproves": "Early-game comfort while learning combat",
+              "bestUseCase": "First few runs before you unlock better abilities",
+              "rerollAdvice": "Do not spend too many Anime Apocalypse Trait Rerolls here; save them for stronger abilities."
+            }
+          ]
+        }
+      ]
+    },
+    "animeApocalypseCardsGuide": {
+      "title": "Anime Apocalypse Cards Guide for Better Run Choices",
+      "eyebrow": "Roguelike Cards",
+      "subtitle": "Anime Apocalypse cards appear during a run and shape your temporary build with economy, cooldown, survivability, and drop bonuses.",
+      "intro": "Anime Apocalypse uses a roguelike card layer between waves or after bosses, letting each run develop differently. Economy cards are powerful early, cooldown reduction improves wave-clearing speed once your build is stable, and extra lives become more valuable when survival pressure rises.",
+      "pickTimingLabel": "Pick timing",
+      "items": [
+        {
+          "title": "Wealth",
+          "category": "Economy Card",
+          "description": "Wealth increases the value of an Anime Apocalypse run by improving resource gain. It is one of the best early picks because faster economy helps you buy upgrades, roll more, and strengthen future attempts.",
+          "bestFor": [
+            "Early run scaling",
+            "Dungeon farming",
+            "Upgrade-focused progression"
+          ],
+          "pickTiming": "Prioritize Wealth early before your Anime Apocalypse economy is stable."
+        },
+        {
+          "title": "Cooldown Reduction",
+          "category": "Combat Speed Card",
+          "description": "Cooldown reduction lets you cycle ability skills more often, which directly improves Anime Apocalypse wave clearing when your main ability already has strong damage.",
+          "bestFor": [
+            "Fast zombie clearing",
+            "Ability-heavy builds",
+            "Infinite mode tempo"
+          ],
+          "pickTiming": "Pick cooldown value after you have enough economy or when waves start getting dense."
+        },
+        {
+          "title": "Extra Lives",
+          "category": "Survival Card",
+          "description": "Extra lives give more room for mistakes during difficult rooms, boss fights, or long Anime Apocalypse Infinite mode runs. They are strongest when enemy density rises and one bad position can end the run.",
+          "bestFor": [
+            "Infinite mode",
+            "Boss-room safety",
+            "Learning difficult maps"
+          ],
+          "pickTiming": "Pick extra lives when Anime Apocalypse survival pressure becomes more important than raw farming speed."
+        },
+        {
+          "title": "Drop Chance Increase",
+          "category": "Loot Card",
+          "description": "Drop chance increases improve the reward side of an Anime Apocalypse run by helping you collect more useful drops from combat. It fits farming-focused dungeon runs where the goal is stronger progression value.",
+          "bestFor": [
+            "Loot farming",
+            "Dungeon mode",
+            "Progression runs"
+          ],
+          "pickTiming": "Pick drop chance when your Anime Apocalypse build already clears waves safely."
+        },
+        {
+          "title": "Coin Bonus",
+          "category": "Currency Card",
+          "description": "Coin-focused cards are useful because coins support upgrades and future rolls. They are especially good in Anime Apocalypse early progression when every run should improve permanent power.",
+          "bestFor": [
+            "New players",
+            "Upgrade farming",
+            "Spin preparation"
+          ],
+          "pickTiming": "Pick coin bonuses early while you still need core Anime Apocalypse upgrades."
+        },
+        {
+          "title": "Defensive Card Stack",
+          "category": "Infinite Mode Strategy",
+          "description": "Defensive picks become more valuable in Anime Apocalypse Infinite mode because waves keep scaling. Combining survival cards with a strong defensive gadget such as Infinity can make long runs much safer.",
+          "bestFor": [
+            "Long infinite runs",
+            "High-density waves",
+            "Safer progression"
+          ],
+          "pickTiming": "Pick defensive stacking once enemy pressure starts outpacing your Anime Apocalypse damage."
         }
       ]
     }

@@ -11,7 +11,10 @@ import {
   Gamepad2,
   Gift,
   MessageCircle,
+  Package,
   RotateCcw,
+  Settings,
+  Shield,
   Sparkles,
   Star,
   Swords,
@@ -29,6 +32,7 @@ import { scrollToSection } from '@/lib/scrollToSection'
 import { DynamicIcon } from '@/components/ui/DynamicIcon'
 import type { ContentItemWithType } from '@/lib/getLatestArticles'
 import { EXTERNAL_LINKS, type FeaturedVideo } from '@/lib/site'
+import enMessages from '@/locales/en.json'
 
 const HeroStats = lazy(() => import('@/components/home/HeroStats'))
 const FAQSection = lazy(() => import('@/components/home/FAQSection'))
@@ -45,7 +49,8 @@ interface HomePageClientProps {
 }
 
 export default function HomePageClient({ latestArticles, locale, featuredVideo }: HomePageClientProps) {
-  const t = useMessages() as any
+  const rawMessages = useMessages() as any
+  const t = rawMessages?.hero?.title?.includes('Anime Apocalypse') ? rawMessages : enMessages
   const [copiedCode, setCopiedCode] = useState<string | null>(null)
 
   const copyCode = async (code: string) => {
@@ -63,6 +68,11 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
   const abilitiesModule = t.modules.animeApocalypseAbilitiesGuide
   const abilitySystemItems = abilitiesModule.items.filter((item: any) => item.type === 'system')
   const abilityRosterItems = abilitiesModule.items.filter((item: any) => item.type === 'ability')
+  const gadgetsModule = t.modules.animeApocalypseGadgetsGuide
+  const gadgetTierModule = t.modules.animeApocalypseGadgetTierList
+  const traitsModule = t.modules.animeApocalypseTraitsGuide
+  const traitTable = traitsModule.items[0]
+  const cardsModule = t.modules.animeApocalypseCardsGuide
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -171,7 +181,7 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
       {/* 广告位 3: 标准横幅 728×90 */}
       <AdBanner type="banner-728x90" adKey={process.env.NEXT_PUBLIC_AD_BANNER_728X90} />
 
-      {/* Tools Grid - 4 Navigation Cards */}
+      {/* Tools Grid - 8 Navigation Cards */}
       <section className="px-4 py-20 bg-muted/20">
         <div className="container mx-auto max-w-5xl">
           <div className="text-center mb-12 scroll-reveal">
@@ -242,6 +252,66 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
               </div>
               <h3 className="font-semibold mb-2">{toolCards[3].title}</h3>
               <p className="text-sm text-muted-foreground">{toolCards[3].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-gadgets-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-gadgets-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[4].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[4].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[4].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-gadget-tier-list"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-gadget-tier-list')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[5].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[5].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[5].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-traits-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-traits-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[6].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[6].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[6].description}</p>
+            </a>
+
+            <a
+              href="#anime-apocalypse-cards-guide"
+              onClick={(event) => {
+                event.preventDefault()
+                scrollToSection('anime-apocalypse-cards-guide')
+              }}
+              className="scroll-reveal group p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.5)] transition-all duration-300 hover:shadow-lg hover:shadow-[hsl(var(--nav-theme)/0.1)]"
+            >
+              <div className="w-12 h-12 rounded-lg mb-4 bg-[hsl(var(--nav-theme)/0.1)] flex items-center justify-center group-hover:bg-[hsl(var(--nav-theme)/0.2)] transition-colors">
+                <DynamicIcon name={toolCards[7].icon} className="w-6 h-6 text-[hsl(var(--nav-theme-light))]" />
+              </div>
+              <h3 className="font-semibold mb-2">{toolCards[7].title}</h3>
+              <p className="text-sm text-muted-foreground">{toolCards[7].description}</p>
             </a>
           </div>
         </div>
@@ -545,6 +615,207 @@ export default function HomePageClient({ latestArticles, locale, featuredVideo }
                 </div>
               ))}
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Module 5: Anime Apocalypse Gadgets Guide */}
+      <section id="anime-apocalypse-gadgets-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Gamepad2 className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {gadgetsModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gadgetsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{gadgetsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{gadgetsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {gadgetsModule.items.map((item: any) => (
+              <div key={item.title} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <span className="inline-flex px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      {item.category}
+                    </span>
+                    <h3 className="text-xl font-bold mt-3">{item.title}</h3>
+                  </div>
+                  <Gamepad2 className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{item.description}</p>
+                <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm mb-4">
+                  <span className="font-semibold">{gadgetsModule.bestForLabel}: </span>
+                  <span className="text-muted-foreground">{item.bestFor}</span>
+                </div>
+                <ul className="space-y-2">
+                  {item.notes.map((note: string) => (
+                    <li key={note} className="flex items-start gap-2 text-sm text-muted-foreground">
+                      <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                      {note}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 6: Anime Apocalypse Gadget Tier List */}
+      <section id="anime-apocalypse-gadget-tier-list" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Shield className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {gadgetTierModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{gadgetTierModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{gadgetTierModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{gadgetTierModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 lg:grid-cols-2 gap-5">
+            {gadgetTierModule.items.map((tier: any) => (
+              <div key={tier.tier} className="p-6 rounded-xl border border-border bg-card">
+                <div className="flex items-center justify-between gap-4 mb-5">
+                  <div className="flex items-center gap-3">
+                    <div className="w-12 h-12 rounded-xl bg-[hsl(var(--nav-theme)/0.12)] border border-[hsl(var(--nav-theme)/0.35)] flex items-center justify-center text-[hsl(var(--nav-theme-light))] font-bold">
+                      {tier.tier}
+                    </div>
+                    <h3 className="text-xl font-bold">{tier.label}</h3>
+                  </div>
+                  <Shield className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                </div>
+
+                <div className="space-y-4">
+                  {tier.items.map((gadget: any) => (
+                    <div key={gadget.name} className="rounded-lg border border-border bg-background/60 p-4">
+                      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-2 mb-3">
+                        <h4 className="text-lg font-bold">{gadget.name}</h4>
+                        <span className="text-xs px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-[hsl(var(--nav-theme-light))]">
+                          {gadget.role}
+                        </span>
+                      </div>
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {gadget.bestModes.map((mode: string) => (
+                          <span key={mode} className="px-2 py-1 rounded-md bg-muted/50 border border-border text-xs text-muted-foreground">
+                            {mode}
+                          </span>
+                        ))}
+                      </div>
+                      <ul className="space-y-2 mb-4">
+                        {gadget.strengths.map((strength: string) => (
+                          <li key={strength} className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Check className="w-4 h-4 text-[hsl(var(--nav-theme-light))] mt-0.5 flex-shrink-0" />
+                            {strength}
+                          </li>
+                        ))}
+                      </ul>
+                      <p className="text-sm border-l-2 border-[hsl(var(--nav-theme)/0.45)] pl-3 text-muted-foreground">
+                        {gadget.keepOrReroll}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 7: Anime Apocalypse Traits Guide */}
+      <section id="anime-apocalypse-traits-guide" className="scroll-mt-24 px-4 py-20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Settings className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {traitsModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{traitsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{traitsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{traitsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal hidden md:block overflow-x-auto rounded-xl border border-border bg-card">
+            <table className="w-full text-sm">
+              <thead className="bg-muted/50">
+                <tr>
+                  {traitTable.columns.map((column: string) => (
+                    <th key={column} className="px-4 py-3 text-left font-semibold">
+                      {column}
+                    </th>
+                  ))}
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-border">
+                {traitTable.rows.map((row: any) => (
+                  <tr key={row.traitFocus} className="align-top">
+                    <td className="px-4 py-4 font-semibold text-[hsl(var(--nav-theme-light))]">{row.traitFocus}</td>
+                    <td className="px-4 py-4 text-muted-foreground">{row.whatItImproves}</td>
+                    <td className="px-4 py-4 text-muted-foreground">{row.bestUseCase}</td>
+                    <td className="px-4 py-4 text-muted-foreground">{row.rerollAdvice}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          <div className="scroll-reveal md:hidden space-y-4">
+            {traitTable.rows.map((row: any) => (
+              <div key={row.traitFocus} className="p-5 rounded-xl border border-border bg-card">
+                <h3 className="text-lg font-bold text-[hsl(var(--nav-theme-light))] mb-3">{row.traitFocus}</h3>
+                <div className="space-y-3 text-sm">
+                  <p><span className="font-semibold text-foreground">{traitTable.columns[1]}: </span><span className="text-muted-foreground">{row.whatItImproves}</span></p>
+                  <p><span className="font-semibold text-foreground">{traitTable.columns[2]}: </span><span className="text-muted-foreground">{row.bestUseCase}</span></p>
+                  <p><span className="font-semibold text-foreground">{traitTable.columns[3]}: </span><span className="text-muted-foreground">{row.rerollAdvice}</span></p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Module 8: Anime Apocalypse Cards Guide */}
+      <section id="anime-apocalypse-cards-guide" className="scroll-mt-24 px-4 py-20 bg-muted/20">
+        <div className="container mx-auto max-w-6xl">
+          <div className="text-center mb-12 scroll-reveal">
+            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-sm mb-4">
+              <Package className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" />
+              {cardsModule.eyebrow}
+            </div>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">{cardsModule.title}</h2>
+            <p className="text-muted-foreground text-lg max-w-3xl mx-auto mb-4">{cardsModule.subtitle}</p>
+            <p className="text-muted-foreground max-w-4xl mx-auto">{cardsModule.intro}</p>
+          </div>
+
+          <div className="scroll-reveal grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {cardsModule.items.map((card: any) => (
+              <div key={card.title} className="p-6 rounded-xl border border-border bg-card hover:border-[hsl(var(--nav-theme)/0.45)] transition-colors">
+                <div className="flex items-start justify-between gap-3 mb-4">
+                  <div>
+                    <span className="inline-flex px-2 py-1 rounded-full bg-[hsl(var(--nav-theme)/0.1)] border border-[hsl(var(--nav-theme)/0.3)] text-xs text-[hsl(var(--nav-theme-light))]">
+                      {card.category}
+                    </span>
+                    <h3 className="text-xl font-bold mt-3">{card.title}</h3>
+                  </div>
+                  <Package className="w-5 h-5 text-[hsl(var(--nav-theme-light))] flex-shrink-0" />
+                </div>
+                <p className="text-sm text-muted-foreground mb-4">{card.description}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {card.bestFor.map((tag: string) => (
+                    <span key={tag} className="px-2 py-1 rounded-md bg-muted/50 border border-border text-xs text-muted-foreground">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="rounded-lg border border-[hsl(var(--nav-theme)/0.25)] bg-[hsl(var(--nav-theme)/0.06)] p-3 text-sm text-muted-foreground">
+                  <span className="font-semibold text-foreground">{cardsModule.pickTimingLabel}: </span>
+                  {card.pickTiming}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
