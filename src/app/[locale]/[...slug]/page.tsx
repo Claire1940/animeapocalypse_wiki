@@ -1,4 +1,4 @@
-import { notFound, redirect } from 'next/navigation'
+import { notFound } from 'next/navigation'
 import { getTranslations } from 'next-intl/server'
 import {
   getAllContentPaths,
@@ -50,14 +50,6 @@ export default async function UnifiedContentPage({ params }: PageProps) {
  */
 async function renderListPage(contentType: ContentType, locale: Language) {
   const items = await getAllContent(contentType, locale)
-
-  // 如果只有一篇文章，直接跳转到详情页
-  if (items.length === 1) {
-    const singleArticle = items[0]
-    const detailPath = `/${contentType}/${singleArticle.slug}`
-    const fullPath = locale === 'en' ? detailPath : `/${locale}${detailPath}`
-    redirect(fullPath)
-  }
 
   const t = await getTranslations(`pages.${contentType}`)
 
@@ -225,9 +217,17 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (isListPage) {
     // 列表页元数据
-    const label = contentType.charAt(0).toUpperCase() + contentType.slice(1)
-    const title = `${GAME_NAME} ${label} - ${SITE_NAME}`
-    const description = `Browse ${GAME_NAME} ${contentType} content, guides, routes, tips, and reference pages for Roblox players.`
+    let title = `${GAME_NAME} ${contentType.charAt(0).toUpperCase() + contentType.slice(1)} - ${SITE_NAME}`
+    let description = `Browse ${GAME_NAME} ${contentType} content, guides, routes, tips, and reference pages for Roblox players.`
+
+    try {
+      const t = await getTranslations(`pages.${contentType}`)
+      title = `${t('metaTitle')} - ${SITE_NAME}`
+      description = t('metaDescription')
+    } catch {
+      // Keep the generic metadata fallback if the category copy is unavailable.
+    }
+
     const path = `/${contentType}`
     const url = `${siteUrl}${locale === 'en' ? path : `/${locale}${path}`}`
 

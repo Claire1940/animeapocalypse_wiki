@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Rehberler",
-    "crafting": "Üretim",
-    "items": "Eşyalar",
-    "biomes": "Biyomlar",
-    "building": "İnşa",
-    "support": "Destek"
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier": "Tier",
+    "weapons": "Weapons",
+    "raids": "Raids",
+    "abilities": "Abilities",
+    "gadgets": "Gadgets"
   },
   "common": {
     "home": "Ana Sayfa",

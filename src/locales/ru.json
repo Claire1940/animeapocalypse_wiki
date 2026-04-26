@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier": "Tier",
+    "weapons": "Weapons",
+    "raids": "Raids",
+    "abilities": "Abilities",
+    "gadgets": "Gadgets"
   },
   "common": {
     "home": "Главная",

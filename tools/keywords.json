@@ -1,47 +1,80 @@
 {
+  "contentCount": 39,
   "categories": [
     {
-      "category": "Guides",
+      "category": "codes",
       "keywords": [
-        "lucid blocks guide"
+        "Anime Apocalypse codes"
       ]
     },
     {
-      "category": "Crafting",
+      "category": "guide",
       "keywords": [
-        "lucid blocks crafting recipes",
-        "lucid blocks apotheosis"
+        "Anime Apocalypse complete guide",
+        "Anime Apocalypse beginner guide",
+        "Anime Apocalypse noob to pro guide",
+        "Anime Apocalypse farming guide",
+        "Anime Apocalypse best farming methods",
+        "Anime Apocalypse survival guide",
+        "Anime Apocalypse progression guide",
+        "Anime Apocalypse gameplay guide",
+        "Anime Apocalypse release update",
+        "Anime Apocalypse public testing guide"
       ]
     },
     {
-      "category": "Items",
+      "category": "tier",
       "keywords": [
-        "lucid blocks faith wand",
-        "lucid blocks bee glider",
-        "lucid blocks chest",
-        "lucid blocks osmium"
+        "Anime Apocalypse tier list",
+        "Anime Apocalypse best abilities",
+        "Anime Apocalypse best gadgets",
+        "Anime Apocalypse best weapons",
+        "Anime Apocalypse best cards",
+        "Anime Apocalypse best build"
       ]
     },
     {
-      "category": "Biomes",
+      "category": "weapons",
       "keywords": [
-        "lucid blocks tiamana leyline"
+        "Anime Apocalypse Akaza weapon",
+        "Anime Apocalypse Escanor weapon",
+        "Anime Apocalypse weapon showcase",
+        "Anime Apocalypse weapon guide",
+        "Anime Apocalypse best weapon for raids"
       ]
     },
     {
-      "category": "Building",
+      "category": "raids",
       "keywords": [
-        "lucid blocks qualia"
+        "Anime Apocalypse raid guide",
+        "Anime Apocalypse raid tickets",
+        "Anime Apocalypse raid rewards",
+        "Anime Apocalypse Akaza raid",
+        "Anime Apocalypse raid update"
       ]
     },
     {
-      "category": "Support",
+      "category": "abilities",
       "keywords": [
-        "lucid blocks steam deck",
-        "lucid blocks full screen",
-        "lucid blocks multiplayer",
-        "lucid blocks android"
+        "Anime Apocalypse abilities",
+        "Anime Apocalypse ability spins",
+        "Anime Apocalypse lucky ability spins",
+        "Anime Apocalypse trait rerolls",
+        "Anime Apocalypse cooldown guide",
+        "Anime Apocalypse ability showcase"
+      ]
+    },
+    {
+      "category": "gadgets",
+      "keywords": [
+        "Anime Apocalypse gadgets",
+        "Anime Apocalypse gadget spins",
+        "Anime Apocalypse lucky gadget spins",
+        "Anime Apocalypse Black Hole gadget",
+        "Anime Apocalypse Infinity gadget",
+        "Anime Apocalypse Time Stop gadget"
       ]
     }
-  ]
+  ],
+  "contentCountAfterMerging": 39
 }

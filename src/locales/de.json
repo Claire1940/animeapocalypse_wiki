@@ -11,12 +11,13 @@
     }
   },
   "nav": {
-    "guides": "Anleitungen",
-    "crafting": "Herstellung",
-    "items": "Gegenstände",
-    "biomes": "Biome",
-    "building": "Bauen",
-    "support": "Unterstützung"
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier": "Tier",
+    "weapons": "Weapons",
+    "raids": "Raids",
+    "abilities": "Abilities",
+    "gadgets": "Gadgets"
   },
   "common": {
     "home": "Startseite",

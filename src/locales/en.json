@@ -9,7 +9,15 @@
       "twitterDescription": "Anime Apocalypse Wiki covers Roblox codes, abilities, gadgets, bosses, tier lists, maps, and beginner tips."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "tier": "Tier",
+    "weapons": "Weapons",
+    "raids": "Raids",
+    "abilities": "Abilities",
+    "gadgets": "Gadgets"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -725,7 +733,7 @@
           "items": [
             {
               "name": "High-control gadget slot",
-              "role": "Utility placeholder",
+              "role": "Utility control pick",
               "strengths": [
                 "Useful when it groups enemies, prevents damage, or stabilizes boss rooms",
                 "Worth testing before spending rare rerolls"
@@ -1451,125 +1459,145 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Anime Apocalypse Guides",
-      "description": "Complete Anime Apocalypse gameplay guides covering beginner basics, controls, waves, cards, farming, maps, and progression.",
-      "metaTitle": "Anime Apocalypse Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Anime Apocalypse guides covering beginner tips, abilities, gadgets, cards, farming routes, maps, and Roblox wave survival strategy.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Anime Apocalypse Guides?",
-      "whatIsDescription": "Anime Apocalypse guides explain core mechanics, progression routes, combat systems, and run planning for Roblox players.",
-      "why": "Why read Anime Apocalypse guides?",
-      "whySteps": {
-        "step1Title": "Learn Anime Apocalypse Mechanics",
-        "step1Description": "Understand waves, cards, abilities, gadgets, spins, and upgrade priorities.",
-        "step2Title": "Speed Up Anime Apocalypse Progression",
-        "step2Description": "Use codes, early maps, farming routes, and cooldown upgrades to improve your first runs.",
-        "step3Title": "Build Better Anime Apocalypse Runs",
-        "step3Description": "Plan ability rotations, gadget support, and card choices for bosses and Infinite mode."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Anime Apocalypse Guides"
-    },
-    "crafting": {
+    "codes": {
       "title": "Anime Apocalypse Codes",
-      "description": "Track Anime Apocalypse active codes, expired codes, rewards, redemption steps, and reward planning.",
+      "description": "Latest Anime Apocalypse codes for coins, gems, boosts, spins, tickets, and faster Roblox progression.",
       "metaTitle": "Anime Apocalypse Codes - Rewards and Redeem Guide",
-      "metaDescription": "Anime Apocalypse codes guide with rewards, redemption steps, active code notes, expired code archive, coins, spins, boosts, and raid tickets.",
+      "metaDescription": "Use Anime Apocalypse codes for free coins, gems, boosts, spins, tickets, and Roblox wave survival rewards.",
       "categoryLabel": "CODES",
       "whatIs": "What are Anime Apocalypse Codes?",
-      "whatIsDescription": "Anime Apocalypse codes are reward strings that grant coins, spins, boosts, raid tickets, and trait rerolls.",
-      "why": "Why redeem Anime Apocalypse codes?",
+      "whatIsDescription": "Anime Apocalypse codes are developer reward strings that help players claim free coins, gems, boosts, spins, tickets, and other useful resources.",
+      "why": "Why use Anime Apocalypse codes?",
       "whySteps": {
         "step1Title": "Claim Anime Apocalypse Rewards",
-        "step1Description": "Get coins, ability spins, gadget spins, boost timers, and raid tickets.",
-        "step2Title": "Plan Anime Apocalypse Rolls",
-        "step2Description": "Redeem code bundles before spending early Normal Spins and Lucky Spins.",
-        "step3Title": "Improve Anime Apocalypse Farming",
-        "step3Description": "Use coin and drop boosts during focused wave clearing sessions."
+        "step1Description": "Redeem code rewards before starting long farming sessions or spending early upgrade resources.",
+        "step2Title": "Improve Anime Apocalypse Progression",
+        "step2Description": "Use free currency, boosts, and spins to unlock stronger options without slowing your first runs.",
+        "step3Title": "Plan Anime Apocalypse Spending",
+        "step3Description": "Match each code reward to summons, upgrades, raid tickets, or rerolls so every claim supports your build."
       },
       "featured": "Featured & Essential",
       "all": "All Anime Apocalypse Codes"
     },
-    "items": {
-      "title": "Anime Apocalypse Abilities and Gadgets",
-      "description": "Detailed Anime Apocalypse guides covering abilities, gadgets, rarity rates, skill usage, and build support.",
-      "metaTitle": "Anime Apocalypse Abilities and Gadgets Guide",
-      "metaDescription": "Anime Apocalypse abilities and gadgets guide covering Ability Gacha, Gadget Spins, skills, ultimates, awakening, rarity rates, and build planning.",
-      "categoryLabel": "ABILITIES & GADGETS",
-      "whatIs": "What are Anime Apocalypse Abilities and Gadgets?",
-      "whatIsDescription": "Anime Apocalypse abilities drive combat through active skills, ultimates, and awakenings, while gadgets add a separate support tool.",
-      "why": "Why check Anime Apocalypse ability guides?",
+    "guide": {
+      "title": "Anime Apocalypse Guide",
+      "description": "Complete Anime Apocalypse guide coverage for beginners, controls, farming routes, progression, updates, and survival strategy.",
+      "metaTitle": "Anime Apocalypse Guide - Beginner and Progression Tips",
+      "metaDescription": "Read Anime Apocalypse guide articles for beginner routes, farming methods, controls, progression, public testing notes, and gameplay strategy.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is the Anime Apocalypse Guide section?",
+      "whatIsDescription": "The Anime Apocalypse guide section explains the core Roblox survival loop, early routes, combat basics, farming priorities, updates, and progression planning.",
+      "why": "Why read Anime Apocalypse guides?",
       "whySteps": {
-        "step1Title": "Pick Anime Apocalypse Abilities",
-        "step1Description": "Compare wave clear, boss pressure, mobility, summon value, and cooldown flow.",
-        "step2Title": "Use Anime Apocalypse Gadgets",
-        "step2Description": "Pair crowd control, defense, and utility gadgets with your main ability.",
-        "step3Title": "Spend Anime Apocalypse Spins Better",
-        "step3Description": "Understand Normal Spins, Lucky Spins, rarity rates, and pity milestones."
+        "step1Title": "Learn Anime Apocalypse Basics",
+        "step1Description": "Understand movement, attacks, waves, menus, rewards, and first-session goals before resources become scarce.",
+        "step2Title": "Build Anime Apocalypse Momentum",
+        "step2Description": "Follow beginner and farming routes that turn each run into coins, spins, upgrades, and unlocks.",
+        "step3Title": "Adapt to Anime Apocalypse Updates",
+        "step3Description": "Use update and testing guides to understand new systems, changes, and priorities as the Roblox experience expands."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Anime Apocalypse Guides"
+    },
+    "tier": {
+      "title": "Anime Apocalypse Tier List",
+      "description": "Anime Apocalypse tier list coverage for the best abilities, gadgets, weapons, cards, and complete builds.",
+      "metaTitle": "Anime Apocalypse Tier List - Best Builds and Gear",
+      "metaDescription": "Compare Anime Apocalypse tier list articles for top abilities, gadgets, weapons, cards, and builds across farming, raids, and survival runs.",
+      "categoryLabel": "TIER LIST",
+      "whatIs": "What is the Anime Apocalypse Tier List?",
+      "whatIsDescription": "The Anime Apocalypse tier list section ranks and compares build choices so players can prioritize high-value abilities, gadgets, weapons, cards, and loadouts.",
+      "why": "Why check the Anime Apocalypse tier list?",
+      "whySteps": {
+        "step1Title": "Compare Anime Apocalypse Power Picks",
+        "step1Description": "See which options perform best for wave clear, boss damage, utility, survival, and resource farming.",
+        "step2Title": "Spend Anime Apocalypse Rolls Wisely",
+        "step2Description": "Use rankings to decide when to chase a stronger ability, gadget, weapon, or full build.",
+        "step3Title": "Tune Anime Apocalypse Loadouts",
+        "step3Description": "Match tier list recommendations to raids, farming sessions, Infinite mode, and beginner progression."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Anime Apocalypse Tier List Articles"
+    },
+    "weapons": {
+      "title": "Anime Apocalypse Weapons",
+      "description": "Anime Apocalypse weapon guides for Akaza, Escanor, raid choices, showcase notes, upgrades, and combat fit.",
+      "metaTitle": "Anime Apocalypse Weapons - Best Weapon Guides",
+      "metaDescription": "Browse Anime Apocalypse weapons including Akaza weapon, Escanor weapon, weapon showcases, raid picks, upgrades, and combat recommendations.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Anime Apocalypse Weapons?",
+      "whatIsDescription": "Anime Apocalypse weapons are combat tools that shape damage, range, raid pressure, and build identity across wave survival runs.",
+      "why": "Why read Anime Apocalypse weapon guides?",
+      "whySteps": {
+        "step1Title": "Choose Anime Apocalypse Weapons",
+        "step1Description": "Compare weapon strengths, raid usage, damage style, and practical combat value before investing.",
+        "step2Title": "Plan Anime Apocalypse Raid Loadouts",
+        "step2Description": "Use weapon guides to match boss fights, enemy waves, and team needs with the right combat option.",
+        "step3Title": "Upgrade Anime Apocalypse Damage",
+        "step3Description": "Understand when a weapon deserves resources and how it supports your ability, gadget, and card choices."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Anime Apocalypse Weapons"
+    },
+    "raids": {
+      "title": "Anime Apocalypse Raids",
+      "description": "Anime Apocalypse raid guides covering tickets, rewards, Akaza raid strategy, updates, and boss preparation.",
+      "metaTitle": "Anime Apocalypse Raids - Tickets, Rewards and Boss Guide",
+      "metaDescription": "Read Anime Apocalypse raid guides for raid tickets, rewards, Akaza raid strategy, update notes, boss preparation, and recommended builds.",
+      "categoryLabel": "RAIDS",
+      "whatIs": "What are Anime Apocalypse Raids?",
+      "whatIsDescription": "Anime Apocalypse raids are higher-pressure Roblox challenges where players spend tickets, fight bosses, chase rewards, and test prepared builds.",
+      "why": "Why read Anime Apocalypse raid guides?",
+      "whySteps": {
+        "step1Title": "Prepare Anime Apocalypse Tickets",
+        "step1Description": "Learn when to use raid tickets and what rewards make each raid attempt valuable.",
+        "step2Title": "Beat Anime Apocalypse Bosses",
+        "step2Description": "Review raid routes, boss pressure, recommended weapons, abilities, gadgets, and survival habits.",
+        "step3Title": "Track Anime Apocalypse Raid Updates",
+        "step3Description": "Use update guides to understand new raid rewards, boss additions, and priority changes."
+      },
+      "featured": "Featured & Essential",
+      "all": "All Anime Apocalypse Raids"
+    },
+    "abilities": {
+      "title": "Anime Apocalypse Abilities",
+      "description": "Anime Apocalypse ability guides for spins, lucky spins, cooldowns, trait rerolls, showcases, and build planning.",
+      "metaTitle": "Anime Apocalypse Abilities - Spins, Cooldowns and Builds",
+      "metaDescription": "Explore Anime Apocalypse abilities with ability spins, lucky spins, cooldown planning, trait rerolls, showcases, and combat build advice.",
+      "categoryLabel": "ABILITIES",
+      "whatIs": "What are Anime Apocalypse Abilities?",
+      "whatIsDescription": "Anime Apocalypse abilities define your active combat kit, cooldown flow, damage output, crowd control, movement value, and boss pressure.",
+      "why": "Why read Anime Apocalypse ability guides?",
+      "whySteps": {
+        "step1Title": "Understand Anime Apocalypse Skills",
+        "step1Description": "Learn how ability effects, cooldowns, awakenings, and showcases translate into real run performance.",
+        "step2Title": "Spend Anime Apocalypse Spins",
+        "step2Description": "Compare regular ability spins, lucky spins, and reroll decisions before committing resources.",
+        "step3Title": "Shape Anime Apocalypse Builds",
+        "step3Description": "Pair abilities with weapons, gadgets, and cards for farming, raids, bosses, and survival waves."
       },
       "featured": "Featured & Essential",
       "all": "All Anime Apocalypse Abilities"
     },
-    "biomes": {
-      "title": "Anime Apocalypse Maps",
-      "description": "Explore Anime Apocalypse maps, room flow, enemy pressure, boss routes, and movement paths for Shibuya and Impel Down.",
-      "metaTitle": "Anime Apocalypse Maps - Shibuya and Impel Down Guide",
-      "metaDescription": "Anime Apocalypse maps guide covering Shibuya, Impel Down, room flow, enemy waves, movement routes, farming value, and beginner map choices.",
-      "categoryLabel": "MAPS",
-      "whatIs": "What are Anime Apocalypse Maps?",
-      "whatIsDescription": "Anime Apocalypse maps are anime-inspired Roblox survival areas with room layouts, zombie waves, bosses, traversal routes, and farming opportunities.",
-      "why": "Why study Anime Apocalypse maps?",
+    "gadgets": {
+      "title": "Anime Apocalypse Gadgets",
+      "description": "Anime Apocalypse gadget guides for Black Hole, Infinity, Time Stop, gadget spins, lucky spins, and utility builds.",
+      "metaTitle": "Anime Apocalypse Gadgets - Spins and Best Utility Picks",
+      "metaDescription": "Browse Anime Apocalypse gadgets including Black Hole, Infinity, Time Stop, gadget spins, lucky gadget spins, utility choices, and build pairings.",
+      "categoryLabel": "GADGETS",
+      "whatIs": "What are Anime Apocalypse Gadgets?",
+      "whatIsDescription": "Anime Apocalypse gadgets are utility tools that support your main kit with control, defense, burst windows, mobility help, or farming comfort.",
+      "why": "Why read Anime Apocalypse gadget guides?",
       "whySteps": {
-        "step1Title": "Learn Anime Apocalypse Routes",
-        "step1Description": "Understand room flow, exits, enemy groups, and movement paths.",
-        "step2Title": "Pick Anime Apocalypse Farming Areas",
-        "step2Description": "Choose maps that match your ability, gadget, card build, and reward goals.",
-        "step3Title": "Survive Anime Apocalypse Boss Rooms",
-        "step3Description": "Use map space, dash timing, and cooldown windows to stay alive."
+        "step1Title": "Compare Anime Apocalypse Utility",
+        "step1Description": "See how gadgets such as Black Hole, Infinity, and Time Stop affect waves, bosses, and survival space.",
+        "step2Title": "Use Anime Apocalypse Gadget Spins",
+        "step2Description": "Understand regular gadget spins and lucky gadget spins before chasing rare utility tools.",
+        "step3Title": "Complete Anime Apocalypse Builds",
+        "step3Description": "Pair gadgets with abilities, weapons, cards, and raid goals for a cleaner full loadout."
       },
       "featured": "Featured & Essential",
-      "all": "All Anime Apocalypse Maps"
-    },
-    "building": {
-      "title": "Anime Apocalypse Farming",
-      "description": "Master Anime Apocalypse coins, drops, spins, raid tickets, mastery, battle pass progress, and upgrade priorities.",
-      "metaTitle": "Anime Apocalypse Farming Guide - Coins, Drops and Spins",
-      "metaDescription": "Anime Apocalypse farming guide covering coins, drops, spins, raid tickets, mastery, cards, boosts, daily rewards, quests, and upgrade priorities.",
-      "categoryLabel": "FARMING",
-      "whatIs": "What is Anime Apocalypse Farming?",
-      "whatIsDescription": "Anime Apocalypse farming is the process of clearing waves, using cards and boosts, collecting drops, and turning rewards into upgrades.",
-      "why": "Why plan Anime Apocalypse farming?",
-      "whySteps": {
-        "step1Title": "Earn Anime Apocalypse Coins",
-        "step1Description": "Use wave clearing, Wealth cards, codes, quests, and boost timers.",
-        "step2Title": "Collect Anime Apocalypse Drops",
-        "step2Description": "Run maps and boost windows that support item, ticket, and mastery goals.",
-        "step3Title": "Upgrade Anime Apocalypse Builds",
-        "step3Description": "Turn farming rewards into cooldown speed, movement comfort, abilities, gadgets, traits, and cards."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Anime Apocalypse Farming Guides"
-    },
-    "support": {
-      "title": "Anime Apocalypse Support",
-      "description": "Anime Apocalypse support topics covering controls, movement, Roblox access, community links, and basic troubleshooting.",
-      "metaTitle": "Anime Apocalypse Support - Controls and Roblox Help",
-      "metaDescription": "Anime Apocalypse support guide covering controls, movement, Roblox access, Discord links, gameplay basics, and player help topics.",
-      "categoryLabel": "SUPPORT",
-      "whatIs": "What is Anime Apocalypse Support?",
-      "whatIsDescription": "Anime Apocalypse support content helps Roblox players find controls, community links, movement notes, and basic gameplay answers.",
-      "why": "Why check Anime Apocalypse support?",
-      "whySteps": {
-        "step1Title": "Learn Anime Apocalypse Controls",
-        "step1Description": "Review attack, skill, gadget, ultimate, dash, slide, double jump, and wall movement inputs.",
-        "step2Title": "Find Anime Apocalypse Community Links",
-        "step2Description": "Use the Roblox game page, Roblox group, Discord, and gameplay video links.",
-        "step3Title": "Resolve Anime Apocalypse Confusion",
-        "step3Description": "Clarify first-run flow, map selection, cards, upgrades, and reward spending."
-      },
-      "featured": "Featured & Essential",
-      "all": "All Anime Apocalypse Support Articles"
+      "all": "All Anime Apocalypse Gadgets"
     }
   }
 }
