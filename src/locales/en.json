@@ -13,7 +13,7 @@
   "common": {
     "home": "Home",
     "more": "More",
-    "playNow": "Play on Steam",
+    "playNow": "Play on Roblox",
     "switchLanguage": "Switch Language",
     "switchTheme": "Switch Theme",
     "lightMode": "Light Mode",
@@ -51,728 +51,527 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Anime Apocalypse Gameplay",
+    "description": "Clear Roblox zombie waves, roll abilities and gadgets, choose perk cards, farm coins and spins, and build stronger Anime Apocalypse runs."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Anime Apocalypse Resources",
+    "titleHighlight": "Anime Apocalypse Resources",
+    "subtitle": "Jump straight to Anime Apocalypse codes, beginner progression, ability rankings, and the core ability system.",
     "cards": [
       {
+        "icon": "ClipboardCheck",
+        "title": "Anime Apocalypse Codes",
+        "description": "Active codes, expired codes, rewards, and redemption steps"
+      },
+      {
         "icon": "BookOpen",
-        "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
-      },
-      {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
-      },
-      {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
-      },
-      {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
-      },
-      {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
-      },
-      {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
-      },
-      {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
-      },
-      {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
+        "title": "Anime Apocalypse Beginner Guide",
+        "description": "First-run route, controls, cards, spins, and upgrades"
       },
       {
         "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
+        "title": "Anime Apocalypse Ability Tier List",
+        "description": "Best abilities for farming, bosses, Infinite mode, and clearing"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "Sparkles",
+        "title": "Anime Apocalypse Abilities Guide",
+        "description": "Ability skills, gacha rules, rarity rates, pity, and roster notes"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
-      "steps": [
-        {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
-        },
-        {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
-        },
-        {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
-        },
-        {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
-        }
+    "animeApocalypseCodes": {
+      "title": "Anime Apocalypse Codes",
+      "eyebrow": "Free Rewards",
+      "subtitle": "Redeem active Anime Apocalypse codes for coins, ability spins, gadget spins, boost timers, raid tickets, and trait rerolls. Use these rewards before heavy early-game rolling so your first runs start with stronger abilities and gadgets.",
+      "intro": "This Anime Apocalypse codes module is built for players who want current reward codes and a clear redemption flow. Active codes are ordered first, followed by expired codes that players commonly search for after release and testing milestones.",
+      "activeTitle": "Active Anime Apocalypse Codes",
+      "expiredTitle": "Expired Anime Apocalypse Codes",
+      "redeemTitle": "How to Redeem Anime Apocalypse Codes",
+      "copyLabel": "Copy",
+      "copiedLabel": "Copied",
+      "redeemSteps": [
+        "Launch Anime Apocalypse in Roblox.",
+        "Click the Codes icon on the right side of the screen.",
+        "Paste the code into the text box.",
+        "Press Confirm to claim the rewards."
       ],
-      "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
-      ]
-    },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
       "items": [
         {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
+          "code": "THANKSFOR5K",
+          "status": "Active",
+          "rewardSummary": "Coins and Spins",
+          "rewards": [
+            "Coins",
+            "Spins"
+          ],
+          "bestUse": "Claim this Anime Apocalypse code on a new or private server before spending early spins so the release milestone rewards can support your first ability and gadget rolls."
         },
         {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
+          "code": "THXFORPLAYING",
+          "status": "Active",
+          "rewardSummary": "10k Coins, 5 Normal Ability Spins, 3 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, and x2 Coins for 1800 minutes",
+          "rewards": [
+            "10,000 Coins",
+            "5 Normal Ability Spins",
+            "3 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Coins for 1800 minutes"
+          ],
+          "bestUse": "Use this Anime Apocalypse code before a long farming session so the coin boost runs while you clear waves and build currency for upgrades."
         },
         {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
+          "code": "RELEASE!",
+          "status": "Active",
+          "rewardSummary": "10k Coins, 5 Normal Ability Spins, 3 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, and x2 Drops for 900 minutes",
+          "rewards": [
+            "10,000 Coins",
+            "5 Normal Ability Spins",
+            "3 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Drops for 900 minutes"
+          ],
+          "bestUse": "Redeem this Anime Apocalypse code before dungeon runs or early item farming because the drop boost works best when you are actively clearing rooms."
         },
         {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
+          "code": "SORRYFORDELAY",
+          "status": "Active",
+          "rewardSummary": "15k Coins, 20 Raid Tickets, 5 Normal Ability Spins, 4 Normal Gadget Spins, 4 Lucky Ability Spins, 4 Lucky Gadget Spins, x2 Drops for 1200 minutes, and x2 Coins for 1200 minutes",
+          "rewards": [
+            "15,000 Coins",
+            "20 Raid Tickets",
+            "5 Normal Ability Spins",
+            "4 Normal Gadget Spins",
+            "4 Lucky Ability Spins",
+            "4 Lucky Gadget Spins",
+            "x2 Drops for 1200 minutes",
+            "x2 Coins for 1200 minutes"
+          ],
+          "bestUse": "Save this Anime Apocalypse bundle for a focused progression block because it combines currency, raid access, spins, and both major farming boosts."
         },
         {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
+          "code": "RELEASEONSATURDAY",
+          "status": "Expired",
+          "rewardSummary": "3 Lucky Gadget Spins and 10 Normal Gadget Spins",
+          "rewards": [
+            "3 Lucky Gadget Spins",
+            "10 Normal Gadget Spins"
+          ],
+          "bestUse": "Archived Anime Apocalypse release code for players checking older launch rewards."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
+          "code": "TESTING!",
+          "status": "Expired",
+          "rewardSummary": "8 Lucky Ability Spins and 5 Normal Ability Spins",
+          "rewards": [
+            "8 Lucky Ability Spins",
+            "5 Normal Ability Spins"
+          ],
+          "bestUse": "Archived Anime Apocalypse testing code for players checking pre-release or launch-week reward lists."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
+          "code": "LIKETHEGAME!",
+          "status": "Expired",
+          "rewardSummary": "30k Coins and 10 Trait Rerolls",
+          "rewards": [
+            "30,000 Coins",
+            "10 Trait Rerolls"
+          ],
+          "bestUse": "Archived Anime Apocalypse milestone code for players searching trait reroll rewards."
         }
       ]
     },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
+    "animeApocalypseBeginnerGuide": {
+      "title": "Anime Apocalypse Beginner Guide",
+      "eyebrow": "Starter Route",
+      "subtitle": "Start from the lobby, clear zombie waves, choose useful cards, and spend your first rewards on the systems that matter most. This Anime Apocalypse guide turns the first few runs into a simple progression path.",
+      "intro": "Anime Apocalypse is a Roblox action RPG where players fight zombie waves across anime-inspired maps, earn loot, roll for abilities and gadgets, and strengthen runs with cards, traits, pets, cosmetics, and upgrades. The best early path is to learn movement, clear accessible rooms, use codes for spins, and build around cooldown speed, economy, and consistent wave clear.",
+      "tipLabel": "Anime Apocalypse Tip",
       "items": [
         {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
+          "step": 1,
+          "title": "Spawn in the Anime Apocalypse lobby and open the play area",
+          "goal": "Understand the basic Anime Apocalypse flow before spending spins or currency.",
+          "details": "You begin in the Anime Apocalypse lobby with a starting ability, then enter the play area to select a map and begin clearing zombie-filled levels.",
+          "actions": [
+            "Check the play area.",
+            "Pick an early map instead of jumping straight into hard content.",
+            "Start a run to learn the room flow and enemy pacing."
+          ],
+          "beginnerTip": "Use the first Anime Apocalypse run to learn where enemies spawn and how exits open after rooms are cleared."
         },
         {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
+          "step": 2,
+          "title": "Learn the Anime Apocalypse core controls",
+          "goal": "Make Anime Apocalypse combat and movement feel automatic before harder waves.",
+          "details": "Basic attack is handled with LMB, active skills are mapped to Z, X, C, and V, gadgets use E, ultimate uses G, dash uses Q, and slide uses Ctrl.",
+          "actions": [
+            "Practice dash timing with Q.",
+            "Chain double jump and air dash for repositioning.",
+            "Use skills in rotation instead of saving every cooldown for bosses."
+          ],
+          "beginnerTip": "Fast movement is a major Anime Apocalypse advantage because many rooms reward quick repositioning and clean wave clearing."
         },
         {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
+          "step": 3,
+          "title": "Choose an Anime Apocalypse beginner-friendly mode and map",
+          "goal": "Clear Anime Apocalypse runs consistently before chasing harder rewards.",
+          "details": "Survival-style dungeon runs are the main early learning path, while Infinite mode becomes better once you understand movement, cards, and cooldown cycles. Shibuya is the easier launch map, while Impel Down adds more demanding room layouts and visual hazards.",
+          "actions": [
+            "Start with Shibuya for cleaner room flow.",
+            "Move to Impel Down after you are comfortable with dash and wall movement.",
+            "Use Infinite mode when you want wave practice and long-session farming."
+          ],
+          "beginnerTip": "Do not panic around lava-style sections in Anime Apocalypse Impel Down; some sections are traversable and are part of the map flow."
         },
         {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
+          "step": 4,
+          "title": "Clear Anime Apocalypse waves and pick the right cards",
+          "goal": "Turn each Anime Apocalypse run into a stronger build instead of relying only on your base ability.",
+          "details": "After boss or wave milestones, Anime Apocalypse can offer cards that change a run with bonuses such as wealth, extra lives, cooldown reduction, and drop chance boosts.",
+          "actions": [
+            "Pick Wealth early when you need more economy.",
+            "Shift into cooldown reduction once your currency flow is stable.",
+            "Use extra lives for safety in longer runs and Infinite mode."
+          ],
+          "beginnerTip": "Cooldown cards become more valuable once your Anime Apocalypse ability rotation is strong enough to clear rooms quickly."
         },
         {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
+          "step": 5,
+          "title": "Spend early Anime Apocalypse rewards on spins and upgrades",
+          "goal": "Improve your Anime Apocalypse build before trying to brute-force harder content.",
+          "details": "Coins, spins, gadgets, traits, pets, and cosmetics all feed into progression, but early players should focus on ability and gadget access plus upgrades that help room clearing.",
+          "actions": [
+            "Redeem active Anime Apocalypse codes before heavy rolling.",
+            "Use Normal and Lucky Ability Spins to expand your ability options.",
+            "Prioritize cooldown-speed upgrades, then movement and economy support."
+          ],
+          "beginnerTip": "Cooldown speed is a high-priority Anime Apocalypse upgrade because faster skill cycling improves both wave clear and boss pressure."
         },
         {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
+          "step": 6,
+          "title": "Build around one reliable Anime Apocalypse ability first",
+          "goal": "Avoid wasting Anime Apocalypse resources by constantly swapping before your first stable build is online.",
+          "details": "Abilities are the primary combat system, while gadgets add a separate active tool. Early players should keep a consistent ability long enough to learn its range, cooldowns, damage pattern, ultimate timing, and awakening timing.",
+          "actions": [
+            "Use Z, X, C, and V as your main rotation.",
+            "Save G for high-value ultimate moments.",
+            "Pair crowd-control gadgets with abilities that need grouped enemies."
+          ],
+          "beginnerTip": "A consistent Anime Apocalypse ability with clean cooldown usage is stronger than a rare pull that you do not understand yet."
         }
       ]
     },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
+    "animeApocalypseAbilityTierList": {
+      "title": "Anime Apocalypse Ability Tier List",
+      "eyebrow": "Best Abilities",
+      "subtitle": "Compare the best Anime Apocalypse abilities for early farming, boss rooms, Infinite mode, and late-game clearing. Rankings focus on performance, summon value, mobility, cooldown efficiency, and how practical each ability is to use.",
+      "intro": "Abilities are the main combat tool in Anime Apocalypse, and every ability uses a skill kit built around active skills, ultimate timing, and awakening value. The strongest early choices are consistent wave clearers, while the strongest long-term chase is the rare Supreme-tier option.",
+      "items": [
         {
-          "name": "Exploration",
-          "achievements": [
+          "tier": "S+",
+          "label": "Best Overall",
+          "abilities": [
             {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
+              "name": "Saiyan",
+              "role": "Supreme chase ability",
+              "bestFor": [
+                "Late-game clearing",
+                "Boss pressure",
+                "Fast farming"
+              ],
+              "rankingReason": "Saiyan is the rarest Supreme-tier Anime Apocalypse ability and has the strongest raw performance, combining major walk-speed value with high damage output.",
+              "tradeoff": "The 0.1% Supreme pull rate makes Saiyan a long-term Anime Apocalypse target rather than the ability most players should plan around on day one."
             }
           ]
         },
         {
-          "name": "Crafting and Summoning",
-          "achievements": [
+          "tier": "S",
+          "label": "Top Practical Picks",
+          "abilities": [
             {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
+              "name": "Shadow Monarch",
+              "role": "Summon-based wave clearer",
+              "bestFor": [
+                "Early farming",
+                "Room clearing",
+                "Sustained damage"
+              ],
+              "rankingReason": "Shadow Monarch is a popular Anime Apocalypse early choice because its Arise-style summon mechanic creates pressure while the player moves through zombie waves.",
+              "tradeoff": "Shadow Monarch gets the most Anime Apocalypse value when you keep enemies under control and let summons contribute throughout the room."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
+              "name": "Coyote",
+              "role": "Smooth summon attacker",
+              "bestFor": [
+                "Early farming",
+                "Infinite mode",
+                "Mobile combat"
+              ],
+              "rankingReason": "Coyote is one of the most popular Anime Apocalypse early choices thanks to consistent damage output, wolf-type summons, and smooth move animations.",
+              "tradeoff": "Coyote rewards active Anime Apocalypse movement and clean skill rotation more than passive play."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
+              "name": "Stark",
+              "role": "Gun-style AoE damage",
+              "bestFor": [
+                "Boss rooms",
+                "Grouped waves",
+                "Ultimate burst"
+              ],
+              "rankingReason": "Stark brings a gun-type Anime Apocalypse moveset with a strong area-of-effect ultimate, making it valuable when enemies are grouped or when a room needs burst damage.",
+              "tradeoff": "Stark gets its best Anime Apocalypse value from timing the ultimate into dense enemy packs instead of using it on scattered targets."
             }
           ]
         },
         {
-          "name": "Mobility and Utility",
-          "achievements": [
+          "tier": "A",
+          "label": "Strong Gacha Options",
+          "abilities": [
             {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
+              "name": "King of Curses",
+              "role": "Main damage gacha ability",
+              "bestFor": [
+                "General clearing",
+                "Boss pressure",
+                "Skill rotation practice"
+              ],
+              "rankingReason": "King of Curses belongs to the Anime Apocalypse ability roster and works as a strong main-combat option when players want a full offensive kit before chasing the rarest pulls.",
+              "tradeoff": "King of Curses performance depends on learning the full Anime Apocalypse skill sequence, ultimate timing, and awakening usage."
             },
             {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
+              "name": "Sosuke",
+              "role": "Offensive gacha ability",
+              "bestFor": [
+                "General progression",
+                "Room clearing",
+                "Early-to-mid farming"
+              ],
+              "rankingReason": "Sosuke is part of the Anime Apocalypse gacha ability pool and fits players who want a primary ability for regular runs while building toward higher-value chase options.",
+              "tradeoff": "Sosuke should be evaluated by Anime Apocalypse cooldown flow and room clear consistency rather than name value alone."
             },
             {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
+              "name": "Nen Prodigy",
+              "role": "Flexible gacha ability",
+              "bestFor": [
+                "Learning rotations",
+                "Early-to-mid progression",
+                "Mixed wave fights"
+              ],
+              "rankingReason": "Nen Prodigy gives Anime Apocalypse players another listed ability route for building a stable kit before committing premium spins to rarer targets.",
+              "tradeoff": "Nen Prodigy is best used as a learned Anime Apocalypse main ability, not as a temporary roll that gets replaced before mastery develops."
             }
           ]
         },
         {
-          "name": "Combat and Creatures",
-          "achievements": [
+          "tier": "B",
+          "label": "Starter and Collection Picks",
+          "abilities": [
             {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
+              "name": "Zorro",
+              "role": "Starter ability",
+              "bestFor": [
+                "First runs",
+                "Learning controls",
+                "Basic wave clear"
+              ],
+              "rankingReason": "Zorro is the default Anime Apocalypse starter weapon available to players, making it the natural first option for learning movement, targeting, and skill timing.",
+              "tradeoff": "Move on once you roll a stronger, smoother, or more specialized Anime Apocalypse ability."
             },
             {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
+              "name": "Fire Fighter",
+              "role": "Battle Pass ability",
+              "bestFor": [
+                "Collection",
+                "Visual ultimate",
+                "Battle Pass progression"
+              ],
+              "rankingReason": "Fire Fighter is tied to Anime Apocalypse Battle Pass progression and has a flashy ultimate, but it clears dungeons more slowly than stronger practical picks.",
+              "tradeoff": "Use Fire Fighter when you want the Anime Apocalypse Battle Pass weapon experience, not when you need the fastest clear speed."
             }
           ]
         }
       ]
     },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
-      "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
-      "faqs": [
+    "animeApocalypseAbilitiesGuide": {
+      "title": "Anime Apocalypse Abilities Guide",
+      "eyebrow": "Ability System",
+      "subtitle": "Learn how Anime Apocalypse abilities work, how to roll them, how Normal and Lucky Spins differ, and which known abilities are currently part of the launch roster. Use this before spending code rewards or premium spin bundles.",
+      "intro": "Abilities are the primary way to fight zombie waves in Anime Apocalypse. Each ability has three regular skills plus an Ultimate skill and an Awakening skill, while the Ability Gacha uses Normal Spins and Lucky Spins across Rare, Epic, Legendary, Mythic, and Supreme rarity categories.",
+      "systemTitle": "Anime Apocalypse Ability System",
+      "rosterTitle": "Anime Apocalypse Ability Roster",
+      "items": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "type": "system",
+          "name": "Anime Apocalypse Ability Skill Structure",
+          "category": "Combat Basics",
+          "details": "Each Anime Apocalypse ability is built around three regular skills, an Ultimate skill, and an Awakening skill.",
+          "controls": [
+            "Z: Skill 1",
+            "X: Skill 2",
+            "C: Skill 3",
+            "G: Ultimate",
+            "V: Awakening"
+          ],
+          "playerUse": "Rotate regular skills for Anime Apocalypse wave clearing, save the Ultimate for boss rooms or dense enemy packs, and use Awakening when the fight needs a power spike."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "type": "system",
+          "name": "Anime Apocalypse Ability Gacha",
+          "category": "How to Obtain",
+          "details": "Anime Apocalypse abilities are obtained by opening the Ability Gacha menu with E and rolling with Normal Spins or Lucky Spins.",
+          "controls": [
+            "Lobby Ability Gacha: press E to open the rolling menu"
+          ],
+          "playerUse": "Use Normal Spins for broad Anime Apocalypse early rolls and Lucky Spins when you want a better chance at higher-rarity abilities."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "type": "system",
+          "name": "Anime Apocalypse Rarity Rates",
+          "category": "Drop Rates",
+          "details": "Anime Apocalypse ability rarities are listed as Rare 62.1%, Epic 32%, Legendary 5%, Mythic 0.8%, and Supreme 0.1%.",
+          "rates": [
+            {
+              "rarity": "Rare",
+              "chance": "62.1%"
+            },
+            {
+              "rarity": "Epic",
+              "chance": "32%"
+            },
+            {
+              "rarity": "Legendary",
+              "chance": "5%"
+            },
+            {
+              "rarity": "Mythic",
+              "chance": "0.8%"
+            },
+            {
+              "rarity": "Supreme",
+              "chance": "0.1%"
+            }
+          ],
+          "playerUse": "Treat Supreme abilities as long-term Anime Apocalypse chase pulls and build a stable run around the best ability you already own."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "type": "system",
+          "name": "Anime Apocalypse Pity Rules",
+          "category": "Spin Planning",
+          "details": "The Anime Apocalypse Ability Gacha has pity milestones: 50 rolls guarantee a Legendary ability and 100 rolls guarantee a Mythic ability.",
+          "milestones": [
+            "50 rolls: guaranteed Legendary",
+            "100 rolls: guaranteed Mythic"
+          ],
+          "playerUse": "Do not burn every Anime Apocalypse Lucky Spin immediately; plan bigger rolling sessions when your pity count and code rewards can work together."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "type": "ability",
+          "name": "Zorro",
+          "category": "Starter Ability",
+          "obtainMethod": "Available as the Anime Apocalypse starter weapon for all players",
+          "details": "Zorro is the practical first Anime Apocalypse ability for learning attacks, room movement, and basic skill rotation.",
+          "playerUse": "Use Zorro for the first few Anime Apocalypse runs, then compare new rolls against its clear speed and comfort."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "type": "ability",
+          "name": "Nen Prodigy",
+          "category": "Known Gacha Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Nen Prodigy is part of the known Anime Apocalypse ability roster and can be used as a main combat kit while progressing through early and mid-game rooms.",
+          "playerUse": "Keep Nen Prodigy long enough to learn its Anime Apocalypse rotation before replacing it with a higher-performing pull."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "type": "ability",
+          "name": "Sosuke",
+          "category": "Known Gacha Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Sosuke is one of the listed abilities in the Anime Apocalypse roster and works as a main ability option for regular clearing.",
+          "playerUse": "Evaluate Sosuke by Anime Apocalypse cooldown flow, range comfort, and how well it clears grouped zombie waves."
         },
         {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
+          "type": "ability",
+          "name": "King of Curses",
+          "category": "Known Gacha Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "King of Curses is a listed Anime Apocalypse ability option for players building around a stronger offensive kit.",
+          "playerUse": "Use King of Curses as a main damage ability and learn where its Ultimate and Awakening give the highest value."
         },
         {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
+          "type": "ability",
+          "name": "Coyote",
+          "category": "Popular Early Pick",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Coyote uses wolf-type summons and smooth move animations, making it one of the most popular practical choices for Anime Apocalypse early progression.",
+          "playerUse": "Pick Coyote when you want consistent Anime Apocalypse wave damage with strong mobility-friendly gameplay."
         },
         {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
-        {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "type": "ability",
+          "name": "Shadow Monarch",
+          "category": "Popular Summon Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Shadow Monarch is known for an Arise-style mechanic that summons wolf allies and provides consistent pressure during Anime Apocalypse zombie waves.",
+          "playerUse": "Use Shadow Monarch for Anime Apocalypse early farming and sustained room clearing while you move aggressively around enemy groups."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "type": "ability",
+          "name": "Stark",
+          "category": "AoE Burst Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Stark has a gun-type Anime Apocalypse moveset and a strong area-of-effect ultimate for burst damage.",
+          "playerUse": "Save Stark ultimate for dense groups, boss pressure windows, or rooms where enemies can be pulled together by a gadget."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "type": "ability",
+          "name": "Saiyan",
+          "category": "Supreme Chase Ability",
+          "obtainMethod": "Anime Apocalypse Ability Gacha",
+          "details": "Saiyan is the rarest Supreme-tier Anime Apocalypse ability and the strongest raw-performance chase option, with major walk-speed and damage value.",
+          "playerUse": "Treat Saiyan as a long-term Anime Apocalypse goal and avoid delaying progression while waiting for a 0.1% pull."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
-        }
-      ]
-    },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
-        {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
-        },
-        {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
-        },
-        {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
-        },
-        {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
-        }
-      ]
-    },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
-        {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
-        },
-        {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
-        },
-        {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
-        }
-      ]
-    },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
-        {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
-        },
-        {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
-        },
-        {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
-        },
-        {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
-        },
-        {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "type": "ability",
+          "name": "Fire Fighter",
+          "category": "Battle Pass Ability",
+          "obtainMethod": "Anime Apocalypse Battle Pass final-level reward",
+          "details": "Fire Fighter is the Anime Apocalypse Battle Pass weapon and has a flashy ultimate, but its dungeon clear speed is slower than the strongest practical picks.",
+          "playerUse": "Use Fire Fighter for Anime Apocalypse collection, Battle Pass completion value, and variety rather than maximum farming speed."
         }
       ]
     }
   },
   "faq": {
-    "title": "Frequently Asked",
-    "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "title": "Anime Apocalypse FAQ",
+    "titleHighlight": "Guide",
+    "subtitle": "Answers for Anime Apocalypse codes, abilities, gadgets, maps, and first-run progression.",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Anime Apocalypse on Roblox?",
+        "answer": "Anime Apocalypse is a Roblox anime zombie roguelike survival game where players clear waves, roll abilities and gadgets, pick cards, farm rewards, and improve their builds."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "How do Anime Apocalypse codes help new players?",
+        "answer": "Anime Apocalypse codes give coins, spins, boost timers, raid tickets, and trait rerolls that speed up early ability rolls, gadget rolls, upgrades, and farming sessions."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Which Anime Apocalypse ability should beginners use first?",
+        "answer": "Anime Apocalypse beginners should learn the starter Zorro kit first, then keep a smoother roll such as Coyote, Shadow Monarch, Stark, or another ability that clears waves consistently."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How does the Anime Apocalypse Ability Gacha work?",
+        "answer": "Anime Apocalypse Ability Gacha uses Normal Spins and Lucky Spins, includes Rare through Supreme rarities, and has pity milestones at 50 rolls for Legendary and 100 rolls for Mythic."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "What maps should Anime Apocalypse beginners start with?",
+        "answer": "Anime Apocalypse beginners should start with Shibuya for cleaner room flow, then move into Impel Down after learning dash timing, double jump, air dash, and wall movement."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "What should Anime Apocalypse players upgrade early?",
+        "answer": "Anime Apocalypse players should prioritize cooldown speed, movement comfort, ability access, gadget support, and economy tools so each run clears rooms faster and survives longer."
       }
     ]
   },
@@ -801,124 +600,124 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Anime Apocalypse Guides",
+      "description": "Complete Anime Apocalypse gameplay guides covering beginner basics, controls, waves, cards, farming, maps, and progression.",
+      "metaTitle": "Anime Apocalypse Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Anime Apocalypse guides covering beginner tips, abilities, gadgets, cards, farming routes, maps, and Roblox wave survival strategy.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+      "whatIs": "What are Anime Apocalypse Guides?",
+      "whatIsDescription": "Anime Apocalypse guides explain core mechanics, progression routes, combat systems, and run planning for Roblox players.",
+      "why": "Why read Anime Apocalypse guides?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Learn Anime Apocalypse Mechanics",
+        "step1Description": "Understand waves, cards, abilities, gadgets, spins, and upgrade priorities.",
+        "step2Title": "Speed Up Anime Apocalypse Progression",
+        "step2Description": "Use codes, early maps, farming routes, and cooldown upgrades to improve your first runs.",
+        "step3Title": "Build Better Anime Apocalypse Runs",
+        "step3Description": "Plan ability rotations, gadget support, and card choices for bosses and Infinite mode."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Anime Apocalypse Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+      "title": "Anime Apocalypse Codes",
+      "description": "Track Anime Apocalypse active codes, expired codes, rewards, redemption steps, and reward planning.",
+      "metaTitle": "Anime Apocalypse Codes - Rewards and Redeem Guide",
+      "metaDescription": "Anime Apocalypse codes guide with rewards, redemption steps, active code notes, expired code archive, coins, spins, boosts, and raid tickets.",
+      "categoryLabel": "CODES",
+      "whatIs": "What are Anime Apocalypse Codes?",
+      "whatIsDescription": "Anime Apocalypse codes are reward strings that grant coins, spins, boosts, raid tickets, and trait rerolls.",
+      "why": "Why redeem Anime Apocalypse codes?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Claim Anime Apocalypse Rewards",
+        "step1Description": "Get coins, ability spins, gadget spins, boost timers, and raid tickets.",
+        "step2Title": "Plan Anime Apocalypse Rolls",
+        "step2Description": "Redeem code bundles before spending early Normal Spins and Lucky Spins.",
+        "step3Title": "Improve Anime Apocalypse Farming",
+        "step3Description": "Use coin and drop boosts during focused wave clearing sessions."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Anime Apocalypse Codes"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+      "title": "Anime Apocalypse Abilities and Gadgets",
+      "description": "Detailed Anime Apocalypse guides covering abilities, gadgets, rarity rates, skill usage, and build support.",
+      "metaTitle": "Anime Apocalypse Abilities and Gadgets Guide",
+      "metaDescription": "Anime Apocalypse abilities and gadgets guide covering Ability Gacha, Gadget Spins, skills, ultimates, awakening, rarity rates, and build planning.",
+      "categoryLabel": "ABILITIES & GADGETS",
+      "whatIs": "What are Anime Apocalypse Abilities and Gadgets?",
+      "whatIsDescription": "Anime Apocalypse abilities drive combat through active skills, ultimates, and awakenings, while gadgets add a separate support tool.",
+      "why": "Why check Anime Apocalypse ability guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Pick Anime Apocalypse Abilities",
+        "step1Description": "Compare wave clear, boss pressure, mobility, summon value, and cooldown flow.",
+        "step2Title": "Use Anime Apocalypse Gadgets",
+        "step2Description": "Pair crowd control, defense, and utility gadgets with your main ability.",
+        "step3Title": "Spend Anime Apocalypse Spins Better",
+        "step3Description": "Understand Normal Spins, Lucky Spins, rarity rates, and pity milestones."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Anime Apocalypse Abilities"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Anime Apocalypse Maps",
+      "description": "Explore Anime Apocalypse maps, room flow, enemy pressure, boss routes, and movement paths for Shibuya and Impel Down.",
+      "metaTitle": "Anime Apocalypse Maps - Shibuya and Impel Down Guide",
+      "metaDescription": "Anime Apocalypse maps guide covering Shibuya, Impel Down, room flow, enemy waves, movement routes, farming value, and beginner map choices.",
+      "categoryLabel": "MAPS",
+      "whatIs": "What are Anime Apocalypse Maps?",
+      "whatIsDescription": "Anime Apocalypse maps are anime-inspired Roblox survival areas with room layouts, zombie waves, bosses, traversal routes, and farming opportunities.",
+      "why": "Why study Anime Apocalypse maps?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Learn Anime Apocalypse Routes",
+        "step1Description": "Understand room flow, exits, enemy groups, and movement paths.",
+        "step2Title": "Pick Anime Apocalypse Farming Areas",
+        "step2Description": "Choose maps that match your ability, gadget, card build, and reward goals.",
+        "step3Title": "Survive Anime Apocalypse Boss Rooms",
+        "step3Description": "Use map space, dash timing, and cooldown windows to stay alive."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Anime Apocalypse Maps"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Anime Apocalypse Farming",
+      "description": "Master Anime Apocalypse coins, drops, spins, raid tickets, mastery, battle pass progress, and upgrade priorities.",
+      "metaTitle": "Anime Apocalypse Farming Guide - Coins, Drops and Spins",
+      "metaDescription": "Anime Apocalypse farming guide covering coins, drops, spins, raid tickets, mastery, cards, boosts, daily rewards, quests, and upgrade priorities.",
+      "categoryLabel": "FARMING",
+      "whatIs": "What is Anime Apocalypse Farming?",
+      "whatIsDescription": "Anime Apocalypse farming is the process of clearing waves, using cards and boosts, collecting drops, and turning rewards into upgrades.",
+      "why": "Why plan Anime Apocalypse farming?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Earn Anime Apocalypse Coins",
+        "step1Description": "Use wave clearing, Wealth cards, codes, quests, and boost timers.",
+        "step2Title": "Collect Anime Apocalypse Drops",
+        "step2Description": "Run maps and boost windows that support item, ticket, and mastery goals.",
+        "step3Title": "Upgrade Anime Apocalypse Builds",
+        "step3Description": "Turn farming rewards into cooldown speed, movement comfort, abilities, gadgets, traits, and cards."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Anime Apocalypse Farming Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+      "title": "Anime Apocalypse Support",
+      "description": "Anime Apocalypse support topics covering controls, movement, Roblox access, community links, and basic troubleshooting.",
+      "metaTitle": "Anime Apocalypse Support - Controls and Roblox Help",
+      "metaDescription": "Anime Apocalypse support guide covering controls, movement, Roblox access, Discord links, gameplay basics, and player help topics.",
+      "categoryLabel": "SUPPORT",
+      "whatIs": "What is Anime Apocalypse Support?",
+      "whatIsDescription": "Anime Apocalypse support content helps Roblox players find controls, community links, movement notes, and basic gameplay answers.",
+      "why": "Why check Anime Apocalypse support?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Learn Anime Apocalypse Controls",
+        "step1Description": "Review attack, skill, gadget, ultimate, dash, slide, double jump, and wall movement inputs.",
+        "step2Title": "Find Anime Apocalypse Community Links",
+        "step2Description": "Use the Roblox game page, Roblox group, Discord, and gameplay video links.",
+        "step3Title": "Resolve Anime Apocalypse Confusion",
+        "step3Description": "Clarify first-run flow, map selection, cards, upgrades, and reward spending."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Anime Apocalypse Support Articles"
     }
   }
 }
