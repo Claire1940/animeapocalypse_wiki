@@ -1,4 +1,4 @@
-import { BookOpen, Cpu, Gift, ShieldAlert, Swords, Trophy, Zap } from 'lucide-react'
+import { BookOpen, Cpu, Gift, ShieldAlert, Swords, Trophy, Users, Zap } from 'lucide-react'
 import type { LucideIcon } from 'lucide-react'
 
 export interface NavigationItem {
@@ -16,6 +16,7 @@ export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{ key: 'raids', path: '/raids', icon: ShieldAlert, isContentType: true },
 	{ key: 'abilities', path: '/abilities', icon: Zap, isContentType: true },
 	{ key: 'gadgets', path: '/gadgets', icon: Cpu, isContentType: true },
+	{ key: 'community', path: '/community', icon: Users, isContentType: true },
 ]
 
 // 从配置派生内容类型列表（用于路由和内容加载）

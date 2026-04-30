@@ -16,7 +16,8 @@
     "weapons": "Armas",
     "raids": "Raids",
     "abilities": "Abilities",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "community": "Comunidade"
   },
   "common": {
     "home": "Início",
@@ -1598,6 +1599,26 @@
       },
       "featured": "Destaques e Essenciais",
       "all": "Todos os Anime Apocalypse Gadgets"
+    },
+    "community": {
+      "title": "Comunidade de Anime Apocalypse",
+      "description": "Recursos da comunidade de Anime Apocalypse para Discord, links do Roblox, atualizações, Trello, Reddit, macros e discussões sociais.",
+      "metaTitle": "Comunidade de Anime Apocalypse - Discord, Roblox e Atualizações",
+      "metaDescription": "Encontre recursos da comunidade de Anime Apocalypse, incluindo Discord, links do Roblox, Trello, Reddit, atualizações, notas de macro e guias de discussão.",
+      "categoryLabel": "COMUNIDADE",
+      "whatIs": "O que é a seção de comunidade de Anime Apocalypse?",
+      "whatIsDescription": "A seção de comunidade de Anime Apocalypse reúne recursos de Discord, Roblox, Trello, Reddit, atualizações, macros, lançamento e links sociais para jogadores ativos.",
+      "why": "Por que usar recursos da comunidade de Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Siga links de Anime Apocalypse",
+        "step1Description": "Use artigos de comunidade para encontrar pontos de partida mais seguros para Discord, Roblox, Trello, Reddit e informações de atualização.",
+        "step2Title": "Acompanhe atualizações de Anime Apocalypse",
+        "step2Description": "Recursos de comunidade ajudam jogadores a acompanhar datas de lançamento, notas de atualização, drops de códigos, discussão de macros e atividade do servidor.",
+        "step3Title": "Coordene a progressão de Anime Apocalypse",
+        "step3Description": "Use guias sociais para comparar estratégias, compartilhar rotas de farming e acompanhar conselhos de sobrevivência testados por jogadores."
+      },
+      "featured": "Artigos em destaque da comunidade de Anime Apocalypse",
+      "all": "Todos os artigos da comunidade de Anime Apocalypse"
     }
   }
 }

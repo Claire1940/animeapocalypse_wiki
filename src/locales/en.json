@@ -16,7 +16,8 @@
     "weapons": "Weapons",
     "raids": "Raids",
     "abilities": "Abilities",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "community": "Community"
   },
   "common": {
     "home": "Home",
@@ -1598,6 +1599,26 @@
       },
       "featured": "Featured & Essential",
       "all": "All Anime Apocalypse Gadgets"
+    },
+    "community": {
+      "title": "Anime Apocalypse Community",
+      "description": "Anime Apocalypse community resources for Discord, Roblox links, updates, Trello, Reddit, macros, and social discussion.",
+      "metaTitle": "Anime Apocalypse Community - Discord, Roblox and Updates",
+      "metaDescription": "Find Anime Apocalypse community resources including Discord, Roblox links, Trello, Reddit, updates, macro notes, and player discussion guides.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is the Anime Apocalypse community section?",
+      "whatIsDescription": "The Anime Apocalypse community section collects Discord, Roblox, Trello, Reddit, update, macro, release, and social-link resources for active players.",
+      "why": "Why use Anime Apocalypse community resources?",
+      "whySteps": {
+        "step1Title": "Follow Anime Apocalypse Links",
+        "step1Description": "Use community articles to find safer starting points for Discord, Roblox, Trello, Reddit, and update information.",
+        "step2Title": "Track Anime Apocalypse Updates",
+        "step2Description": "Community resources help players follow release timing, update notes, code drops, macro discussion, and server activity.",
+        "step3Title": "Coordinate Anime Apocalypse Progression",
+        "step3Description": "Use social guides to compare strategies, share farming routes, and keep up with player-tested survival advice."
+      },
+      "featured": "Featured Anime Apocalypse Community Articles",
+      "all": "All Anime Apocalypse Community Articles"
     }
   }
 }

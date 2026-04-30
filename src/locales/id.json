@@ -16,7 +16,8 @@
     "weapons": "Senjata",
     "raids": "Raid",
     "abilities": "Abilities",
-    "gadgets": "Gadgets"
+    "gadgets": "Gadgets",
+    "community": "Komunitas"
   },
   "common": {
     "home": "Beranda",
@@ -1598,6 +1599,26 @@
       },
       "featured": "Unggulan & Penting",
       "all": "Semua Anime Apocalypse Gadgets"
+    },
+    "community": {
+      "title": "Komunitas Anime Apocalypse",
+      "description": "Sumber daya komunitas Anime Apocalypse untuk Discord, tautan Roblox, pembaruan, Trello, Reddit, macro, dan diskusi sosial.",
+      "metaTitle": "Komunitas Anime Apocalypse - Discord, Roblox, dan Pembaruan",
+      "metaDescription": "Temukan sumber daya komunitas Anime Apocalypse termasuk Discord, tautan Roblox, Trello, Reddit, pembaruan, catatan macro, dan panduan diskusi pemain.",
+      "categoryLabel": "KOMUNITAS",
+      "whatIs": "Apa itu bagian komunitas Anime Apocalypse?",
+      "whatIsDescription": "Bagian komunitas Anime Apocalypse mengumpulkan sumber daya Discord, Roblox, Trello, Reddit, pembaruan, macro, rilis, dan tautan sosial untuk pemain aktif.",
+      "why": "Mengapa menggunakan sumber daya komunitas Anime Apocalypse?",
+      "whySteps": {
+        "step1Title": "Ikuti Tautan Anime Apocalypse",
+        "step1Description": "Gunakan artikel komunitas untuk menemukan titik awal yang lebih aman untuk Discord, Roblox, Trello, Reddit, dan informasi pembaruan.",
+        "step2Title": "Pantau Pembaruan Anime Apocalypse",
+        "step2Description": "Sumber daya komunitas membantu pemain mengikuti waktu rilis, catatan pembaruan, drop code, diskusi macro, dan aktivitas server.",
+        "step3Title": "Koordinasikan Progresi Anime Apocalypse",
+        "step3Description": "Gunakan panduan sosial untuk membandingkan strategi, berbagi rute farming, dan mengikuti saran survival yang sudah diuji pemain."
+      },
+      "featured": "Artikel Komunitas Anime Apocalypse Unggulan",
+      "all": "Semua Artikel Komunitas Anime Apocalypse"
     }
   }
 }
